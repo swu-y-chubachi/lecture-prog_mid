@@ -1,0 +1,2 @@
+# lecture-prog_mid
+プログラミング中級用授業資料
