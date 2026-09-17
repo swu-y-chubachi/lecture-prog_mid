@@ -1,2 +1,5 @@
+#+TITLE: 日本語PDF出力テスト
+#+AUTHOR: あなたの名前
+
 * lecture-prog_mid
 プログラミング中級用授業資料
