@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-09-17 Thu 18:42 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="Yoshihide Chubachi" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-c:before { content: 'C'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'JavaScript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr {
+    font-size: smaller;
+    @supports (content: attr(data-linenr)) {
+      visibility: hidden;
+      &::before { content: attr(data-linenr); visibility: visible; }
+    }
+  }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#受講生向けgithubアカウント作成github-education登録手順書">1. 【受講生向け】GitHubアカウント作成＆GitHub Education登録手順書</a>
+<ul>
+<li><a href="#授業内タイムスケジュール初回90分">1.1. 1. 授業内タイムスケジュール（初回90分）</a></li>
+<li><a href="#準備するもの">1.2. 2. 準備するもの</a></li>
+<li><a href="#step-1-githubアカウントの作成設定">1.3. 3. STEP 1: GitHubアカウントの作成・設定</a>
+<ul>
+<li><a href="#case-a-まだgithubアカウントを持っていない場合">1.3.1. Case A: まだGitHubアカウントを持っていない場合</a></li>
+<li><a href="#case-b-既に個人用githubアカウントを持っている場合">1.3.2. Case B: 既に個人用GitHubアカウントを持っている場合</a></li>
+</ul>
+</li>
+<li><a href="#step-2-github-educationstudent-developer-packの申請">1.4. 4. STEP 2: GitHub Education（Student Developer Pack）の申請</a></li>
+<li><a href="#step-3-github-codespaces-copilot-動作確認">1.5. 5. STEP 3: GitHub Codespaces ＆ Copilot 動作確認</a></li>
+<li><a href="#よくあるトラブルと対処法faq">1.6. 6. よくあるトラブルと対処法（FAQ）</a></li>
+<li><a href="#org1701b09">1.7. 補足説明</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+#+TITLE 【受講生向け】GitHubアカウント作成＆GitHub Education登録手順書
+#+AUTHOR 中鉢 欣秀
+</p>
+<div id="outline-container-受講生向けgithubアカウント作成github-education登録手順書" class="outline-2">
+<h2 id="受講生向けgithubアカウント作成github-education登録手順書"><span class="section-number-2">1.</span> 【受講生向け】GitHubアカウント作成＆GitHub Education登録手順書</h2>
+<div class="outline-text-2" id="text-受講生向けgithubアカウント作成github-education登録手順書">
+<p>
+本手順書は、プログラミング授業（HTML/CSS/JavaScript）で利用する開発環境（GitHub
+Codespaces・GitHub Copilot）を準備するための初回授業ガイダンス資料です。
+</p>
+
+<hr />
+</div>
+<div id="outline-container-授業内タイムスケジュール初回90分" class="outline-3">
+<h3 id="授業内タイムスケジュール初回90分"><span class="section-number-3">1.1.</span> 1. 授業内タイムスケジュール（初回90分）</h3>
+<div class="outline-text-3" id="text-授業内タイムスケジュール初回90分">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">時間</th>
+<th scope="col" class="org-left">内容</th>
+<th scope="col" class="org-left">担当・目標</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left"><b>00〜15分</b></td>
+<td class="org-left"><b>導入・事前準備の確認</b></td>
+<td class="org-left">授業の目的説明、大学メール・学生証の準備確認</td>
+</tr>
+
+<tr>
+<td class="org-left"><b>15〜35分</b></td>
+<td class="org-left"><b>STEP 1: GitHubアカウント作成・設定</b></td>
+<td class="org-left">アカウント作成、大学メールアドレスの登録・認証</td>
+</tr>
+
+<tr>
+<td class="org-left"><b>35〜65分</b></td>
+<td class="org-left"><b>STEP 2: GitHub Education (学生特典) 申請</b></td>
+<td class="org-left">学割特典（Student Developer Pack）の申請と証明書提出</td>
+</tr>
+
+<tr>
+<td class="org-left"><b>65〜85分</b></td>
+<td class="org-left"><b>STEP 3: GitHub Codespaces &amp; Copilot 起動確認</b></td>
+<td class="org-left">ブラウザ上での開発環境立ち上げと動作テスト</td>
+</tr>
+
+<tr>
+<td class="org-left"><b>85〜90分</b></td>
+<td class="org-left"><b>まとめ・トラブル対応</b></td>
+<td class="org-left">申請状況の確認と次回以降の案内</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+</div>
+</div>
+<div id="outline-container-準備するもの" class="outline-3">
+<h3 id="準備するもの"><span class="section-number-3">1.2.</span> 2. 準備するもの</h3>
+<div class="outline-text-3" id="text-準備するもの">
+<p>
+手元に以下の3点を用意してください：
+</p>
+<ol class="org-ol">
+<li>*大学発行のメールアドレス*（例：=XXXXXX@university.ac.jp=）</li>
+<li>*学生証*（物理カードまたはデジタル学生証。カメラ機能付きPCまたはスマートフォンを使用）</li>
+<li>*インターネット接続環境*（学内Wi-Fi等）</li>
+</ol>
+
+<hr />
+</div>
+</div>
+<div id="outline-container-step-1-githubアカウントの作成設定" class="outline-3">
+<h3 id="step-1-githubアカウントの作成設定"><span class="section-number-3">1.3.</span> 3. STEP 1: GitHubアカウントの作成・設定</h3>
+<div class="outline-text-3" id="text-step-1-githubアカウントの作成設定">
+</div>
+<div id="outline-container-case-a-まだgithubアカウントを持っていない場合" class="outline-4">
+<h4 id="case-a-まだgithubアカウントを持っていない場合"><span class="section-number-4">1.3.1.</span> Case A: まだGitHubアカウントを持っていない場合</h4>
+<div class="outline-text-4" id="text-case-a-まだgithubアカウントを持っていない場合">
+<ol class="org-ol">
+<li>ブラウザで <a href="https://github.com">GitHub公式サイト</a>
+にアクセスします。</li>
+<li>右上の <b>「Sign up」</b> をクリックします。</li>
+<li>登録用メールアドレスに <b>「大学のメールアドレス（@&hellip;ac.jp）」</b>
+を入力します。</li>
+<li>パスワードとユーザー名（Username）を設定し、パズル認証等を完了させて
+<b>「Create account」</b> をクリックします。</li>
+<li>大学メール宛に届いた6桁の検証コード（Verification
+Code）を入力して認証を完了します。</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-case-b-既に個人用githubアカウントを持っている場合" class="outline-4">
+<h4 id="case-b-既に個人用githubアカウントを持っている場合"><span class="section-number-4">1.3.2.</span> Case B: 既に個人用GitHubアカウントを持っている場合</h4>
+<div class="outline-text-4" id="text-case-b-既に個人用githubアカウントを持っている場合">
+<ol class="org-ol">
+<li>既存のアカウントでログインします。</li>
+<li>右上のアイコン &gt; <b>「Settings」</b> &gt; <b>「Emails」</b> を開きます。</li>
+<li><b>「Add email address」</b>
+に大学のメールアドレスを追加し、届いた確認メールから認証（Verify）を行ってください。</li>
+</ol>
+
+<p>
+<b>重要：プロフィールの設定（審査通過のためのポイント）</b>
+</p>
+<ul class="org-ul">
+<li>右上アイコン &gt; <b>「Settings」</b> &gt; <b>「Public profile」</b> を開きます。</li>
+<li><b>「Name」</b> 欄に <b>学生証と一致する英字氏名（例：Taro Yamada）</b></li>
+</ul>
+<p>
+を入力して保存してください。アカウント名と証明書の名前に乖離があると審査で弾かれる場合があります。
+</p>
+
+<hr />
+</div>
+</div>
+</div>
+<div id="outline-container-step-2-github-educationstudent-developer-packの申請" class="outline-3">
+<h3 id="step-2-github-educationstudent-developer-packの申請"><span class="section-number-3">1.4.</span> 4. STEP 2: GitHub Education（Student Developer Pack）の申請</h3>
+<div class="outline-text-3" id="text-step-2-github-educationstudent-developer-packの申請">
+<p>
+GitHub Educationに登録することで、GitHub CopilotおよびGitHub
+Codespaces（月180コア時間無料）などの教育特典を無料で利用できるようになります。
+</p>
+
+<ol class="org-ol">
+<li>ブラウザで <a href="https://education.github.com/pack">GitHub Education Portal</a> にアクセスします。</li>
+<li><b>「Sign in」</b> （未ログインの場合）し、 <b>「Get student benefits」</b> （学生特典を取得）をクリックします。</li>
+<li><b>「Select your school email address」</b> で、STEP 1で登録した
+<b>大学のメールアドレス</b> を選択します。</li>
+<li><b>「Type your school name」</b>
+に大学名（英語表記）を入力し、ドロップダウンから選択します。</li>
+<li><b>「How do you plan to use GitHub?」</b> （利用目的）の欄に、簡単な使用目的を英語で入力します。
+<ul class="org-ul">
+<li><i>(入力例)</i>
+<code>I will use GitHub for learning HTML/CSS/JavaScript and AI-assisted programming in my university course.</code></li>
+</ul></li>
+<li><b>「Continue」</b> をクリックし、学生証の撮影・アップロード画面に進みます。
+<ul class="org-ul">
+<li>PCのカメラ、またはスマホで画面のQRコードを読み取り、 <b>学生証の氏名・有効期限・大学名</b> が鮮明に見えるように撮影してアップロードします。</li>
+</ul></li>
+<li><b>「Submit your application」</b> をクリックして申請を完了します。</li>
+</ol>
+
+<p>
+※ 申請結果は通常数分〜数時間（混雑時は数日）でメールにて通知されます。
+</p>
+
+<hr />
+</div>
+</div>
+<div id="outline-container-step-3-github-codespaces-copilot-動作確認" class="outline-3">
+<h3 id="step-3-github-codespaces-copilot-動作確認"><span class="section-number-3">1.5.</span> 5. STEP 3: GitHub Codespaces ＆ Copilot 動作確認</h3>
+<div class="outline-text-3" id="text-step-3-github-codespaces-copilot-動作確認">
+<p>
+申請完了後（または承認待ちの間）、クラウド開発環境「GitHub Codespaces」の起動確認を行います。
+</p>
+
+<ol class="org-ol">
+<li>教員から指示された <b>「授業用リポジトリ（Repository）」</b> のURLにアクセスします。</li>
+<li>緑色の <b>「&lt;&gt; Code」</b> ボタンをクリックし、*「Codespaces」* タブを選択します。</li>
+<li><b>「Create codespace on main」</b> をクリックします。</li>
+<li>数十秒でブラウザ上に VS Code 画面が起動します（ローカル環境のインストール作業は不要です）。</li>
+<li>左側のサイドバーに <b>GitHub Copilot</b> アイコン（またはチャット用アイコン）が表示されているか確認します。</li>
+<li>TODO 新規ファイル <code>index.html</code> を作成し、=&lt;h1&gt;= と打ち込んでAIによるコード補完や提案が表示されるか試します。</li>
+</ol>
+
+<hr />
+</div>
+</div>
+<div id="outline-container-よくあるトラブルと対処法faq" class="outline-3">
+<h3 id="よくあるトラブルと対処法faq"><span class="section-number-3">1.6.</span> 6. よくあるトラブルと対処法（FAQ）</h3>
+<div class="outline-text-3" id="text-よくあるトラブルと対処法faq">
+<ul class="org-ul">
+<li><b>Q1. 学生証の撮影で「Location Services（位置情報）」のエラーが出ます</b>
+<ul class="org-ul">
+<li><b>対処:</b>
+GitHubは学校の敷地内から申請されているかを位置情報で確認する場合があります。ブラウザの位置情報利用を「許可」にするか、学内Wi-Fiに接続した状態でスマホから撮影を行ってください。</li>
+</ul></li>
+<li><b>Q2. 申請が却下（Rejected）されてしまいました</b>
+<ul class="org-ul">
+<li><b>対処:</b>
+理由の多くは「名前の不一致」「画像が不鮮明」「証明書に日付がない」です。GitHubプロフィールの「Name」を英語の本名に修正し、学生証がハッキリ映るように再撮影して再申請してください。</li>
+</ul></li>
+<li><b>Q3. 承認までに時間がかかり、初回授業中に間に合いません</b>
+<ul class="org-ul">
+<li><b>対処:</b>
+Codespacesの基本機能は通常のGitHubアカウント（無料枠）でも利用可能です。初回はアカウント作成とCodespaces起動までを行い、Copilotの連携は承認完了後（次回授業まで）に適用確認を行ってください。</li>
+</ul></li>
+</ul>
+
+<hr />
+</div>
+</div>
+<div id="outline-container-org1701b09" class="outline-3">
+<h3 id="org1701b09"><span class="section-number-3">1.7.</span> 補足説明</h3>
+<div class="outline-text-3" id="text-1-7">
+<ul class="org-ul">
+<li>3.4.
+<ul class="org-ul">
+<li>ユーザー名（Username）は「swu-学籍番号」にしてください</li>
+</ul></li>
+<li>3.Case B
+<ul class="org-ul">
+<li>既存のユーザー名は「swu-学籍番号」に変更してください（変更したくない場合は相談してください）</li>
+</ul></li>
+<li>4.4.
+<ul class="org-ul">
+<li>大学の英語名は「Showa Womens University」を入力してください。
+GitHubがメールアドレスから類推してくれるかもしれません。その場合はそのまま選択してください。</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Yoshihide Chubachi</p>
+<p class="date">Created: 2026-09-17 Thu 18:42</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
