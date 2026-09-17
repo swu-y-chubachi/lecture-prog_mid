@@ -1,5 +1,6 @@
 #+TITLE: ここがindex
 #+AUTHOR: 私が書いた
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/sakura.css/css/sakura.css"/>
 
 * はじめに
 ** これは授業資料
