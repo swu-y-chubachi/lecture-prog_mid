@@ -8,5 +8,7 @@
 - [[id:395bcf3e-685d-4bff-9893-b2b7a471bd77][バイブコーディング（Vibe Coding）概要ガイド]]
 * アカウント作成
 - [[id:952c6aad-96ec-4f5e-8cfe-6c2fd4856e35][【受講生向け】GitHubアカウント作成＆GitHub Education登録手順書]]
+* GitHub URLの提出
+- [[id:cebdf45b-1fa7-4ec4-9e01-ddb4dcd557c8][GitHubアカウント情報・プロフィールURL 提出手順書]]
 * CodespaceとCopilot AI
 - [[id:1998e6d0-162f-493f-98a5-d1010a571db3][初回授業演習ガイド：GitHub Organization・Codespaces・Copilot 導入手順書]]
