@@ -11,4 +11,6 @@
 かきくけこ
 * おわりに
 これでおわり
-(vc-root-dir)
+
+* URL
+https://swu-y-chubachi.github.io/lecture-prog_mid/
