@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-09-18 Fri 10:03 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>全15回プロンプト集（各回3バリエーション版）</title>
+<meta name="author" content="中鉢 欣秀" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css" />
+<style>body { font-family: "Hiragino Sans", "Meiryo", sans-serif !important; }</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">全15回プロンプト集（各回3バリエーション版）
+<br />
+<span class="subtitle">GitHub Copilot を活用したプログラミング中級（HTML/CSS/JS）実演・演習用プロンプト</span>
+</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org202fc82">1. 概要</a></li>
+<li><a href="#org10aeb2d">2. 第1回：インターネットと Web の基本を理解する</a>
+<ul>
+<li><a href="#org79c5a4a">2.1. ねらい</a></li>
+<li><a href="#org104c185">2.2. プロンプト例</a>
+<ul>
+<li><a href="#org46b3834">2.2.1. 例1（教員実演：概念解説要求）</a></li>
+<li><a href="#orgf402d02">2.2.2. 例2（学生演習：比喩を用いた理解補助）</a></li>
+<li><a href="#org275c2f9">2.2.3. 例3（発展：開発ツールの連携理解）</a></li>
+</ul>
+</li>
+<li><a href="#orgee3ef9c">2.3. 指導解説ポイント</a></li>
+</ul>
+</li>
+<li><a href="#orgff34d1e">3. 第2回：HTML の基本を理解してコーディングする</a>
+<ul>
+<li><a href="#org3ec51ff">3.1. ねらい</a></li>
+<li><a href="#orgaf71b12">3.2. プロンプト例</a>
+<ul>
+<li><a href="#org45136de">3.2.1. 例1（教員実演：自己紹介ページの骨格）</a></li>
+<li><a href="#org02d9a1d">3.2.2. 例2（学生演習：イベント告知ページ）</a></li>
+<li><a href="#org89cca99">3.2.3. 例3（発展：カード型コンテンツの骨格）</a></li>
+</ul>
+</li>
+<li><a href="#org78aeed2">3.3. 指導解説ポイント</a></li>
+</ul>
+</li>
+<li><a href="#orge27f4ea">4. 第3回：HTML の基本を理解してコーディングする。その2</a>
+<ul>
+<li><a href="#org58b8e81">4.1. ねらい</a></li>
+<li><a href="#org1fa8a50">4.2. プロンプト例</a>
+<ul>
+<li><a href="#org8894850">4.2.1. 例1（教員実演：履歴書テーブルと問い合わせフォーム）</a></li>
+<li><a href="#orge48c26d">4.2.2. 例2（学生演習：アンケートフォームと料金比較表）</a></li>
+<li><a href="#org4f17fc2">4.2.3. 例3（発展：ログイン画面とマルチメディア）</a></li>
+</ul>
+</li>
+<li><a href="#orgbcc3957">4.3. 指導解説ポイント</a></li>
+</ul>
+</li>
+<li><a href="#org08e3408">5. 第4回：CSS の基本を理解する</a>
+<ul>
+<li><a href="#orgf5bb545">5.1. ねらい</a></li>
+<li><a href="#orgbc53edc">5.2. プロンプト例</a>
+<ul>
+<li><a href="#org0e58404">5.2.1. 例1（教員実演：和風モダンデザイン）</a></li>
+<li><a href="#org2a6a426">5.2.2. 例2（学生演習：ポップ＆カジュアルデザイン）</a></li>
+<li><a href="#org75495ed">5.2.3. 例3（発展：ダークモードスタイル）</a></li>
+</ul>
+</li>
+<li><a href="#org94f7551">5.3. 指導解説ポイント</a></li>
+</ul>
+</li>
+<li><a href="#orga08884d">6. 第5回：CSS の基本を理解する。その2</a>
+<ul>
+<li><a href="#orgceea14d">6.1. ねらい</a></li>
+<li><a href="#org99128ad">6.2. プロンプト例</a>
+<ul>
+<li><a href="#orgf57103f">6.2.1. 例1（教員実演：Flexbox 3列カードとレスポンシブ）</a></li>
+<li><a href="#orgbfbc8bf">6.2.2. 例2（学生演習：CSS Grid によるダッシュボード配置）</a></li>
+<li><a href="#orgfb34b9c">6.2.3. 例3（発展：レスポンシブナビゲーションバー）</a></li>
+</ul>
+</li>
+<li><a href="#org03b2f98">6.3. 指導解説ポイント</a></li>
+</ul>
+</li>
+<li><a href="#orgd335caf">7. 第6回：CSS の応用（CMS、Bootstrap など）</a>
+<ul>
+<li><a href="#orgf63e1e6">7.1. ねらい</a></li>
+<li><a href="#orgcbfa12b">7.2. プロンプト例</a>
+<ul>
+<li><a href="#orgcad0a9e">7.2.1. 例1（教員実演：Bootstrap 5 の導入と全体装飾）</a></li>
+<li><a href="#orgbcf0b13">7.2.2. 例2（学生演習：Bootstrap Grid システムの活用）</a></li>
+<li><a href="#org0457680">7.2.3. 例3（発展：モーダルダイアログとバッジ機能の追加）</a></li>
+</ul>
+</li>
+<li><a href="#org7451096">7.3. 指導解説ポイント</a></li>
+</ul>
+</li>
+<li><a href="#org25bf64e">8. 第7回：JavaScript イントロダクション</a>
+<ul>
+<li><a href="#org7f97c4f">8.1. ねらい</a></li>
+<li><a href="#orgcb9d7a5">8.2. プロンプト例</a>
+<ul>
+<li><a href="#org87f1291">8.2.1. 例1（教員実演：コンソール出力とイベントListener）</a></li>
+<li><a href="#org189059e">8.2.2. 例2（学生演習：アラート表示とテキスト変更）</a></li>
+<li><a href="#org24c121f">8.2.3. 例3（発展：外部JSファイルの分離とdefer属性）</a></li>
+</ul>
+</li>
+<li><a href="#org623fb12">8.3. 指導解説ポイント</a></li>
+</ul>
+</li>
+<li><a href="#orga123a0a">9. 第8回：基本的な書き方を身に着ける</a>
+<ul>
+<li><a href="#orgc8c8b5a">9.1. ねらい</a></li>
+<li><a href="#orge86e042">9.2. プロンプト例</a>
+<ul>
+<li><a href="#orgebecf08">9.2.1. 例1（教員実演：変数定義とテンプレートリテラル）</a></li>
+<li><a href="#org10745b7">9.2.2. 例2（学生演習：型チェックと明示的型変換）</a></li>
+<li><a href="#org61bafbe">9.2.3. 例3（発展：constとletの使い分け）</a></li>
+</ul>
+</li>
+<li><a href="#orgadce666">9.3. 指導解説ポイント</a></li>
+</ul>
+</li>
+<li><a href="#org365dc9a">10. 第9回：演算子を理解し、使用する</a>
+<ul>
+<li><a href="#org34c55e8">10.1. ねらい</a></li>
+<li><a href="#orga99c38c">10.2. プロンプト例</a>
+<ul>
+<li><a href="#orgf648610">10.2.1. 例1（教員実演：割引計算と複合条件判定）</a></li>
+<li><a href="#org32dd69f">10.2.2. 例2（学生演習：割り勘計算とあまりの算出）</a></li>
+<li><a href="#orge2d5b55">10.2.3. 例3（発展：三項演算子による条件表示）</a></li>
+</ul>
+</li>
+<li><a href="#orgc52e608">10.3. 指導解説ポイント</a></li>
+</ul>
+</li>
+<li><a href="#org2d95c27">11. 第10回：制御構文を理解し、使用する</a>
+<ul>
+<li><a href="#org728e852">11.1. ねらい</a></li>
+<li><a href="#orgdfbd2d0">11.2. プロンプト例</a>
+<ul>
+<li><a href="#orgde8db4b">11.2.1. 例1（教員実演：配列ループとifによる成績判定）</a></li>
+<li><a href="#org1753998">11.2.2. 例2（学生演習：switch文による曜日判定）</a></li>
+<li><a href="#org6e6ef73">11.2.3. 例3（発展：whileループとbreak / continue）</a></li>
+</ul>
+</li>
+<li><a href="#orgb54c1a8">11.3. 指導解説ポイント</a></li>
+</ul>
+</li>
+<li><a href="#orge3db835">12. 第11回：組み込みオブジェクトを理解し、使用する</a>
+<ul>
+<li><a href="#org863c16d">12.1. ねらい</a></li>
+<li><a href="#orgb346f56">12.2. プロンプト例</a>
+<ul>
+<li><a href="#orgd19bbca">12.2.1. 例1（教員実演：Dateオブジェクトによる日時フォーマット）</a></li>
+<li><a href="#org7bf6c6f">12.2.2. 例2（学生演習：Mathオブジェクトによるおみくじ機能）</a></li>
+<li><a href="#orgf48e531">12.2.3. 例3（発展：Arrayの map / filter メソッド）</a></li>
+</ul>
+</li>
+<li><a href="#org80d16df">12.3. 指導解説ポイント</a></li>
+</ul>
+</li>
+<li><a href="#orge2acfb3">13. 第12回：関数を理解し利用する</a>
+<ul>
+<li><a href="#org17b6ab0">13.1. ねらい</a></li>
+<li><a href="#orgda66bdd">13.2. プロンプト例</a>
+<ul>
+<li><a href="#org0ca40de">13.2.1. 例1（教員実演：アロー関数と戻り値）</a></li>
+<li><a href="#org84d6b47">13.2.2. 例2（学生演習：デフォルト引数とバリデーション）</a></li>
+<li><a href="#org8245e7f">13.2.3. 例3（発展：コールバック関数とsetTimeout）</a></li>
+</ul>
+</li>
+<li><a href="#org79683a3">13.3. 指導解説ポイント</a></li>
+</ul>
+</li>
+<li><a href="#org4d7a290">14. 第13回：オブジェクト指向構文</a>
+<ul>
+<li><a href="#org249aada">14.1. ねらい</a></li>
+<li><a href="#org8de67f7">14.2. プロンプト例</a>
+<ul>
+<li><a href="#org1bc7d77">14.2.1. 例1（教員実演：Student クラスとメソッド）</a></li>
+<li><a href="#org09d9deb">14.2.2. 例2（学生演習：ShoppingCart クラス）</a></li>
+<li><a href="#orge65e2e4">14.2.3. 例3（発展：クラスの継承 extends）</a></li>
+</ul>
+</li>
+<li><a href="#orgff9a15b">14.3. 指導解説ポイント</a></li>
+</ul>
+</li>
+<li><a href="#orgb7b69e5">15. 第14回：DOM（Document Object Model）</a>
+<ul>
+<li><a href="#org709adbe">15.1. ねらい</a></li>
+<li><a href="#orgf26030e">15.2. プロンプト例</a>
+<ul>
+<li><a href="#org1ed3550">15.2.1. 例1（教員実演：classList.toggle によるダークモード切替）</a></li>
+<li><a href="#org45d1378">15.2.2. 例2（学生演習：動的なToDoリストの追加・削除）</a></li>
+<li><a href="#org2a58015">15.2.3. 例3（発展：リアルタイム文字数カウント）</a></li>
+</ul>
+</li>
+<li><a href="#org0c2dbf5">15.3. 指導解説ポイント</a></li>
+</ul>
+</li>
+<li><a href="#orge34f366">16. 第15回：高度なクライアントサイド開発</a>
+<ul>
+<li><a href="#orgbe5bb3c">16.1. ねらい</a></li>
+<li><a href="#org9698dc0">16.2. プロンプト例</a>
+<ul>
+<li><a href="#org2dcbfd7">16.2.1. 例1（教員実演：Open-Meteo 天気APIの取得）</a></li>
+<li><a href="#orgd300d97">16.2.2. 例2（学生演習：JSONPlaceholder からのカード描画）</a></li>
+<li><a href="#orgdf56822">16.2.3. 例3（発展：LocalStorage によるデータ保存・復元）</a></li>
+</ul>
+</li>
+<li><a href="#org95a2c98">16.3. 指導解説ポイント</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org202fc82" class="outline-2">
+<h2 id="org202fc82"><span class="section-number-2">1.</span> 概要</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+本資料は、「プログラミング中級（HTML/CSS/JavaScript）」のシラバス全15回に対応した、GitHub Copilot Chat用プロンプトのバリエーション集です。各回につき**3種類（教員実演用 / 学生演習用 / 発展・対話型デバッグ用）**の具体例を提示しています。
+</p>
+
+<p>
+<b><b>指導上の共通ポイント</b></b>
+</p>
+<ul class="org-ul">
+<li>曖昧な指示（「良い感じにして」等）ではなく、構造・条件・制約を明確に与えるプロンプト思考を養います。</li>
+<li>AIが生成したコードに対して、ブラウザのデベロッパーツール（F12）や Copilot Chat への解説要求（Read &amp; Verify）を組み合わせます。</li>
+</ul>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+<div id="outline-container-org10aeb2d" class="outline-2">
+<h2 id="org10aeb2d"><span class="section-number-2">2.</span> 第1回：インターネットと Web の基本を理解する</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org79c5a4a" class="outline-3">
+<h3 id="org79c5a4a"><span class="section-number-3">2.1.</span> ねらい</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Webの仕組み（クライアント/サーバー通信）とフロントエンド（HTML/CSS/JS）の役割、AIペアプログラミング環境の全体像を理解する。
+</p>
+</div>
+</div>
+<div id="outline-container-org104c185" class="outline-3">
+<h3 id="org104c185"><span class="section-number-3">2.2.</span> プロンプト例</h3>
+<div class="outline-text-3" id="text-2-2">
+</div>
+<div id="outline-container-org46b3834" class="outline-4">
+<h4 id="org46b3834"><span class="section-number-4">2.2.1.</span> 例1（教員実演：概念解説要求）</h4>
+<div class="outline-text-4" id="text-2-2-1">
+<pre class="example" id="orgdcbc5b7">
+WebブラウザがWebサーバーからHTML、CSS、JavaScriptを受け取って画面を表示する仕組みについて、プログラミング初心者向けに3つのステップで分かりやすく解説してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-orgf402d02" class="outline-4">
+<h4 id="orgf402d02"><span class="section-number-4">2.2.2.</span> 例2（学生演習：比喩を用いた理解補助）</h4>
+<div class="outline-text-4" id="text-2-2-2">
+<pre class="example" id="orgbb11748">
+HTML（構造）、CSS（見た目）、JavaScript（動作）の3つの役割の違いを、家づくり（建築・内装・設備）の例えを使って分かりやすく説明してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org275c2f9" class="outline-4">
+<h4 id="org275c2f9"><span class="section-number-4">2.2.3.</span> 例3（発展：開発ツールの連携理解）</h4>
+<div class="outline-text-4" id="text-2-2-3">
+<pre class="example" id="orge8802d3">
+VS Code、GitHub Codespaces、GitHub Copilotの3つが、開発現場でどのように連携して使われているかを箇条書きで簡潔にまとめてください。
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgee3ef9c" class="outline-3">
+<h3 id="orgee3ef9c"><span class="section-number-3">2.3.</span> 指導解説ポイント</h3>
+<div class="outline-text-3" id="text-2-3">
+<ul class="org-ul">
+<li>生成された解説テキストを読み合わせ、Webの基本構造を把握させます。</li>
+</ul>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgff34d1e" class="outline-2">
+<h2 id="orgff34d1e"><span class="section-number-2">3.</span> 第2回：HTML の基本を理解してコーディングする</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org3ec51ff" class="outline-3">
+<h3 id="org3ec51ff"><span class="section-number-3">3.1.</span> ねらい</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+HTMLの基本タグ（h1〜h6, p, ul, li, a等）と、ページのセマンティック構造（header, main, footer）を理解する。
+</p>
+</div>
+</div>
+<div id="outline-container-orgaf71b12" class="outline-3">
+<h3 id="orgaf71b12"><span class="section-number-3">3.2.</span> プロンプト例</h3>
+<div class="outline-text-3" id="text-3-2">
+</div>
+<div id="outline-container-org45136de" class="outline-4">
+<h4 id="org45136de"><span class="section-number-4">3.2.1.</span> 例1（教員実演：自己紹介ページの骨格）</h4>
+<div class="outline-text-4" id="text-3-2-1">
+<pre class="example" id="org0d70311">
+初心者向けの自己紹介ページのHTML構造を作成してください。header, main, footer タグを使い、h1に見出し『山田太郎のポートフォリオ』、pに挨拶文、ulに趣味を3つ配置してください。CSSやJavaScriptは含めず、純粋なHTMLだけにしてください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org02d9a1d" class="outline-4">
+<h4 id="org02d9a1d"><span class="section-number-4">3.2.2.</span> 例2（学生演習：イベント告知ページ）</h4>
+<div class="outline-text-4" id="text-3-2-2">
+<pre class="example" id="orga519fcb">
+大学の大学祭イベント告知ページのHTMLを作成してください。h1にイベント名、pに日時と場所、ol要素を使ってタイムスケジュールを3つ、ul要素で注意事項を2つ記述してください。スタイリングは不要です。
+</pre>
+</div>
+</div>
+<div id="outline-container-org89cca99" class="outline-4">
+<h4 id="org89cca99"><span class="section-number-4">3.2.3.</span> 例3（発展：カード型コンテンツの骨格）</h4>
+<div class="outline-text-4" id="text-3-2-3">
+<pre class="example" id="org77eb3ab">
+Webサイトに掲載する『おすすめ本紹介カード』のHTMLを作成してください。h2に書籍タイトル、pに著者名と短いあらすじ、ulに特徴タグ（3つ）、a要素で購入リンクのダミーを配置してください。
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org78aeed2" class="outline-3">
+<h3 id="org78aeed2"><span class="section-number-3">3.3.</span> 指導解説ポイント</h3>
+<div class="outline-text-3" id="text-3-3">
+<ul class="org-ul">
+<li>CSSを含めない純粋なHTMLタグの役割とDOMツリーの親子関係をF12ツールで確認させます。</li>
+</ul>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orge27f4ea" class="outline-2">
+<h2 id="orge27f4ea"><span class="section-number-2">4.</span> 第3回：HTML の基本を理解してコーディングする。その2</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org58b8e81" class="outline-3">
+<h3 id="org58b8e81"><span class="section-number-3">4.1.</span> ねらい</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+表データ（table）や入力フォーム（form, input, select, button）、メディア要素のタグ構造を理解する。
+</p>
+</div>
+</div>
+<div id="outline-container-org1fa8a50" class="outline-3">
+<h3 id="org1fa8a50"><span class="section-number-3">4.2.</span> プロンプト例</h3>
+<div class="outline-text-3" id="text-4-2">
+</div>
+<div id="outline-container-org8894850" class="outline-4">
+<h4 id="org8894850"><span class="section-number-4">4.2.1.</span> 例1（教員実演：履歴書テーブルと問い合わせフォーム）</h4>
+<div class="outline-text-4" id="text-4-2-1">
+<pre class="example" id="org4c71991">
+先ほど作成したHTMLの main 要素内に、学歴を表示する table 要素（年・学校名の2列）と、お問合せ用の form 要素（名前入力、メールアドレス入力、お問い合わせ内容のtextarea、送信ボタン）を追加してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-orge48c26d" class="outline-4">
+<h4 id="orge48c26d"><span class="section-number-4">4.2.2.</span> 例2（学生演習：アンケートフォームと料金比較表）</h4>
+<div class="outline-text-4" id="text-4-2-2">
+<pre class="example" id="org28ec5de">
+Webサービスの利用アンケートフォームを作成してください。ラジオボタンで満足度（3段階）、チェックボックスで利用頻度の高い機能（3つ）、ドロップダウン（select）で年代を選択できるようにしてください。また、下にプラン別料金表（table）を配置してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org4f17fc2" class="outline-4">
+<h4 id="org4f17fc2"><span class="section-number-4">4.2.3.</span> 例3（発展：ログイン画面とマルチメディア）</h4>
+<div class="outline-text-4" id="text-4-2-3">
+<pre class="example" id="orgf811088">
+ユーザーログイン画面のHTMLを作成してください。ユーザーID（text）、パスワード（password）、ログイン保持（checkbox）、ログインボタンを配置してください。また、ページ上部にサービスロゴ用の img タグと、ダミーの audio 要素を追加してください。
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbcc3957" class="outline-3">
+<h3 id="orgbcc3957"><span class="section-number-3">4.3.</span> 指導解説ポイント</h3>
+<div class="outline-text-3" id="text-4-3">
+<ul class="org-ul">
+<li>フォームの `type` 属性による入力形式の違いや、`table` の `tr`, `th`, `td` の入れ子構造を解説します。</li>
+</ul>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org08e3408" class="outline-2">
+<h2 id="org08e3408"><span class="section-number-2">5.</span> 第4回：CSS の基本を理解する</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-orgf5bb545" class="outline-3">
+<h3 id="orgf5bb545"><span class="section-number-3">5.1.</span> ねらい</h3>
+<div class="outline-text-3" id="text-5-1">
+<p>
+CSSセレクタ、カラーコード、フォント、余白（margin/padding）によるデザイン（Vibe）表現の基礎を理解する。
+</p>
+</div>
+</div>
+<div id="outline-container-orgbc53edc" class="outline-3">
+<h3 id="orgbc53edc"><span class="section-number-3">5.2.</span> プロンプト例</h3>
+<div class="outline-text-3" id="text-5-2">
+</div>
+<div id="outline-container-org0e58404" class="outline-4">
+<h4 id="org0e58404"><span class="section-number-4">5.2.1.</span> 例1（教員実演：和風モダンデザイン）</h4>
+<div class="outline-text-4" id="text-5-2-1">
+<pre class="example" id="orgb8f37c2">
+このHTMLにCSSを追加してください。デザインの雰囲気（Vibe）は『シンプルで清潔感のあるモダンな和風』にし、メインカラーを紺色（#1B2A4A）、背景色を生成り色（#F7F6F2）にし、カード風の枠線と余白（margin/padding）を整えてください。styleタグ内に記述してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org2a6a426" class="outline-4">
+<h4 id="org2a6a426"><span class="section-number-4">5.2.2.</span> 例2（学生演習：ポップ＆カジュアルデザイン）</h4>
+<div class="outline-text-4" id="text-5-2-2">
+<pre class="example" id="org633622a">
+既存のHTMLに対して、明るくポップな印象を与えるCSSを適用してください。アクセントカラーにオレンジ色（#FF8C00）、角丸（border-radius: 12px）、ボタンにほんのり影（box-shadow）を付けて、見出しのフォントサイズを大きくしてください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org75495ed" class="outline-4">
+<h4 id="org75495ed"><span class="section-number-4">5.2.3.</span> 例3（発展：ダークモードスタイル）</h4>
+<div class="outline-text-4" id="text-5-2-3">
+<pre class="example" id="orgff744af">
+既存のHTMLをダークテーマ風にスタイリングしてください。背景色をダークグレー（#1E1E1E）、文字色をオフホワイト（#E0E0E0）、見出しの差し色にネオンブルー（#00E5FF）を使い、全体的にモダンでクールな印象にしてください。
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org94f7551" class="outline-3">
+<h3 id="org94f7551"><span class="section-number-3">5.3.</span> 指導解説ポイント</h3>
+<div class="outline-text-3" id="text-5-3">
+<ul class="org-ul">
+<li>抽象的な「Vibe（雰囲気）」の言葉が、具体的なCSSプロパティやカラーコードにどう変換されるかを観察させます。</li>
+</ul>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orga08884d" class="outline-2">
+<h2 id="orga08884d"><span class="section-number-2">6.</span> 第5回：CSS の基本を理解する。その2</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-orgceea14d" class="outline-3">
+<h3 id="orgceea14d"><span class="section-number-3">6.1.</span> ねらい</h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
+FlexboxやCSS Gridを用いたレイアウト構築と、メディアクエリ（@media）によるレスポンシブデザインを理解する。
+</p>
+</div>
+</div>
+<div id="outline-container-org99128ad" class="outline-3">
+<h3 id="org99128ad"><span class="section-number-3">6.2.</span> プロンプト例</h3>
+<div class="outline-text-3" id="text-6-2">
+</div>
+<div id="outline-container-orgf57103f" class="outline-4">
+<h4 id="orgf57103f"><span class="section-number-4">6.2.1.</span> 例1（教員実演：Flexbox 3列カードとレスポンシブ）</h4>
+<div class="outline-text-4" id="text-6-2-1">
+<pre class="example" id="org23343d3">
+Flexbox を使って、3つの自己紹介カード要素をPC表示で横並びに配置してください。さらに、画面幅が768px以下のスマホ表示のときは縦並び（1列）に自動で切り替わるよう、メディアクエリ（@media）を追加してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-orgbfbc8bf" class="outline-4">
+<h4 id="orgbfbc8bf"><span class="section-number-4">6.2.2.</span> 例2（学生演習：CSS Grid によるダッシュボード配置）</h4>
+<div class="outline-text-4" id="text-6-2-2">
+<pre class="example" id="orga3b41f7">
+CSS Grid を使って、Webページのレイアウトを作成してください。ヘッダー（全幅）、左サイドバー（幅200px）、メインコンテンツ（残り幅）、フッター（全幅）の配置をGridプロパティで整えてください。
+</pre>
+</div>
+</div>
+<div id="outline-container-orgfb34b9c" class="outline-4">
+<h4 id="orgfb34b9c"><span class="section-number-4">6.2.3.</span> 例3（発展：レスポンシブナビゲーションバー）</h4>
+<div class="outline-text-4" id="text-6-2-3">
+<pre class="example" id="org76898ea">
+ヘッダー内のナビゲーションメニュー（ul, li）を Flexbox で横並びに配置し、右寄せにしてください。モバイル画面（600px以下）のときはメニュー項目を非表示にして縦並びにするレスポンシブスタイルを作成してください。
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org03b2f98" class="outline-3">
+<h3 id="org03b2f98"><span class="section-number-3">6.3.</span> 指導解説ポイント</h3>
+<div class="outline-text-3" id="text-6-3">
+<ul class="org-ul">
+<li>ブラウザのウィンドウサイズを変更し、レスポンシブ表示の変化をデベロッパーツールで確認させます。</li>
+</ul>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd335caf" class="outline-2">
+<h2 id="orgd335caf"><span class="section-number-2">7.</span> 第6回：CSS の応用（CMS、Bootstrap など）</h2>
+<div class="outline-text-2" id="text-7">
+</div>
+<div id="outline-container-orgf63e1e6" class="outline-3">
+<h3 id="orgf63e1e6"><span class="section-number-3">7.1.</span> ねらい</h3>
+<div class="outline-text-3" id="text-7-1">
+<p>
+外部UIライブラリ（Bootstrap 5等）のCDN導入と、既存コンポーネントを活用した効率的な画面装飾を理解する。
+</p>
+</div>
+</div>
+<div id="outline-container-orgcbfa12b" class="outline-3">
+<h3 id="orgcbfa12b"><span class="section-number-3">7.2.</span> プロンプト例</h3>
+<div class="outline-text-3" id="text-7-2">
+</div>
+<div id="outline-container-orgcad0a9e" class="outline-4">
+<h4 id="orgcad0a9e"><span class="section-number-4">7.2.1.</span> 例1（教員実演：Bootstrap 5 の導入と全体装飾）</h4>
+<div class="outline-text-4" id="text-7-2-1">
+<pre class="example" id="orgec96361">
+Bootstrap 5 をCDN経由で読み込み、全体のデザインをBootstrapのコンポーネント（Navbar, Heroセクション, Card, Primary Button）を使ったスタイリッシュなビジネス風Webサイトに作り直してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-orgbcf0b13" class="outline-4">
+<h4 id="orgbcf0b13"><span class="section-number-4">7.2.2.</span> 例2（学生演習：Bootstrap Grid システムの活用）</h4>
+<div class="outline-text-4" id="text-7-2-2">
+<pre class="example" id="orgc425529">
+Bootstrap 5 のグリッドシステム（container, row, col-md-4）を使って、商品カードをPCでは3列、タブレットでは2列、スマホでは1列に自動配置するHTML構造とクラスを作成してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org0457680" class="outline-4">
+<h4 id="org0457680"><span class="section-number-4">7.2.3.</span> 例3（発展：モーダルダイアログとバッジ機能の追加）</h4>
+<div class="outline-text-4" id="text-7-2-3">
+<pre class="example" id="orgf562dce">
+Bootstrap 5 のコンポーネントを使い、ボタンを押すと出現する『利用規約表示用モーダル（Modal）』と、カード右上に付く『NEW』バッジ（Badge）を追加してください。
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org7451096" class="outline-3">
+<h3 id="org7451096"><span class="section-number-3">7.3.</span> 指導解説ポイント</h3>
+<div class="outline-text-3" id="text-7-3">
+<ul class="org-ul">
+<li>ゼロからCSSを書く場合と、ライブラリを使用する場合の生産性・柔軟性の違いを考察させます。</li>
+</ul>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org25bf64e" class="outline-2">
+<h2 id="org25bf64e"><span class="section-number-2">8.</span> 第7回：JavaScript イントロダクション</h2>
+<div class="outline-text-2" id="text-8">
+</div>
+<div id="outline-container-org7f97c4f" class="outline-3">
+<h3 id="org7f97c4f"><span class="section-number-3">8.1.</span> ねらい</h3>
+<div class="outline-text-3" id="text-8-1">
+<p>
+JavaScriptの役割（動的処理）を理解し、スクリプトの読み込み、ボタンイベント、コンソール出力（console.log）の基本を学ぶ。
+</p>
+</div>
+</div>
+<div id="outline-container-orgcb9d7a5" class="outline-3">
+<h3 id="orgcb9d7a5"><span class="section-number-3">8.2.</span> プロンプト例</h3>
+<div class="outline-text-3" id="text-8-2">
+</div>
+<div id="outline-container-org87f1291" class="outline-4">
+<h4 id="org87f1291"><span class="section-number-4">8.2.1.</span> 例1（教員実演：コンソール出力とイベントListener）</h4>
+<div class="outline-text-4" id="text-8-2-1">
+<pre class="example" id="orgeae3cd0">
+HTML内のボタンをクリックした際に、ブラウザのデベロッパーコンソール（console.log）に『Hello, JavaScript!』とメッセージを出力する一番シンプルなJavaScriptコードを作成してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org189059e" class="outline-4">
+<h4 id="org189059e"><span class="section-number-4">8.2.2.</span> 例2（学生演習：アラート表示とテキスト変更）</h4>
+<div class="outline-text-4" id="text-8-2-2">
+<pre class="example" id="org96deb52">
+ボタンをクリックすると、『登録が完了しました』というアラートダイアログ（alert）を表示し、さらに指定したpタグの文字を『手続き済み』に変更するJavaScriptを作成してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org24c121f" class="outline-4">
+<h4 id="org24c121f"><span class="section-number-4">8.2.3.</span> 例3（発展：外部JSファイルの分離とdefer属性）</h4>
+<div class="outline-text-4" id="text-8-2-3">
+<pre class="example" id="orgaa92987">
+JavaScriptコードを外部ファイル `app.js` に切り出し、HTMLの head 要素内で `defer` 属性を付けて安全に読み込む構造を作成してください。DOMの読み込み完了時にコンソールログを出力させてください。
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org623fb12" class="outline-3">
+<h3 id="org623fb12"><span class="section-number-3">8.3.</span> 指導解説ポイント</h3>
+<div class="outline-text-3" id="text-8-3">
+<ul class="org-ul">
+<li>F12の「コンソール（Console）」タブを開き、スクリプトのログやエラーがどのように出力されるかを実演します。</li>
+</ul>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orga123a0a" class="outline-2">
+<h2 id="orga123a0a"><span class="section-number-2">9.</span> 第8回：基本的な書き方を身に着ける</h2>
+<div class="outline-text-2" id="text-9">
+</div>
+<div id="outline-container-orgc8c8b5a" class="outline-3">
+<h3 id="orgc8c8b5a"><span class="section-number-3">9.1.</span> ねらい</h3>
+<div class="outline-text-3" id="text-9-1">
+<p>
+変数（let / const）、データ型（数値、文字列、Boolean）、テンプレートリテラルの扱いをマスターする。
+</p>
+</div>
+</div>
+<div id="outline-container-orge86e042" class="outline-3">
+<h3 id="orge86e042"><span class="section-number-3">9.2.</span> プロンプト例</h3>
+<div class="outline-text-3" id="text-9-2">
+</div>
+<div id="outline-container-orgebecf08" class="outline-4">
+<h4 id="orgebecf08"><span class="section-number-4">9.2.1.</span> 例1（教員実演：変数定義とテンプレートリテラル）</h4>
+<div class="outline-text-4" id="text-9-2-1">
+<pre class="example" id="org2134c14">
+ユーザーの『名前（文字列）』『年齢（数値）』『学生かどうか（Boolean）』を宣言する変数を定義し、それらを組み合わせて『〇〇さん（〇歳）の自己紹介』という文章をテンプレートリテラル（` `）で作成して画面に表示してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org10745b7" class="outline-4">
+<h4 id="org10745b7"><span class="section-number-4">9.2.2.</span> 例2（学生演習：型チェックと明示的型変換）</h4>
+<div class="outline-text-4" id="text-9-2-2">
+<pre class="example" id="orgdf1cea6">
+inputタグから取得した文字列表型の数値『100』と『200』を、Number()関数で数値型に変換してから足し算し、その結果と型名（typeof演算子）をコンソールに出力する処理を書いてください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org61bafbe" class="outline-4">
+<h4 id="org61bafbe"><span class="section-number-4">9.2.3.</span> 例3（発展：constとletの使い分け）</h4>
+<div class="outline-text-4" id="text-9-2-3">
+<pre class="example" id="orgbcf3d9a">
+定数（const）として消費税率（0.1）を定義し、変数（let）として商品小計を定義します。再代入を行って合計金額を計算するプログラムを作成し、constに誤って再代入しようとした際のエラーを観察してください。
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgadce666" class="outline-3">
+<h3 id="orgadce666"><span class="section-number-3">9.3.</span> 指導解説ポイント</h3>
+<div class="outline-text-3" id="text-9-3">
+<ul class="org-ul">
+<li>`let` と `const` の再代入可否の違いや、文字列連結（`+`）と数値加算の挙動差を解説します。</li>
+</ul>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org365dc9a" class="outline-2">
+<h2 id="org365dc9a"><span class="section-number-2">10.</span> 第9回：演算子を理解し、使用する</h2>
+<div class="outline-text-2" id="text-10">
+</div>
+<div id="outline-container-org34c55e8" class="outline-3">
+<h3 id="org34c55e8"><span class="section-number-3">10.1.</span> ねらい</h3>
+<div class="outline-text-3" id="text-10-1">
+<p>
+算術演算子、比較演算子（厳密等価 `===`）、論理演算子（`&amp;&amp;`, `||`, `!`）、三項演算子の使い方を理解する。
+</p>
+</div>
+</div>
+<div id="outline-container-orga99c38c" class="outline-3">
+<h3 id="orga99c38c"><span class="section-number-3">10.2.</span> プロンプト例</h3>
+<div class="outline-text-3" id="text-10-2">
+</div>
+<div id="outline-container-orgf648610" class="outline-4">
+<h4 id="orgf648610"><span class="section-number-4">10.2.1.</span> 例1（教員実演：割引計算と複合条件判定）</h4>
+<div class="outline-text-4" id="text-10-2-1">
+<pre class="example" id="orgcc18325">
+商品の『定価』と『割引率』から割引後の価格を計算し、さらに『購入金額が5,000円以上かつ会員（isMember === true）である場合に送料無料』という判定結果（True/False）を計算して画面に出力する処理を作成してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org32dd69f" class="outline-4">
+<h4 id="org32dd69f"><span class="section-number-4">10.2.2.</span> 例2（学生演習：割り勘計算とあまりの算出）</h4>
+<div class="outline-text-4" id="text-10-2-2">
+<pre class="example" id="org5e131e1">
+飲み会の『合計金額』と『参加人数』の変数を定義し、1人あたりの支払額（割り算 `/` ）と、端数・あまり（あまり演算子 `%` ）を計算して画面に分かりやすく表示するJavaScriptを書出してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-orge2d5b55" class="outline-4">
+<h4 id="orge2d5b55"><span class="section-number-4">10.2.3.</span> 例3（発展：三項演算子による条件表示）</h4>
+<div class="outline-text-4" id="text-10-2-3">
+<pre class="example" id="orgde3db4a">
+年齢（age）変数を受け取り、三項演算子 `(age &gt;= 18 ? "大人料金: 1,800円" : "子供料金: 1,000円")` を使って、1行でメッセージを判定・表示する処理を作成してください。
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc52e608" class="outline-3">
+<h3 id="orgc52e608"><span class="section-number-3">10.3.</span> 指導解説ポイント</h3>
+<div class="outline-text-3" id="text-10-3">
+<ul class="org-ul">
+<li>`=`（代入）と `===`（厳密比較）の違いや、複合論理条件の組み立て方を解説します。</li>
+</ul>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org2d95c27" class="outline-2">
+<h2 id="org2d95c27"><span class="section-number-2">11.</span> 第10回：制御構文を理解し、使用する</h2>
+<div class="outline-text-2" id="text-11">
+</div>
+<div id="outline-container-org728e852" class="outline-3">
+<h3 id="org728e852"><span class="section-number-3">11.1.</span> ねらい</h3>
+<div class="outline-text-3" id="text-11-1">
+<p>
+条件分岐（if-else, switch）と繰り返し処理（for, while）によるロジックの構築を理解する。
+</p>
+</div>
+</div>
+<div id="outline-container-orgdfbd2d0" class="outline-3">
+<h3 id="orgdfbd2d0"><span class="section-number-3">11.2.</span> プロンプト例</h3>
+<div class="outline-text-3" id="text-11-2">
+</div>
+<div id="outline-container-orgde8db4b" class="outline-4">
+<h4 id="orgde8db4b"><span class="section-number-4">11.2.1.</span> 例1（教員実演：配列ループとifによる成績判定）</h4>
+<div class="outline-text-4" id="text-11-2-1">
+<pre class="example" id="orgcf5b118">
+5人のテストの点数が格納された配列を用意し、forループで順に走査して『80点以上なら合格』『80点未満なら再テスト』と判定メッセージをリスト形式で画面に出力してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org1753998" class="outline-4">
+<h4 id="org1753998"><span class="section-number-4">11.2.2.</span> 例2（学生演習：switch文による曜日判定）</h4>
+<div class="outline-text-4" id="text-11-2-2">
+<pre class="example" id="org5ee99c6">
+Dateオブジェクトから取得した曜日番号（0〜6）を受け取り、switch文を使って『日曜日：可燃ゴミ』『月曜日：不燃ゴミ』のように各曜日のゴミ出しルールを通知する判定処理を作成してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org6e6ef73" class="outline-4">
+<h4 id="org6e6ef73"><span class="section-number-4">11.2.3.</span> 例3（発展：whileループとbreak / continue）</h4>
+<div class="outline-text-4" id="text-11-2-3">
+<pre class="example" id="org1ee15bd">
+1から50までの数値の中で、3の倍数だけをスキップ（continue）し、最初に現れる7の倍数を見つけたらループを終了（break）するwhileループを作成し、処理経過をログに出力してください。
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb54c1a8" class="outline-3">
+<h3 id="orgb54c1a8"><span class="section-number-3">11.3.</span> 指導解説ポイント</h3>
+<div class="outline-text-3" id="text-11-3">
+<ul class="org-ul">
+<li>ループの無限回帰（無限ループ）に注意させ、条件の増減式（`i++`）の役割を説明します。</li>
+</ul>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orge3db835" class="outline-2">
+<h2 id="orge3db835"><span class="section-number-2">12.</span> 第11回：組み込みオブジェクトを理解し、使用する</h2>
+<div class="outline-text-2" id="text-12">
+</div>
+<div id="outline-container-org863c16d" class="outline-3">
+<h3 id="org863c16d"><span class="section-number-3">12.1.</span> ねらい</h3>
+<div class="outline-text-3" id="text-12-1">
+<p>
+JavaScript標準の標準オブジェクト（Date, Math, Array高階関数）の活用方法を理解する。
+</p>
+</div>
+</div>
+<div id="outline-container-orgb346f56" class="outline-3">
+<h3 id="orgb346f56"><span class="section-number-3">12.2.</span> プロンプト例</h3>
+<div class="outline-text-3" id="text-12-2">
+</div>
+<div id="outline-container-orgd19bbca" class="outline-4">
+<h4 id="orgd19bbca"><span class="section-number-4">12.2.1.</span> 例1（教員実演：Dateオブジェクトによる日時フォーマット）</h4>
+<div class="outline-text-4" id="text-12-2-1">
+<pre class="example" id="orgb76676c">
+Dateオブジェクトを使って現在の『年・月・日・曜日・時刻』を取得し、`2026年9月18日(金) 10:30:00` のように綺麗なフォーマットに整えて画面に自動更新表示する処理を作成してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org7bf6c6f" class="outline-4">
+<h4 id="org7bf6c6f"><span class="section-number-4">12.2.2.</span> 例2（学生演習：Mathオブジェクトによるおみくじ機能）</h4>
+<div class="outline-text-4" id="text-12-2-2">
+<pre class="example" id="org24a10ca">
+Math.random() と Math.floor() を組み合わせて、ボタンを押すたびに『大吉・中吉・小吉・凶』のいずれかをランダムに画面上に表示する『おみくじアプリ』を作成してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-orgf48e531" class="outline-4">
+<h4 id="orgf48e531"><span class="section-number-4">12.2.3.</span> 例3（発展：Arrayの map / filter メソッド）</h4>
+<div class="outline-text-4" id="text-12-2-3">
+<pre class="example" id="org4af8c6e">
+商品オブジェクトの配列（名前と価格）を用意し、filterメソッドで『1,000円以上の商品』だけを抽出し、さらにmapメソッドで全商品の価格を『10%引きの価格』に変換した新しい配列を作成してください。
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org80d16df" class="outline-3">
+<h3 id="org80d16df"><span class="section-number-3">12.3.</span> 指導解説ポイント</h3>
+<div class="outline-text-3" id="text-12-3">
+<ul class="org-ul">
+<li>配列の高階関数（map, filter）を使うことで、forループを書かずにスマートにデータ加工できるメリットを提示します。</li>
+</ul>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orge2acfb3" class="outline-2">
+<h2 id="orge2acfb3"><span class="section-number-2">13.</span> 第12回：関数を理解し利用する</h2>
+<div class="outline-text-2" id="text-13">
+</div>
+<div id="outline-container-org17b6ab0" class="outline-3">
+<h3 id="org17b6ab0"><span class="section-number-3">13.1.</span> ねらい</h3>
+<div class="outline-text-3" id="text-13-1">
+<p>
+関数の定義（function宣言、アロー関数）、引数、戻り値（return）、スコープの概念を理解する。
+</p>
+</div>
+</div>
+<div id="outline-container-orgda66bdd" class="outline-3">
+<h3 id="orgda66bdd"><span class="section-number-3">13.2.</span> プロンプト例</h3>
+<div class="outline-text-3" id="text-13-2">
+</div>
+<div id="outline-container-org0ca40de" class="outline-4">
+<h4 id="org0ca40de"><span class="section-number-4">13.2.1.</span> 例1（教員実演：アロー関数と戻り値）</h4>
+<div class="outline-text-4" id="text-13-2-1">
+<pre class="example" id="org42b3241">
+商品の『税抜き価格』と『税率』を引数として受け取り、税込み金額を計算して返す関数 `calculateTax` をアロー関数（const calculateTax = (price, taxRate) =&gt; ...）で定義してください。複数の数値で実行した結果を表示してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org84d6b47" class="outline-4">
+<h4 id="org84d6b47"><span class="section-number-4">13.2.2.</span> 例2（学生演習：デフォルト引数とバリデーション）</h4>
+<div class="outline-text-4" id="text-13-2-2">
+<pre class="example" id="orgbfa0b27">
+ユーザー名と挨拶文を引数に取る関数 `greetUser(name = "ゲスト", message = "こんにちは")` を作成してください。引数が渡されなかった場合でもデフォルト値で安全に動作することを確認してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org8245e7f" class="outline-4">
+<h4 id="org8245e7f"><span class="section-number-4">13.2.3.</span> 例3（発展：コールバック関数とsetTimeout）</h4>
+<div class="outline-text-4" id="text-13-2-3">
+<pre class="example" id="orga499797">
+ボタンを押してから3秒後に『タイマーが完了しました！』と表示する非同期処理を、setTimeout とアロー関数（コールバック関数）を使って実装してください。
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org79683a3" class="outline-3">
+<h3 id="org79683a3"><span class="section-number-3">13.3.</span> 指導解説ポイント</h3>
+<div class="outline-text-3" id="text-13-3">
+<ul class="org-ul">
+<li>関数を部品化して再利用する意義と、ローカル変数・グローバル変数のスコープの違いを解説します。</li>
+</ul>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org4d7a290" class="outline-2">
+<h2 id="org4d7a290"><span class="section-number-2">14.</span> 第13回：オブジェクト指向構文</h2>
+<div class="outline-text-2" id="text-14">
+</div>
+<div id="outline-container-org249aada" class="outline-3">
+<h3 id="org249aada"><span class="section-number-3">14.1.</span> ねらい</h3>
+<div class="outline-text-3" id="text-14-1">
+<p>
+クラス（class）の定義、コンストラクタ（constructor）、プロパティ、メソッド、カプセル化の考え方を理解する。
+</p>
+</div>
+</div>
+<div id="outline-container-org8de67f7" class="outline-3">
+<h3 id="org8de67f7"><span class="section-number-3">14.2.</span> プロンプト例</h3>
+<div class="outline-text-3" id="text-14-2">
+</div>
+<div id="outline-container-org1bc7d77" class="outline-4">
+<h4 id="org1bc7d77"><span class="section-number-4">14.2.1.</span> 例1（教員実演：Student クラスとメソッド）</h4>
+<div class="outline-text-4" id="text-14-2-1">
+<pre class="example" id="orgfb8917c">
+学生を表す `Student` クラスを作成してください。プロパティとして『氏名』『学籍番号』『取得単位数』を持ち、単位を追加するメソッド `addCredits(num)` と、卒業判定メッセージを返すメソッドを定義して実行例を示してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org09d9deb" class="outline-4">
+<h4 id="org09d9deb"><span class="section-number-4">14.2.2.</span> 例2（学生演習：ShoppingCart クラス）</h4>
+<div class="outline-text-4" id="text-14-2-2">
+<pre class="example" id="org8f7022c">
+オンラインショップの『ShoppingCart』クラスを作成してください。商品を追加する `addItem(item)`、合計金額を計算する `getTotalPrice()`、カートを空にする `clear()` メソッドを実装し、動作確認コードを記述してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-orge65e2e4" class="outline-4">
+<h4 id="orge65e2e4"><span class="section-number-4">14.2.3.</span> 例3（発展：クラスの継承 extends）</h4>
+<div class="outline-text-4" id="text-14-2-3">
+<pre class="example" id="org05d0f0e">
+ユーザー基本クラス `User` を作成し、それを継承した管理者クラス `AdminUser` を作成してください。`AdminUser` にのみ『ユーザー削除権限メソッド `deleteUser()`』を追加して、オブジェクト指向の継承の仕組みを確認してください。
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgff9a15b" class="outline-3">
+<h3 id="orgff9a15b"><span class="section-number-3">14.3.</span> 指導解説ポイント</h3>
+<div class="outline-text-3" id="text-14-3">
+<ul class="org-ul">
+<li>クラスがデータと処理（メソッド）をセットで扱う設計図であることを実例を通じて解説します。</li>
+</ul>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb7b69e5" class="outline-2">
+<h2 id="orgb7b69e5"><span class="section-number-2">15.</span> 第14回：DOM（Document Object Model）</h2>
+<div class="outline-text-2" id="text-15">
+</div>
+<div id="outline-container-org709adbe" class="outline-3">
+<h3 id="org709adbe"><span class="section-number-3">15.1.</span> ねらい</h3>
+<div class="outline-text-3" id="text-15-1">
+<p>
+DOM要素の取得（querySelector）、イベントハンドラ（addEventListener）、クラス・スタイルの動的変更を理解する。
+</p>
+</div>
+</div>
+<div id="outline-container-orgf26030e" class="outline-3">
+<h3 id="orgf26030e"><span class="section-number-3">15.2.</span> プロンプト例</h3>
+<div class="outline-text-3" id="text-15-2">
+</div>
+<div id="outline-container-org1ed3550" class="outline-4">
+<h4 id="org1ed3550"><span class="section-number-4">15.2.1.</span> 例1（教員実演：classList.toggle によるダークモード切替）</h4>
+<div class="outline-text-4" id="text-15-2-1">
+<pre class="example" id="orgcc3a93f">
+ボタンをクリックしたら、特定要素のテキスト（textContent）を書き換え、CSSクラスを付け替える方式（classList.toggle('dark-mode')）で『ダークモード/ライトモード』の表示を動的に切り替えるJavaScriptを作成してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org45d1378" class="outline-4">
+<h4 id="org45d1378"><span class="section-number-4">15.2.2.</span> 例2（学生演習：動的なToDoリストの追加・削除）</h4>
+<div class="outline-text-4" id="text-15-2-2">
+<pre class="example" id="org65f8d0b">
+テキスト入力欄と追加ボタンを用意し、ボタンを押すと入力内容が `&lt;ul&gt;` 内に新しい `&lt;li&gt;` 要素として追加（document.createElement, appendChild）され、各行の削除ボタンを押すとその要素が消えるToDoリストを作成してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-org2a58015" class="outline-4">
+<h4 id="org2a58015"><span class="section-number-4">15.2.3.</span> 例3（発展：リアルタイム文字数カウント）</h4>
+<div class="outline-text-4" id="text-15-2-3">
+<pre class="example" id="orgd6519b6">
+textarea要素の入力イベント（input）を監視し、リアルタイムで現在の文字数を表示する処理を作成してください。100文字を超えた場合は文字数カウントの文字色を赤色（危険スタイル）に変更するDOM操作を行ってください。
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org0c2dbf5" class="outline-3">
+<h3 id="org0c2dbf5"><span class="section-number-3">15.3.</span> 指導解説ポイント</h3>
+<div class="outline-text-3" id="text-15-3">
+<ul class="org-ul">
+<li>イベントが発生したときにJavaScriptがHTML構造（DOMツリー）をどう変化させているかをデベロッパーツール（F12）のElementsタブで視覚的に観察させます。</li>
+</ul>
+
+<p>
+&mdash;
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orge34f366" class="outline-2">
+<h2 id="orge34f366"><span class="section-number-2">16.</span> 第15回：高度なクライアントサイド開発</h2>
+<div class="outline-text-2" id="text-16">
+</div>
+<div id="outline-container-orgbe5bb3c" class="outline-3">
+<h3 id="orgbe5bb3c"><span class="section-number-3">16.1.</span> ねらい</h3>
+<div class="outline-text-3" id="text-16-1">
+<p>
+非同期処理（Promise, fetch API, async/await）、JSONデータの扱い、エラーハンドリング（try-catch）を理解する。
+</p>
+</div>
+</div>
+<div id="outline-container-org9698dc0" class="outline-3">
+<h3 id="org9698dc0"><span class="section-number-3">16.2.</span> プロンプト例</h3>
+<div class="outline-text-3" id="text-16-2">
+</div>
+<div id="outline-container-org2dcbfd7" class="outline-4">
+<h4 id="org2dcbfd7"><span class="section-number-4">16.2.1.</span> 例1（教員実演：Open-Meteo 天気APIの取得）</h4>
+<div class="outline-text-4" id="text-16-2-1">
+<pre class="example" id="org37e4a9e">
+無料の天気API（Open-Meteo）から現在の東京の天気を `fetch` と `async/await` を使って非同期取得し、画面に表示してください。データ取得中の『Loading...』表示と、エラー発生時の try-catch 処理も含めてください。
+</pre>
+</div>
+</div>
+<div id="outline-container-orgd300d97" class="outline-4">
+<h4 id="orgd300d97"><span class="section-number-4">16.2.2.</span> 例2（学生演習：JSONPlaceholder からのカード描画）</h4>
+<div class="outline-text-4" id="text-16-2-2">
+<pre class="example" id="org7e7ea97">
+ダミーAPI（JSONPlaceholder /posts）から投稿データ5件を `async/await` で取得し、JavaScriptで動的にHTMLカードを作成して画面上にグリッド表示するプログラムを作成してください。
+</pre>
+</div>
+</div>
+<div id="outline-container-orgdf56822" class="outline-4">
+<h4 id="orgdf56822"><span class="section-number-4">16.2.3.</span> 例3（発展：LocalStorage によるデータ保存・復元）</h4>
+<div class="outline-text-4" id="text-16-2-3">
+<pre class="example" id="org52991e6">
+入力したメモテキストをブラウザの `localStorage` に保存（JSON.stringify）し、ページをリロードしても保存されたメモが復元（JSON.parse）されるメモ帳機能を作成してください。
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org95a2c98" class="outline-3">
+<h3 id="org95a2c98"><span class="section-number-3">16.3.</span> 指導解説ポイント</h3>
+<div class="outline-text-3" id="text-16-3">
+<ul class="org-ul">
+<li>ネットワーク通信の遅延（非同期）と `async/await` の役割、API連携時のエラー対策の必要性を提示します。</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2026-09-17</p>
+<p class="author">Author: 中鉢 欣秀</p>
+<p class="date">Created: 2026-09-18 Fri 10:03</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
