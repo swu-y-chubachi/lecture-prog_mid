@@ -3,3 +3,19 @@
 
 * lecture-prog_mid
 プログラミング中級用授業資料
+
+* ガイダンス
+- 学習目標
+- 目的・狙い
+- 計画
+
+* GitHubアカウント作成とOrganization参加
+- GitHub Educationのアカウントを作成
+- アカウント、GitHub URLの提出
+- GitHub Organizationに登録
+
+* リポジトリ作成とCodespase
+- 教員がOrganizationで作成したテンプレートからリポジトリを作成
+- GitHub codespaceを立ち上げる
+- バイブコーディングを試す
+- 作業内容をコミット・プッシュ
