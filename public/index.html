@@ -3,21 +3,331 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-09-19 Sat 19:09 -->
+<!-- 2026-09-19 Sat 19:40 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>プログラミング中級（中鉢）：第1回授業の内容</title>
-<meta name="author" content="中鉢欣秀" />
+<title>2026年度後期「プログラミング中級（DI1A）」受講生用ポータルサイト</title>
+<meta name="author" content="中鉢 欣秀（デジタルイノベーション学科）" />
 <meta name="generator" content="Org Mode" />
 <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css" /><style>body, h1, h2, h3, h4, h5, h6, p, table, ul, ol { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif !important; }</style>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">プログラミング中級（中鉢）：第1回授業の内容</h1>
+<h1 class="title">2026年度後期「プログラミング中級（DI1A）」受講生用ポータルサイト
+<br />
+<span class="subtitle">AI（GitHub Copilot）と対話し、Webアプリケーション開発をマスターする</span>
+</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org7d64932">1. はじめに</a></li>
+<li><a href="#orgd0ee762">2. 授業基本情報</a></li>
+<li><a href="#orgbd53e3b">3. 授業到達目標</a></li>
+<li><a href="#org24796fd">4. 配布資料・各種ガイド（インデックス）</a>
+<ul>
+<li><a href="#orgdf323bd">4.1. 1. 初回準備・受講環境ガイド</a></li>
+<li><a href="#orge01935e">4.2. 2. 演習・プロンプト集・ワークシート</a></li>
+<li><a href="#org58f2996">4.3. 3. 評価・セルフチェック・トラブルシューティング</a></li>
+</ul>
+</li>
+<li><a href="#org645a4dd">5. 授業計画（全15回スケジュール）</a></li>
+<li><a href="#org6ebbc65">6. 成績評価方法・割合</a></li>
+<li><a href="#orgf7c9170">7. 指定教科書</a></li>
+<li><a href="#org87997e4">8. お問い合わせ・連絡先</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7d64932" class="outline-2">
+<h2 id="org7d64932"><span class="section-number-2">1.</span> はじめに</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+本サイトは、2026年度後期に開講される「プログラミング中級（DI1A）」の授業資料・演習ガイド・課題提出情報を集約したポータルページです [70]。本授業では、Webアプリケーションのフロントエンド（画面構成・動的機能）を支える <b><b>HTML / CSS / JavaScript</b></b> の実践的な習得を目指します [70, 71]。
+</p>
+
+<p>
+今年度の授業では、最新のAI支援開発ツール <b><b>GitHub Copilot</b></b> を活用し、AIと対話しながらコードを生成・理解・デバッグする <b><b>バイブコーディング（Vibe Coding）</b></b> の学習スタイルを取り入れます [15, 58]。
+</p>
+</div>
+</div>
+<div id="outline-container-orgd0ee762" class="outline-2">
+<h2 id="orgd0ee762"><span class="section-number-2">2.</span> 授業基本情報</h2>
+<div class="outline-text-2" id="text-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">項目</th>
+<th scope="col" class="org-left">内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">科目名</td>
+<td class="org-left">プログラミング中級 (DI1A) / Intermediate Programming [70]</td>
+</tr>
+
+<tr>
+<td class="org-left">授業コード / ナンバリング</td>
+<td class="org-left">2283190 / ICTE121J [70]</td>
+</tr>
+
+<tr>
+<td class="org-left">開設学科</td>
+<td class="org-left">デジタルイノベーション学科 [70]</td>
+</tr>
+
+<tr>
+<td class="org-left">開講時期 / 単位数</td>
+<td class="org-left">2026年度後期 / 2単位 [70]</td>
+</tr>
+
+<tr>
+<td class="org-left">担当教員</td>
+<td class="org-left">中鉢 欣秀 [70]</td>
+</tr>
+
+<tr>
+<td class="org-left">オフィスアワー</td>
+<td class="org-left">木曜日 13:10〜14:40（研究室: B10-4T08） [72]</td>
+</tr>
+
+<tr>
+<td class="org-left">履修条件・準備物</td>
+<td class="org-left">ノートPCおよび無線LAN環境の持参 [72]</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orgbd53e3b" class="outline-2">
+<h2 id="orgbd53e3b"><span class="section-number-2">3.</span> 授業到達目標</h2>
+<div class="outline-text-2" id="text-3">
+<ol class="org-ol">
+<li>フロントエンドの技術（Webの仕組み・クライアント/サーバー通信）を理解し利用できる [70]。</li>
+<li>マークアップ言語（HTML/CSS）を理解し、見やすく使いやすい画面を表現できる [70]。</li>
+<li>JavaScript を理解し、動的なユーザーインタフェースを実現できる [70]。</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org24796fd" class="outline-2">
+<h2 id="org24796fd"><span class="section-number-2">4.</span> 配布資料・各種ガイド（インデックス）</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+受講生の皆さんは、学習の進行に合わせて以下の各種ガイドや資料を参照してください。
+</p>
+</div>
+<div id="outline-container-orgdf323bd" class="outline-3">
+<h3 id="orgdf323bd"><span class="section-number-3">4.1.</span> 1. 初回準備・受講環境ガイド</h3>
+<div class="outline-text-3" id="text-4-1">
+<ul class="org-ul">
+<li><a href="first-lesson-github-guide-v2.html">初回授業演習ガイド：GitHub Organization・Codespaces・Copilot 導入手順</a>
+<ul class="org-ul">
+<li>GitHubアカウント作成、大学メール認証、学割（GitHub Education）申請、授業Organization参加の手順 [59, 81]。</li>
+</ul></li>
+<li><a href="github-account-submission-guide.html">GitHubアカウント情報・プロフィールURL 提出手順書</a>
+<ul class="org-ul">
+<li>アカウント名・プロフィールURLの確認と提出フォーム入力手順。</li>
+</ul></li>
+<li><a href="orientation-slide-deck-v2.html">オリエンテーション用スライド構成資料</a>
+<ul class="org-ul">
+<li>第1回授業で投影する授業方針、バイブコーディングの狙い、学習フローの概要 [58]。</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge01935e" class="outline-3">
+<h3 id="orge01935e"><span class="section-number-3">4.2.</span> 2. 演習・プロンプト集・ワークシート</h3>
+<div class="outline-text-3" id="text-4-2">
+<ul class="org-ul">
+<li><a href="syllabus-copilot-prompts-15lessons-v3.html">全15回 GitHub Copilot 用プロンプト集（v3）</a>
+<ul class="org-ul">
+<li>各回のテーマに沿った「教員実演用」「学生演習用」「発展・デバッグ用」プロンプト（全45例） [60, 61, 62]。</li>
+</ul></li>
+<li><a href="f12-debugging-demo-script.html">F12デベロッパーツール＆対話型デバッグ実演ガイド</a>
+<ul class="org-ul">
+<li>ブラウザのデベロッパーツール（F12）を用いたエラー確認と Copilot Chat での自力解決手順 [62]。</li>
+</ul></li>
+<li><a href="html-practice-worksheet-lesson2.md">第2回 HTML基礎演習ワークシート</a>
+<ul class="org-ul">
+<li>実習用ワークシート・演習ステップ。</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org58f2996" class="outline-3">
+<h3 id="org58f2996"><span class="section-number-3">4.3.</span> 3. 評価・セルフチェック・トラブルシューティング</h3>
+<div class="outline-text-3" id="text-4-3">
+<ul class="org-ul">
+<li><a href="assignment-self-checklist.html">課題提出時セルフチェックシート</a>
+<ul class="org-ul">
+<li>コミット・プッシュ、F12エラーチェック、プロンプト思考、コード解読（Read &amp; Verify）の確認表 [58, 62]。</li>
+</ul></li>
+<li><a href="assessment-rubric.html">成績評価用ルーブリック表</a>
+<ul class="org-ul">
+<li>評価割合（授業参加等 30% / 課題・試験等 70%）および評価基準詳細 [72]。</li>
+</ul></li>
+<li><a href="troubleshooting-guide-v2.html">トラブルシューティングガイド（v2）</a>
+<ul class="org-ul">
+<li>アカウント設定、学割申請、Codespacesフリーズ、Codespaces画面整理（レイアウト調整）等の対処法 [59, 81]。</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org645a4dd" class="outline-2">
+<h2 id="org645a4dd"><span class="section-number-2">5.</span> 授業計画（全15回スケジュール）</h2>
+<div class="outline-text-2" id="text-5">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">回</th>
+<th scope="col" class="org-left">授業テーマ</th>
+<th scope="col" class="org-left">主な学習内容・GitHub Copilot活用アプローチ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">第1回</td>
+<td class="org-left">GitHub開発環境の構築と準備</td>
+<td class="org-left">アカウント作成、学割申請、授業Organization参加、Codespaces/Copilot起動確認 [59, 81]</td>
+</tr>
+
+<tr>
+<td class="org-left">第2回</td>
+<td class="org-left">HTML の基本を理解してコーディングする</td>
+<td class="org-left">タグ構造（h1, p, ul）とセマンティックタグ（header, main, footer）の骨格作成 [60, 71]</td>
+</tr>
+
+<tr>
+<td class="org-left">第3回</td>
+<td class="org-left">HTML の基本を理解してコーディングする。その2</td>
+<td class="org-left">フォーム要素（form）やテーブル（table）構造の追加と拡張 [71]</td>
+</tr>
+
+<tr>
+<td class="org-left">第4回</td>
+<td class="org-left">CSS の基本を理解する</td>
+<td class="org-left">色、余白、配置の基礎と「Vibe（雰囲気）」を指定したスタイリング [60, 71]</td>
+</tr>
+
+<tr>
+<td class="org-left">第5回</td>
+<td class="org-left">CSS の基本を理解する。その2</td>
+<td class="org-left">Flexboxレイアウトおよびメディアクエリ（@media）によるレスポンシブ対応 [71]</td>
+</tr>
+
+<tr>
+<td class="org-left">第6回</td>
+<td class="org-left">CSS の応用(CMS、Bootstrap など)</td>
+<td class="org-left">Bootstrap 5 等の外部UIライブラリを活用したデザイン刷新 [71]</td>
+</tr>
+
+<tr>
+<td class="org-left">第7回</td>
+<td class="org-left">JavaScript イントロダクション</td>
+<td class="org-left">スクリプトの読み込みとコンソール（console.log）出力の理解 [71]</td>
+</tr>
+
+<tr>
+<td class="org-left">第8回</td>
+<td class="org-left">基本的な書き方を身に着ける</td>
+<td class="org-left">変数宣言（let / const）とデータ型の扱い [71]</td>
+</tr>
+
+<tr>
+<td class="org-left">第9回</td>
+<td class="org-left">演算子を理解し、使用する</td>
+<td class="org-left">算術・比較・論理演算子の活用と判定処理 [71]</td>
+</tr>
+
+<tr>
+<td class="org-left">第10回</td>
+<td class="org-left">制御構文を理解し、使用する</td>
+<td class="org-left">条件分岐（if）および繰り返し処理（for / while） [71]</td>
+</tr>
+
+<tr>
+<td class="org-left">第11回</td>
+<td class="org-left">組み込みオブジェクトを理解し、使用する</td>
+<td class="org-left">Date や Math.random など組み込みオブジェクトの操作 [71]</td>
+</tr>
+
+<tr>
+<td class="org-left">第12回</td>
+<td class="org-left">関数を理解し利用する</td>
+<td class="org-left">関数の定義、引数・戻り値、アロー関数の理解 [71]</td>
+</tr>
+
+<tr>
+<td class="org-left">第13回</td>
+<td class="org-left">オブジェクト指向構文</td>
+<td class="org-left">クラス（class）、プロパティ、メソッドの定義と利用 [71]</td>
+</tr>
+
+<tr>
+<td class="org-left">第14回</td>
+<td class="org-left">DOM(Document Object Model)</td>
+<td class="org-left">DOM操作とイベントハンドリング（classList.toggle 等による動的切替） [61, 71]</td>
+</tr>
+
+<tr>
+<td class="org-left">第15回</td>
+<td class="org-left">高度なクライアントサイド開発</td>
+<td class="org-left">API連携（fetch / async/await）、非同期処理、try-catchデバッグ [61, 71]</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org6ebbc65" class="outline-2">
+<h2 id="org6ebbc65"><span class="section-number-2">6.</span> 成績評価方法・割合</h2>
+<div class="outline-text-2" id="text-6">
+<dl class="org-dl">
+<dt><b><b>授業の事前準備、授業参加態度、発表、討論等</b></b></dt><dd>30% [72]</dd>
+<dt><b><b>課題レポート、試験等</b></b></dt><dd>70% [72]</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-orgf7c9170" class="outline-2">
+<h2 id="orgf7c9170"><span class="section-number-2">7.</span> 指定教科書</h2>
+<div class="outline-text-2" id="text-7">
+<ol class="org-ol">
+<li>Mana (2024) 『1冊ですべて身につく HTML &amp; CSS と Webデザイン入門講座 [第2版]』 SBクリエイティブ (ISBN: 9784815618469) [72]</li>
+<li>山田祥寛 (2023) 『JavaScript本格入門 [改訂第3版]』 技術評論社 (ISBN: 9784297132880) [72]</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org87997e4" class="outline-2">
+<h2 id="org87997e4"><span class="section-number-2">8.</span> お問い合わせ・連絡先</h2>
+<div class="outline-text-2" id="text-8">
+<dl class="org-dl">
+<dt>担当教員</dt><dd>中鉢 欣秀（常勤教員） [70, 72]</dd>
+<dt>オフィスアワー</dt><dd>木曜日 13:10〜14:40（研究室: B10-4T08） [72]</dd>
+<dt>注意事項</dt><dd>質問や相談がある場合は、授業後の時間帯またはオフィスアワーをご利用ください [72]。</dd>
+</dl>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
-<p class="author">Author: 中鉢欣秀</p>
-<p class="date">Created: 2026-09-19 Sat 19:09</p>
+<p class="date">Date: 2026-09-19</p>
+<p class="author">Author: 中鉢 欣秀（デジタルイノベーション学科）</p>
+<p class="date">Created: 2026-09-19 Sat 19:40</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
