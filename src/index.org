@@ -1,43 +1,52 @@
 #+TITLE: 2026年度後期「プログラミング中級（DI1A）」受講生用ポータル・学習ガイド
 #+SUBTITLE: AI（GitHub Copilot）と対話し、Webアプリケーション開発をマスターする
 #+AUTHOR: 中鉢 欣秀（デジタルイノベーション学科）
-#+DATE: 2026-09-19
+#+DATE: 2026-09-20
 #+OPTIONS: toc:t num:t ^:nil
 
-* ガイダンス
+* はじめに
+本サイトは、2026年度後期に開講される「プログラミング中級（DI1A）」の授業資料・演習ガイド・課題提出情報を集約したポータルページです。
+本授業では、Webアプリケーションのフロントエンド（画面構成・動的機能）を支える **HTML / CSS / JavaScript** の実践的な習得を目指します。
+
+今年度の授業では、最新のAI支援開発ツール **GitHub Copilot** を活用し、AIと対話しながらコードを生成・理解・デバッグする **バイブコーディング（Vibe Coding）** の学習スタイルを取り入れます。
+
+* 1. ガイダンス
 ** 学習目標
-- **フロントエンド技術の理解と利用**: Webの仕組み（クライアント/サーバー通信）や画面構成要素を深く理解して活用できる [70]。
-- **マークアップ言語（HTML/CSS）の習得**: セマンティックなHTML構造と見やすく使いやすいデザイン・レイアウトを構築できる [70]。
-- **JavaScriptによる動的UIの実現**: イベント処理、DOM操作、非同期処理（fetch/async/await）を用いて動的なユーザー体験を実現できる [70, 71]。
+- **フロントエンド技術の理解と利用**: Webの仕組み（クライアント/サーバー通信）や画面構成要素を深く理解して活用できる。
+- **マークアップ言語（HTML/CSS）の習得**: セマンティックなHTML構造と見やすく使いやすいデザイン・レイアウトを構築できる。
+- **JavaScriptによる動的UIの実現**: イベント処理、DOM操作、非同期処理（fetch/async/await）を用いて動的なユーザー体験を実現できる。
 
 ** 目的・狙い
-- **バイブコーディング（Vibe Coding）の導入**: 構文の暗記や単純なタイピングエラー（Syntax Error）による挫折を防ぎ、目的・設計の思考に集中する [58]。
-- **プロンプト思考（要求定義力）の育成**: AI（GitHub Copilot）に対し、構造・見た目（Vibe）・制約条件を明記した論理的指示を与える能力を養う [58, 60]。
-- **コード解読力（Read & Verify）とデバッグ力**: AIが生成したコードの仕組みを解読し、F12デベロッパーツールとCopilot Chatを組み合わせた対話型デバッグで自力解決する姿勢を身につける [58, 62]。
+- **バイブコーディング（Vibe Coding）の導入**: 構文の暗記や単純なタイピングエラー（Syntax Error）による挫折を防ぎ、目的・設計の思考に集中する。
+- **プロンプト思考（要求定義力）の育成**: AI（GitHub Copilot）に対し、構造・見た目（Vibe）・制約条件を明記した論理的指示を与える能力を養う。
+- **コード解読力（Read & Verify）とデバッグ力**: AIが生成したコードの仕組みを解読し、F12デベロッパーツールとCopilot Chatを組み合わせた対話型デバッグで自力解決する姿勢を身につける。
 
 ** 計画（全15回スケジュール）
 | 回 | 授業テーマ | 主な学習内容・GitHub Copilot活用アプローチ |
 |----+----------+-------------------------------------------|
-| 第1回 | GitHub開発環境の構築と準備 | アカウント作成、学割申請、授業Organization参加、Codespaces/Copilot起動確認 [59, 81] |
-| 第2回 | HTML の基本を理解してコーディングする | タグ構造（h1, p, ul）とセマンティックタグ（header, main, footer）の骨格作成 [60, 71] |
-| 第3回 | HTML の基本を理解してコーディングする。その2 | フォーム要素（form）やテーブル（table）構造の追加と拡張 [71] |
-| 第4回 | CSS の基本を理解する | 色、余白、配置の基礎と「Vibe（雰囲気）」を指定したスタイリング [60, 71] |
-| 第5回 | CSS の基本を理解する。その2 | Flexboxレイアウトおよびメディアクエリ（@media）によるレスポンシブ対応 [71] |
-| 第6回 | CSS の応用(CMS、Bootstrap など) | Bootstrap 5 等の外部UIライブラリを活用したデザイン刷新 [71] |
-| 第7回 | JavaScript イントロダクション | スクリプトの読み込みとコンソール（console.log）出力の理解 [71] |
-| 第8回 | 基本的な書き方を身に着ける | 変数宣言（let / const）とデータ型の扱い [71] |
-| 第9回 | 演算子を理解し、使用する | 算術・比較・論理演算子の活用と判定処理 [71] |
-| 第10回 | 制御構文を理解し、使用する | 条件分岐（if）および繰り返し処理（for / while） [71] |
-| 第11回 | 組み込みオブジェクトを理解し、使用する | Date や Math.random など組み込みオブジェクトの操作 [71] |
-| 第12回 | 関数を理解し利用する | 関数の定義、引数・戻り値、アロー関数の理解 [71] |
-| 第13回 | オブジェクト指向構文 | クラス（class）、プロパティ、メソッドの定義と利用 [71] |
-| 第14回 | DOM(Document Object Model) | DOM操作とイベントハンドリング（classList.toggle 等による動的切替） [61, 71] |
-| 第15回 | 高度なクライアントサイド開発 | API連携（fetch / async/await）、非同期処理、try-catchデバッグ [61, 71] |
+| 第1回 | GitHub開発環境の構築と準備 | アカウント作成、学割申請、授業Organization参加、Codespaces/Copilot起動確認 |
+| 第2回 | HTML の基本を理解してコーディングする | タグ構造（h1, p, ul）とセマンティックタグ（header, main, footer）の骨格作成 |
+| 第3回 | HTML の基本を理解してコーディングする。その2 | フォーム要素（form）やテーブル（table）構造の追加と拡張 |
+| 第4回 | CSS の基本を理解する | 色、余白、配置の基礎と「Vibe（雰囲気）」を指定したスタイリング |
+| 第5回 | CSS の基本を理解する。その2 | Flexboxレイアウトおよびメディアクエリ（@media）によるレスポンシブ対応 |
+| 第6回 | CSS の応用(CMS、Bootstrap など) | Bootstrap 5 等の外部UIライブラリを活用したデザイン刷新 |
+| 第7回 | JavaScript イントロダクション | スクリプトの読み込みとコンソール（console.log）出力の理解 |
+| 第8回 | 基本的な書き方を身に着ける | 変数宣言（let / const）とデータ型の扱い |
+| 第9回 | 演算子を理解し、使用する | 算術・比較・論理演算子の活用と判定処理 |
+| 第10回 | 制御構文を理解し、使用する | 条件分岐（if）および繰り返し処理（for / while） |
+| 第11回 | 組み込みオブジェクトを理解し、使用する | Date や Math.random など組み込みオブジェクトの操作 |
+| 第12回 | 関数を理解し利用する | 関数の定義、引数・戻り値、アロー関数の理解 |
+| 第13回 | オブジェクト指向構文 | クラス（class）、プロパティ、メソッドの定義と利用 |
+| 第14回 | DOM(Document Object Model) | DOM操作とイベントハンドリング（classList.toggle 等による動的切替） |
+| 第15回 | 高度なクライアントサイド開発 | API連携（fetch / async/await）、非同期処理、try-catchデバッグ |
 
-* GitHubアカウント作成とOrganization参加
+👉 **[[file:guidance.org][ガイダンス詳細ドキュメント（学習目標・目的・授業計画）を開く]]**
+👉 **[[file:syllabus.org][全15回詳細シラバスを開く]]**
+
+* 2. GitHubアカウント作成とOrganization参加
 ** GitHub Educationのアカウントを作成
-1. **GitHubアカウントの登録**: 大学発行のメールアドレス（`@...ac.jp`）を使用してアカウントを作成または追加認証する [59, 81]。
-2. **GitHub Education（学割）申請**: 学生証画像を準備し、GitHub Student Developer Pack へ申請を行う（GitHub Copilot と Codespaces 月180時間が無料化） [59]。
+1. **GitHubアカウントの登録**: 大学発行のメールアドレス（`@...ac.jp`）を使用してアカウントを作成または追加認証する。
+2. **GitHub Education（学割）申請**: 学生証画像を準備し、GitHub Student Developer Pack へ申請を行う（GitHub Copilot と Codespaces 月180時間が無料化）。
 
 ** アカウント、GitHub URLの提出
 1. **プロフィール名・設定の確認**: 学割トラブルや個人識別不能を防ぐため、DisplayName に英語表記の本名（例: `Taro Yamada`）を設定する。
@@ -47,19 +56,47 @@
 1. **招待の確認**: 大学メール宛の招待メール、または直接指定リンク（`https://github.com/orgs/[授業Organization名]/invitation`）を開く。
 2. **Organizationへの参加**: `Join [授業Organization名]` をクリックし、授業用チームへの所属を完了させる。
 
-* リポジトリ作成とCodespace
+👉 **[[file:github-account-and-org.org][GitHubアカウント作成とOrganization参加ガイドを開く]]**
+
+* 3. リポジトリ作成とCodespace
 ** 教員がOrganizationで作成したテンプレートからリポジトリを作成
 1. **テンプレートリポジトリの選択**: 授業Organizationページ（`https://github.com/[授業Organization名]`）から `lesson01-template` を開く。
 2. **Privateリポジトリの生成**: `Use this template` ➔ `Create a new repository` を選択し、リポジトリ名 `lesson01-学籍番号`（Private設定）で作成する。
 
 ** GitHub codespaceを立ち上げる
-1. **Codespacesの生成**: 作成した自分用リポジトリ画面で `<> Code` ➔ `Codespaces` タブ ➔ `Create codespace on main` をクリックする [59]。
+1. **Codespacesの生成**: 作成した自分用リポジトリ画面で `<> Code` ➔ `Codespaces` タブ ➔ `Create codespace on main` をクリックする。
 2. **画面レイアウトの整理**: 不要なエディタータブを閉じ（`Ctrl+W`）、`Ctrl+B` で左サイドバーを折りたたんで作業領域をすっきり確保する。
 
 ** バイブコーディングを試す
-1. **Copilot Chatの起動**: 左アクティビティバーの吹き出しアイコン（GitHub Copilot Chat）を開く [15, 21]。
-2. **プロンプト送信とコード反映**: 目的・構造・制約（HTMLのみ、CSSクラス追加等）を指定した指示を送信し、提案コードを `Apply in Editor` でファイルへ反映・動作確認する [21, 60]。
+1. **Copilot Chatの起動**: 左アクティビティバーの吹き出しアイコン（GitHub Copilot Chat）を開く。
+2. **プロンプト送信とコード反映**: 目的・構造・制約（HTMLのみ、CSSクラス追加等）を指定した指示を送信し、提案コードを `Apply in Editor` でファイルへ反映・動作確認する。
 
 ** 作業内容をコミット・プッシュ
 1. **変更の確認とコミット**: VS Codeの「ソース管理」パネル（またはターミナル）から、意味のある単位でメッセージを入力してコミットを行う。
 2. **GitHubへのプッシュ**: リポジトリの `main` ブランチへ変更をプッシュし、GitHub上のWeb画面で最新コードが反映されていることを確認する。
+
+👉 **[[file:repository-and-codespaces.org][リポジトリ作成・Codespaces演習ガイドを開く]]**
+
+* 4. 配布資料・関連ガイド一覧
+受講生の皆さんは、学習の進行に合わせて以下の各種ガイドや資料を参照してください。
+
+** 初回準備・受講環境ガイド
+- [[file:guidance.org][ガイダンス詳細（学習目標・目的・全15回授業計画）]]
+- [[file:github-account-and-org.org][GitHubアカウント作成・学割申請・Organization参加手順書]]
+- [[file:repository-and-codespaces.org][リポジトリ作成・Codespaces・バイブコーディング演習手順書]]
+- [[file:syllabus.org][全15回詳細シラバス]]
+
+** 演習・トラブル対処・デバッグ
+- [[file:guides/troubleshooting.org][トラブルシューティングガイド（環境構築・画面整理・デバッグ）]]
+- [[file:guides/f12-debugging.org][F12デベロッパーツール＆Copilot Chat対話型デバッグガイド]]
+
+** 課題・評価用資料
+- [[file:evaluation/self-checklist.org][課題提出時セルフチェックシート]]
+- [[file:evaluation/rubric.org][成績評価用ルーブリック表]]
+
+** プロンプト集・講義資料
+- [[file:prompts/copilot-prompts.org][全15回 GitHub Copilot 用プロンプト集（全45例）]]
+
+** COMMENT 教員・TA向け運営資料
+- [[file:teacher/orientation-slides.org][初回オリエンテーションスライド構成案]]
+- [[file:teacher/teacher-guidance.org][教員向け授業運営補足説明ペーパー]]
