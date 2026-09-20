@@ -1,0 +1,31 @@
+#+TITLE: 第14回 GitHub Copilot 用プロンプト集
+#+SUBTITLE: プログラミング中級（DI1A） 第14回 演習用プロンプト（3パターン）
+#+AUTHOR: 中鉢 欣秀
+#+DATE: 2026-09-19
+#+OPTIONS: toc:t num:t ^:nil
+
+* 第14回：DOM（Document Object Model）
+** ねらい
+DOM要素の取得（querySelector）、イベントハンドラ（addEventListener）、クラス・スタイルの動的変更を理解する。
+
+** プロンプト例
+*** 例1（教員実演：classList.toggle によるダークモード切替）
+#+BEGIN_EXAMPLE
+ボタンをクリックしたら、特定要素のテキスト（textContent）を書き換え、CSSクラスを付け替える方式（classList.toggle('dark-mode')）で『ダークモード/ライトモード』の表示を動的に切り替えるJavaScriptを作成してください。
+#+END_EXAMPLE
+
+*** 例2（学生演習：動的なToDoリストの追加・削除）
+#+BEGIN_EXAMPLE
+テキスト入力欄と追加ボタンを用意し、ボタンを押すと入力内容が `<ul>` 内に新しい `<li>` 要素として追加（document.createElement, appendChild）され、各行の削除ボタンを押すとその要素が消えるToDoリストを作成してください。
+#+END_EXAMPLE
+
+*** 例3（発展：リアルタイム文字数カウント）
+#+BEGIN_EXAMPLE
+textarea要素の入力イベント（input）を監視し、リアルタイムで現在の文字数を表示する処理を作成してください。100文字を超えた場合は文字数カウントの文字色を赤色（危険スタイル）に変更するDOM操作を行ってください。
+#+END_EXAMPLE
+
+** 指導解説ポイント
+- イベントが発生したときにJavaScriptがHTML構造（DOMツリー）をどう変化させているかをデベロッパーツール（F12）のElementsタブで視覚的に観察させます。
+
+---
+

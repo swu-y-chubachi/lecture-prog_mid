@@ -1,0 +1,31 @@
+#+TITLE: 第7回 GitHub Copilot 用プロンプト集
+#+SUBTITLE: プログラミング中級（DI1A） 第7回 演習用プロンプト（3パターン）
+#+AUTHOR: 中鉢 欣秀
+#+DATE: 2026-09-19
+#+OPTIONS: toc:t num:t ^:nil
+
+* 第7回：JavaScript イントロダクション
+** ねらい
+JavaScriptの役割（動的処理）を理解し、スクリプトの読み込み、ボタンイベント、コンソール出力（console.log）の基本を学ぶ。
+
+** プロンプト例
+*** 例1（教員実演：コンソール出力とイベントListener）
+#+BEGIN_EXAMPLE
+HTML内のボタンをクリックした際に、ブラウザのデベロッパーコンソール（console.log）に『Hello, JavaScript!』とメッセージを出力する一番シンプルなJavaScriptコードを作成してください。
+#+END_EXAMPLE
+
+*** 例2（学生演習：アラート表示とテキスト変更）
+#+BEGIN_EXAMPLE
+ボタンをクリックすると、『登録が完了しました』というアラートダイアログ（alert）を表示し、さらに指定したpタグの文字を『手続き済み』に変更するJavaScriptを作成してください。
+#+END_EXAMPLE
+
+*** 例3（発展：外部JSファイルの分離とdefer属性）
+#+BEGIN_EXAMPLE
+JavaScriptコードを外部ファイル `app.js` に切り出し、HTMLの head 要素内で `defer` 属性を付けて安全に読み込む構造を作成してください。DOMの読み込み完了時にコンソールログを出力させてください。
+#+END_EXAMPLE
+
+** 指導解説ポイント
+- F12の「コンソール（Console）」タブを開き、スクリプトのログやエラーがどのように出力されるかを実演します。
+
+---
+

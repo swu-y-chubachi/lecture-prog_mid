@@ -1,0 +1,31 @@
+#+TITLE: 第6回 GitHub Copilot 用プロンプト集
+#+SUBTITLE: プログラミング中級（DI1A） 第6回 演習用プロンプト（3パターン）
+#+AUTHOR: 中鉢 欣秀
+#+DATE: 2026-09-19
+#+OPTIONS: toc:t num:t ^:nil
+
+* 第6回：CSS の応用（CMS、Bootstrap など）
+** ねらい
+外部UIライブラリ（Bootstrap 5等）のCDN導入と、既存コンポーネントを活用した効率的な画面装飾を理解する。
+
+** プロンプト例
+*** 例1（教員実演：Bootstrap 5 の導入と全体装飾）
+#+BEGIN_EXAMPLE
+Bootstrap 5 をCDN経由で読み込み、全体のデザインをBootstrapのコンポーネント（Navbar, Heroセクション, Card, Primary Button）を使ったスタイリッシュなビジネス風Webサイトに作り直してください。
+#+END_EXAMPLE
+
+*** 例2（学生演習：Bootstrap Grid システムの活用）
+#+BEGIN_EXAMPLE
+Bootstrap 5 のグリッドシステム（container, row, col-md-4）を使って、商品カードをPCでは3列、タブレットでは2列、スマホでは1列に自動配置するHTML構造とクラスを作成してください。
+#+END_EXAMPLE
+
+*** 例3（発展：モーダルダイアログとバッジ機能の追加）
+#+BEGIN_EXAMPLE
+Bootstrap 5 のコンポーネントを使い、ボタンを押すと出現する『利用規約表示用モーダル（Modal）』と、カード右上に付く『NEW』バッジ（Badge）を追加してください。
+#+END_EXAMPLE
+
+** 指導解説ポイント
+- ゼロからCSSを書く場合と、ライブラリを使用する場合の生産性・柔軟性の違いを考察させます。
+
+---
+

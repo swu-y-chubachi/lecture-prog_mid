@@ -1,0 +1,133 @@
+:PROPERTIES:
+:ID:       952c6aad-96ec-4f5e-8cfe-6c2fd4856e35
+:END:
+#+TITLE: 【受講生向け】GitHubアカウント作成＆GitHub Education登録手順書
+#+AUTHOR: 中鉢 欣秀
+
+* GitHubアカウント作成＆GitHub Education登録手順書
+:PROPERTIES:
+:CUSTOM_ID: 受講生向けgithubアカウント作成github-education登録手順書
+:END:
+本手順書は、プログラミング授業（HTML/CSS/JavaScript）で利用する開発環境（GitHub
+Codespaces・GitHub Copilot）を準備するための初回授業ガイダンス資料です。
+
+--------------
+
+** 1. 授業内タイムスケジュール（初回90分）
+:PROPERTIES:
+:CUSTOM_ID: 授業内タイムスケジュール初回90分
+:END:
+| 時間       | 内容                                           | 担当・目標                                           |
+|------------+------------------------------------------------+------------------------------------------------------|
+| *00〜15分* | *導入・事前準備の確認*                         | 授業の目的説明、大学メール・学生証の準備確認         |
+| *15〜35分* | *STEP 1: GitHubアカウント作成・設定*           | アカウント作成、大学メールアドレスの登録・認証       |
+| *35〜65分* | *STEP 2: GitHub Education (学生特典) 申請*     | 学割特典（Student Developer Pack）の申請と証明書提出 |
+| *65〜85分* | *STEP 3: GitHub Codespaces & Copilot 起動確認* | ブラウザ上での開発環境立ち上げと動作テスト           |
+| *85〜90分* | *まとめ・トラブル対応*                         | 申請状況の確認と次回以降の案内                       |
+
+--------------
+
+** 2. 準備するもの
+:PROPERTIES:
+:CUSTOM_ID: 準備するもの
+:END:
+手元に以下の3点を用意してください：
+1. *大学発行のメールアドレス* （例： =XXXXXX@st.swu.ac.jp= ）
+2. *学生証* （物理カードまたはデジタル学生証。カメラ機能付きPCまたはスマートフォンを使用）
+3. *インターネット接続環境* （学内Wi-Fi等）
+
+--------------
+
+** 3. STEP 1: GitHubアカウントの作成・設定
+:PROPERTIES:
+:CUSTOM_ID: step-1-githubアカウントの作成設定
+:END:
+*** Case A: まだGitHubアカウントを持っていない場合
+:PROPERTIES:
+:CUSTOM_ID: case-a-まだgithubアカウントを持っていない場合
+:END:
+1. ブラウザで [[https://github.com][GitHub公式サイト]]
+   にアクセスします。
+2. 右上の *「Sign up」* をクリックします。
+3. 登録用メールアドレスに *「大学のメールアドレス（@...ac.jp）」*
+   を入力します。
+4. パスワードとユーザー名（Username）を設定し、パズル認証等を完了させて
+   *「Create account」* をクリックします。
+5. 大学メール宛に届いた6桁の検証コード（Verification
+   Code）を入力して認証を完了します。
+
+*** Case B: 既に個人用GitHubアカウントを持っている場合
+:PROPERTIES:
+:CUSTOM_ID: case-b-既に個人用githubアカウントを持っている場合
+:END:
+1. 既存のアカウントでログインします。
+2. 右上のアイコン > *「Settings」* > *「Emails」* を開きます。
+3. *「Add email address」*
+   に大学のメールアドレスを追加し、届いた確認メールから認証（Verify）を行ってください。
+
+*重要：プロフィールの設定（審査通過のためのポイント）*
+ * 右上アイコン > *「Settings」* > *「Public profile」* を開きます。
+ * *「Name」* 欄に *学生証と一致する英字氏名（例：Taro Yamada）*
+を入力して保存してください。アカウント名と証明書の名前に乖離があると審査で弾かれる場合があります。
+
+--------------
+
+** 4. STEP 2: GitHub Education（Student Developer Pack）の申請
+:PROPERTIES:
+:CUSTOM_ID: step-2-github-educationstudent-developer-packの申請
+:END:
+GitHub Educationに登録することで、GitHub CopilotおよびGitHub
+Codespaces（月180コア時間無料）などの教育特典を無料で利用できるようになります。
+
+1. ブラウザで [[https://education.github.com/pack][GitHub Education Portal]] にアクセスします。
+2. *「Sign in」* （未ログインの場合）し、 *「Get student benefits」* （学生特典を取得）をクリックします。
+3. *「Select your school email address」* で、STEP 1で登録した
+   *大学のメールアドレス* を選択します。
+4. *「Type your school name」*
+   に大学名（英語表記）を入力し、ドロップダウンから選択します。
+5. *「How do you plan to use GitHub?」* （利用目的）の欄に、簡単な使用目的を英語で入力します。
+   - /(入力例)/
+     =I will use GitHub for learning HTML/CSS/JavaScript and AI-assisted programming in my university course.=
+6. *「Continue」* をクリックし、学生証の撮影・アップロード画面に進みます。
+   - PCのカメラ、またはスマホで画面のQRコードを読み取り、 *学生証の氏名・有効期限・大学名* が鮮明に見えるように撮影してアップロードします。
+7. *「Submit your application」* をクリックして申請を完了します。
+
+※ 申請結果は通常数分〜数時間（混雑時は数日）でメールにて通知されます。
+
+--------------
+
+** 5. STEP 3: GitHub Codespaces ＆ Copilot 動作確認
+:PROPERTIES:
+:CUSTOM_ID: step-3-github-codespaces-copilot-動作確認
+:END:
+申請完了後（または承認待ちの間）、クラウド開発環境「GitHub Codespaces」の起動確認を行います。
+
+1. 教員から指示された *「授業用リポジトリ（Repository）」* のURLにアクセスします。
+2. 緑色の *「<> Code」* ボタンをクリックし、*「Codespaces」* タブを選択します。
+3. *「Create codespace on main」* をクリックします。
+4. 数十秒でブラウザ上に VS Code 画面が起動します（ローカル環境のインストール作業は不要です）。
+5. 左側のサイドバーに *GitHub Copilot* アイコン（またはチャット用アイコン）が表示されているか確認します。
+6. TODO 新規ファイル =index.html= を作成し、=<h1>= と打ち込んでAIによるコード補完や提案が表示されるか試します。
+
+--------------
+
+** 6. よくあるトラブルと対処法（FAQ）
+:PROPERTIES:
+:CUSTOM_ID: よくあるトラブルと対処法faq
+:END:
+- *Q1. 学生証の撮影で「Location Services（位置情報）」のエラーが出ます*
+  - *対処:*
+    GitHubは学校の敷地内から申請されているかを位置情報で確認する場合があります。ブラウザの位置情報利用を「許可」にするか、学内Wi-Fiに接続した状態でスマホから撮影を行ってください。
+- *Q2. 申請が却下（Rejected）されてしまいました*
+  - *対処:*
+    理由の多くは「名前の不一致」「画像が不鮮明」「証明書に日付がない」です。GitHubプロフィールの「Name」を英語の本名に修正し、学生証がハッキリ映るように再撮影して再申請してください。
+- *Q3. 承認までに時間がかかり、初回授業中に間に合いません*
+  - *対処:*
+    Codespacesの基本機能は通常のGitHubアカウント（無料枠）でも利用可能です。初回はアカウント作成とCodespaces起動までを行い、Copilotの連携は承認完了後（次回授業まで）に適用確認を行ってください。
+
+-----
+** 補足説明
+- 3.4. ユーザー名（Username）は「swu-学籍番号」にしてください
+- 3.Case B 既存のユーザー名は「swu-学籍番号」に変更してください（変更したくない場合は相談してください）
+- 4.4. 大学の英語名は「Showa Womens University」を入力してください。
+    GitHubがメールアドレスから類推してくれるかもしれません。その場合はそのまま選択してください。

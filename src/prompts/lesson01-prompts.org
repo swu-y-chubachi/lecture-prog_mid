@@ -1,0 +1,32 @@
+#+TITLE: 第1回 GitHub Copilot 用プロンプト集
+#+SUBTITLE: プログラミング中級（DI1A） 第1回 演習用プロンプト（3パターン）
+#+AUTHOR: 中鉢 欣秀
+#+DATE: 2026-09-19
+#+OPTIONS: toc:t num:t ^:nil
+
+* 第1回：GitHub開発環境の構築と準備（アカウント作成・Education登録・Organization参加・Codespaces確認・Copilot体験）
+** ねらい
+授業に必要なクラウド開発環境（GitHubアカウント、大学メール登録、GitHub Education申請、授業Organization参加、GitHub Codespacesの起動、GitHub Copilot Chatの動作確認）を完全に完了させる。
+
+** プロンプト例
+*** 例1（教員実演：Copilotへの環境・開発ツール確認プロンプト）
+#+BEGIN_EXAMPLE
+GitHub Codespaces と GitHub Copilot Chat が正常に動作しているか確認したいです。プログラミング初心者向けに、GitHubの基本用語（リポジトリ、コミット、プッシュ、ブランチ）の意味を簡潔に解説してください。
+#+END_EXAMPLE
+
+*** 例2（学生演習：GitコマンドとVS Code操作の確認）
+#+BEGIN_EXAMPLE
+VS Code の統合ターミナルでよく使う基本操作（pwd, ls, cd, git status, git add, git commit）のコマンド一覧と、それぞれの役割を分かりやすく表で作成してください。
+#+END_EXAMPLE
+
+*** 例3（発展：Copilot Chatでのプロンプトテスト体験）
+#+BEGIN_EXAMPLE
+これからこの授業で HTML/CSS/JavaScript を学びます。Copilot Chatに対してどのように指示（プロンプト）を出せば、わかりやすい回答やコードの提案が得られるか、効果的なプロンプトの出し方のコツを3つ教えてください。
+#+END_EXAMPLE
+
+** 指導解説ポイント
+- 履修生全員がアカウント作成からCodespaces起動、Copilot Chatでの質問入力まで到達できているかを確認します。
+- エラーが出た場合はCopilot Chatに「このエラーメッセージの原因と解決策を教えて」と質問する体験をさせます。
+
+---
+

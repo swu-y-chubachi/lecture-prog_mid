@@ -1,0 +1,29 @@
+#+TITLE: 第15回 GitHub Copilot 用プロンプト集
+#+SUBTITLE: プログラミング中級（DI1A） 第15回 演習用プロンプト（3パターン）
+#+AUTHOR: 中鉢 欣秀
+#+DATE: 2026-09-19
+#+OPTIONS: toc:t num:t ^:nil
+
+* 第15回：高度なクライアントサイド開発
+** ねらい
+非同期処理（Promise, fetch API, async/await）、JSONデータの扱い、エラーハンドリング（try-catch）を理解する。
+
+** プロンプト例
+*** 例1（教員実演：Open-Meteo 天気APIの取得）
+#+BEGIN_EXAMPLE
+無料の天気API（Open-Meteo）から現在の東京の天気を `fetch` と `async/await` を使って非同期取得し、画面に表示してください。データ取得中の『Loading...』表示と、エラー発生時の try-catch 処理も含めてください。
+#+END_EXAMPLE
+
+*** 例2（学生演習：JSONPlaceholder からのカード描画）
+#+BEGIN_EXAMPLE
+ダミーAPI（JSONPlaceholder /posts）から投稿データ5件を `async/await` で取得し、JavaScriptで動的にHTMLカードを作成して画面上にグリッド表示するプログラムを作成してください。
+#+END_EXAMPLE
+
+*** 例3（発展：LocalStorage によるデータ保存・復元）
+#+BEGIN_EXAMPLE
+入力したメモテキストをブラウザの `localStorage` に保存（JSON.stringify）し、ページをリロードしても保存されたメモが復元（JSON.parse）されるメモ帳機能を作成してください。
+#+END_EXAMPLE
+
+** 指導解説ポイント
+- ネットワーク通信の遅延（非同期）と `async/await` の役割、API連携時のエラー対策の必要性を提示します。
+
