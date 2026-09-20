@@ -1,4 +1,6 @@
 ;;; build.el --- ox-publish HTML Build Script with ID Link & CJK Space Filter Fixes -*- lexical-binding: t; -*-
+;; CI環境用に ~/.emacs.d ディレクトリを事前に作成する
+(make-directory "~/.emacs.d/" t)
 
 (require 'package)
 (setq package-enable-at-startup nil)

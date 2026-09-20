@@ -3,17 +3,17 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2026-09-19 Sat 19:40 -->
+<!-- 2026-09-19 Sat 22:25 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>2026年度後期「プログラミング中級（DI1A）」受講生用ポータルサイト</title>
+<title>2026年度後期「プログラミング中級（DI1A）」受講生用ポータル・学習ガイド</title>
 <meta name="author" content="中鉢 欣秀（デジタルイノベーション学科）" />
 <meta name="generator" content="Org Mode" />
 <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css" /><style>body, h1, h2, h3, h4, h5, h6, p, table, ul, ol { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif !important; }</style>
 </head>
 <body>
 <div id="content" class="content">
-<h1 class="title">2026年度後期「プログラミング中級（DI1A）」受講生用ポータルサイト
+<h1 class="title">2026年度後期「プログラミング中級（DI1A）」受講生用ポータル・学習ガイド
 <br />
 <span class="subtitle">AI（GitHub Copilot）と対話し、Webアプリケーション開発をマスターする</span>
 </h1>
@@ -21,169 +21,58 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org7d64932">1. はじめに</a></li>
-<li><a href="#orgd0ee762">2. 授業基本情報</a></li>
-<li><a href="#orgbd53e3b">3. 授業到達目標</a></li>
-<li><a href="#org24796fd">4. 配布資料・各種ガイド（インデックス）</a>
+<li><a href="#org0ebfd49">1. ガイダンス</a>
 <ul>
-<li><a href="#orgdf323bd">4.1. 1. 初回準備・受講環境ガイド</a></li>
-<li><a href="#orge01935e">4.2. 2. 演習・プロンプト集・ワークシート</a></li>
-<li><a href="#org58f2996">4.3. 3. 評価・セルフチェック・トラブルシューティング</a></li>
+<li><a href="#orgb2dc81c">1.1. 学習目標</a></li>
+<li><a href="#org4023435">1.2. 目的・狙い</a></li>
+<li><a href="#orgaf5b662">1.3. 計画（全15回スケジュール）</a></li>
 </ul>
 </li>
-<li><a href="#org645a4dd">5. 授業計画（全15回スケジュール）</a></li>
-<li><a href="#org6ebbc65">6. 成績評価方法・割合</a></li>
-<li><a href="#orgf7c9170">7. 指定教科書</a></li>
-<li><a href="#org87997e4">8. お問い合わせ・連絡先</a></li>
+<li><a href="#org00c0eab">2. GitHubアカウント作成とOrganization参加</a>
+<ul>
+<li><a href="#org7d28a67">2.1. GitHub Educationのアカウントを作成</a></li>
+<li><a href="#orgc91f343">2.2. アカウント、GitHub URLの提出</a></li>
+<li><a href="#orgbaf14ad">2.3. GitHub Organizationに登録</a></li>
+</ul>
+</li>
+<li><a href="#org0bf0d49">3. リポジトリ作成とCodespace</a>
+<ul>
+<li><a href="#org70aa5b5">3.1. 教員がOrganizationで作成したテンプレートからリポジトリを作成</a></li>
+<li><a href="#org07df586">3.2. GitHub codespaceを立ち上げる</a></li>
+<li><a href="#orgbe70ac2">3.3. バイブコーディングを試す</a></li>
+<li><a href="#org9188346">3.4. 作業内容をコミット・プッシュ</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org7d64932" class="outline-2">
-<h2 id="org7d64932"><span class="section-number-2">1.</span> はじめに</h2>
+<div id="outline-container-org0ebfd49" class="outline-2">
+<h2 id="org0ebfd49"><span class="section-number-2">1.</span> ガイダンス</h2>
 <div class="outline-text-2" id="text-1">
-<p>
-本サイトは、2026年度後期に開講される「プログラミング中級（DI1A）」の授業資料・演習ガイド・課題提出情報を集約したポータルページです [70]。本授業では、Webアプリケーションのフロントエンド（画面構成・動的機能）を支える <b><b>HTML / CSS / JavaScript</b></b> の実践的な習得を目指します [70, 71]。
-</p>
-
-<p>
-今年度の授業では、最新のAI支援開発ツール <b><b>GitHub Copilot</b></b> を活用し、AIと対話しながらコードを生成・理解・デバッグする <b><b>バイブコーディング（Vibe Coding）</b></b> の学習スタイルを取り入れます [15, 58]。
-</p>
 </div>
-</div>
-<div id="outline-container-orgd0ee762" class="outline-2">
-<h2 id="orgd0ee762"><span class="section-number-2">2.</span> 授業基本情報</h2>
-<div class="outline-text-2" id="text-2">
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-
-
-<colgroup>
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<thead>
-<tr>
-<th scope="col" class="org-left">項目</th>
-<th scope="col" class="org-left">内容</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="org-left">科目名</td>
-<td class="org-left">プログラミング中級 (DI1A) / Intermediate Programming [70]</td>
-</tr>
-
-<tr>
-<td class="org-left">授業コード / ナンバリング</td>
-<td class="org-left">2283190 / ICTE121J [70]</td>
-</tr>
-
-<tr>
-<td class="org-left">開設学科</td>
-<td class="org-left">デジタルイノベーション学科 [70]</td>
-</tr>
-
-<tr>
-<td class="org-left">開講時期 / 単位数</td>
-<td class="org-left">2026年度後期 / 2単位 [70]</td>
-</tr>
-
-<tr>
-<td class="org-left">担当教員</td>
-<td class="org-left">中鉢 欣秀 [70]</td>
-</tr>
-
-<tr>
-<td class="org-left">オフィスアワー</td>
-<td class="org-left">木曜日 13:10〜14:40（研究室: B10-4T08） [72]</td>
-</tr>
-
-<tr>
-<td class="org-left">履修条件・準備物</td>
-<td class="org-left">ノートPCおよび無線LAN環境の持参 [72]</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div id="outline-container-orgbd53e3b" class="outline-2">
-<h2 id="orgbd53e3b"><span class="section-number-2">3.</span> 授業到達目標</h2>
-<div class="outline-text-2" id="text-3">
-<ol class="org-ol">
-<li>フロントエンドの技術（Webの仕組み・クライアント/サーバー通信）を理解し利用できる [70]。</li>
-<li>マークアップ言語（HTML/CSS）を理解し、見やすく使いやすい画面を表現できる [70]。</li>
-<li>JavaScript を理解し、動的なユーザーインタフェースを実現できる [70]。</li>
-</ol>
-</div>
-</div>
-<div id="outline-container-org24796fd" class="outline-2">
-<h2 id="org24796fd"><span class="section-number-2">4.</span> 配布資料・各種ガイド（インデックス）</h2>
-<div class="outline-text-2" id="text-4">
-<p>
-受講生の皆さんは、学習の進行に合わせて以下の各種ガイドや資料を参照してください。
-</p>
-</div>
-<div id="outline-container-orgdf323bd" class="outline-3">
-<h3 id="orgdf323bd"><span class="section-number-3">4.1.</span> 1. 初回準備・受講環境ガイド</h3>
-<div class="outline-text-3" id="text-4-1">
+<div id="outline-container-orgb2dc81c" class="outline-3">
+<h3 id="orgb2dc81c"><span class="section-number-3">1.1.</span> 学習目標</h3>
+<div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
-<li><a href="first-lesson-github-guide-v2.html">初回授業演習ガイド：GitHub Organization・Codespaces・Copilot 導入手順</a>
-<ul class="org-ul">
-<li>GitHubアカウント作成、大学メール認証、学割（GitHub Education）申請、授業Organization参加の手順 [59, 81]。</li>
-</ul></li>
-<li><a href="github-account-submission-guide.html">GitHubアカウント情報・プロフィールURL 提出手順書</a>
-<ul class="org-ul">
-<li>アカウント名・プロフィールURLの確認と提出フォーム入力手順。</li>
-</ul></li>
-<li><a href="orientation-slide-deck-v2.html">オリエンテーション用スライド構成資料</a>
-<ul class="org-ul">
-<li>第1回授業で投影する授業方針、バイブコーディングの狙い、学習フローの概要 [58]。</li>
-</ul></li>
+<li><b><b>フロントエンド技術の理解と利用</b></b>: Webの仕組み（クライアント/サーバー通信）や画面構成要素を深く理解して活用できる [70]。</li>
+<li><b><b>マークアップ言語（HTML/CSS）の習得</b></b>: セマンティックなHTML構造と見やすく使いやすいデザイン・レイアウトを構築できる [70]。</li>
+<li><b><b>JavaScriptによる動的UIの実現</b></b>: イベント処理、DOM操作、非同期処理（fetch/async/await）を用いて動的なユーザー体験を実現できる [70, 71]。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orge01935e" class="outline-3">
-<h3 id="orge01935e"><span class="section-number-3">4.2.</span> 2. 演習・プロンプト集・ワークシート</h3>
-<div class="outline-text-3" id="text-4-2">
+<div id="outline-container-org4023435" class="outline-3">
+<h3 id="org4023435"><span class="section-number-3">1.2.</span> 目的・狙い</h3>
+<div class="outline-text-3" id="text-1-2">
 <ul class="org-ul">
-<li><a href="syllabus-copilot-prompts-15lessons-v3.html">全15回 GitHub Copilot 用プロンプト集（v3）</a>
-<ul class="org-ul">
-<li>各回のテーマに沿った「教員実演用」「学生演習用」「発展・デバッグ用」プロンプト（全45例） [60, 61, 62]。</li>
-</ul></li>
-<li><a href="f12-debugging-demo-script.html">F12デベロッパーツール＆対話型デバッグ実演ガイド</a>
-<ul class="org-ul">
-<li>ブラウザのデベロッパーツール（F12）を用いたエラー確認と Copilot Chat での自力解決手順 [62]。</li>
-</ul></li>
-<li><a href="html-practice-worksheet-lesson2.md">第2回 HTML基礎演習ワークシート</a>
-<ul class="org-ul">
-<li>実習用ワークシート・演習ステップ。</li>
-</ul></li>
+<li><b><b>バイブコーディング（Vibe Coding）の導入</b></b>: 構文の暗記や単純なタイピングエラー（Syntax Error）による挫折を防ぎ、目的・設計の思考に集中する [58]。</li>
+<li><b><b>プロンプト思考（要求定義力）の育成</b></b>: AI（GitHub Copilot）に対し、構造・見た目（Vibe）・制約条件を明記した論理的指示を与える能力を養う [58, 60]。</li>
+<li><b><b>コード解読力（Read &amp; Verify）とデバッグ力</b></b>: AIが生成したコードの仕組みを解読し、F12デベロッパーツールとCopilot Chatを組み合わせた対話型デバッグで自力解決する姿勢を身につける [58, 62]。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org58f2996" class="outline-3">
-<h3 id="org58f2996"><span class="section-number-3">4.3.</span> 3. 評価・セルフチェック・トラブルシューティング</h3>
-<div class="outline-text-3" id="text-4-3">
-<ul class="org-ul">
-<li><a href="assignment-self-checklist.html">課題提出時セルフチェックシート</a>
-<ul class="org-ul">
-<li>コミット・プッシュ、F12エラーチェック、プロンプト思考、コード解読（Read &amp; Verify）の確認表 [58, 62]。</li>
-</ul></li>
-<li><a href="assessment-rubric.html">成績評価用ルーブリック表</a>
-<ul class="org-ul">
-<li>評価割合（授業参加等 30% / 課題・試験等 70%）および評価基準詳細 [72]。</li>
-</ul></li>
-<li><a href="troubleshooting-guide-v2.html">トラブルシューティングガイド（v2）</a>
-<ul class="org-ul">
-<li>アカウント設定、学割申請、Codespacesフリーズ、Codespaces画面整理（レイアウト調整）等の対処法 [59, 81]。</li>
-</ul></li>
-</ul>
-</div>
-</div>
-</div>
-<div id="outline-container-org645a4dd" class="outline-2">
-<h2 id="org645a4dd"><span class="section-number-2">5.</span> 授業計画（全15回スケジュール）</h2>
-<div class="outline-text-2" id="text-5">
+<div id="outline-container-orgaf5b662" class="outline-3">
+<h3 id="orgaf5b662"><span class="section-number-3">1.3.</span> 計画（全15回スケジュール）</h3>
+<div class="outline-text-3" id="text-1-3">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -295,39 +184,85 @@
 </table>
 </div>
 </div>
-<div id="outline-container-org6ebbc65" class="outline-2">
-<h2 id="org6ebbc65"><span class="section-number-2">6.</span> 成績評価方法・割合</h2>
-<div class="outline-text-2" id="text-6">
-<dl class="org-dl">
-<dt><b><b>授業の事前準備、授業参加態度、発表、討論等</b></b></dt><dd>30% [72]</dd>
-<dt><b><b>課題レポート、試験等</b></b></dt><dd>70% [72]</dd>
-</dl>
 </div>
+<div id="outline-container-org00c0eab" class="outline-2">
+<h2 id="org00c0eab"><span class="section-number-2">2.</span> GitHubアカウント作成とOrganization参加</h2>
+<div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-orgf7c9170" class="outline-2">
-<h2 id="orgf7c9170"><span class="section-number-2">7.</span> 指定教科書</h2>
-<div class="outline-text-2" id="text-7">
+<div id="outline-container-org7d28a67" class="outline-3">
+<h3 id="org7d28a67"><span class="section-number-3">2.1.</span> GitHub Educationのアカウントを作成</h3>
+<div class="outline-text-3" id="text-2-1">
 <ol class="org-ol">
-<li>Mana (2024) 『1冊ですべて身につく HTML &amp; CSS と Webデザイン入門講座 [第2版]』 SBクリエイティブ (ISBN: 9784815618469) [72]</li>
-<li>山田祥寛 (2023) 『JavaScript本格入門 [改訂第3版]』 技術評論社 (ISBN: 9784297132880) [72]</li>
+<li><b><b>GitHubアカウントの登録</b></b>: 大学発行のメールアドレス（`@&#x2026;ac.jp`）を使用してアカウントを作成または追加認証する [59, 81]。</li>
+<li><b><b>GitHub Education（学割）申請</b></b>: 学生証画像を準備し、GitHub Student Developer Pack へ申請を行う（GitHub Copilot と Codespaces 月180時間が無料化） [59]。</li>
 </ol>
 </div>
 </div>
-<div id="outline-container-org87997e4" class="outline-2">
-<h2 id="org87997e4"><span class="section-number-2">8.</span> お問い合わせ・連絡先</h2>
-<div class="outline-text-2" id="text-8">
-<dl class="org-dl">
-<dt>担当教員</dt><dd>中鉢 欣秀（常勤教員） [70, 72]</dd>
-<dt>オフィスアワー</dt><dd>木曜日 13:10〜14:40（研究室: B10-4T08） [72]</dd>
-<dt>注意事項</dt><dd>質問や相談がある場合は、授業後の時間帯またはオフィスアワーをご利用ください [72]。</dd>
-</dl>
+<div id="outline-container-orgc91f343" class="outline-3">
+<h3 id="orgc91f343"><span class="section-number-3">2.2.</span> アカウント、GitHub URLの提出</h3>
+<div class="outline-text-3" id="text-2-2">
+<ol class="org-ol">
+<li><b><b>プロフィール名・設定の確認</b></b>: 学割トラブルや個人識別不能を防ぐため、DisplayName に英語表記の本名（例: `Taro Yamada`）を設定する。</li>
+<li><b><b>プロフィールURLの提出</b></b>: `<a href="https://github.com/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E5%90%8D">https://github.com/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E5%90%8D</a>` をシークレットウィンドウで動作確認の上、授業指定フォームへ提出する。</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgbaf14ad" class="outline-3">
+<h3 id="orgbaf14ad"><span class="section-number-3">2.3.</span> GitHub Organizationに登録</h3>
+<div class="outline-text-3" id="text-2-3">
+<ol class="org-ol">
+<li><b><b>招待の確認</b></b>: 大学メール宛の招待メール、または直接指定リンク（`<a href="https://github.com/orgs/%5B%E6%8E%88%E6%A5%ADOrganization%E5%90%8D%5D/invitation%60%EF%BC%89%E3%82%92%E9%96%8B%E3%81%8F">https://github.com/orgs/%5B%E6%8E%88%E6%A5%ADOrganization%E5%90%8D%5D/invitation%60%EF%BC%89%E3%82%92%E9%96%8B%E3%81%8F</a>。</li>
+<li><b><b>Organizationへの参加</b></b>: `Join [授業Organization名]` をクリックし、授業用チームへの所属を完了させる。</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org0bf0d49" class="outline-2">
+<h2 id="org0bf0d49"><span class="section-number-2">3.</span> リポジトリ作成とCodespace</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org70aa5b5" class="outline-3">
+<h3 id="org70aa5b5"><span class="section-number-3">3.1.</span> 教員がOrganizationで作成したテンプレートからリポジトリを作成</h3>
+<div class="outline-text-3" id="text-3-1">
+<ol class="org-ol">
+<li><b><b>テンプレートリポジトリの選択</b></b>: 授業Organizationページ（`<a href="https://github.com/%5B%E6%8E%88%E6%A5%ADOrganization%E5%90%8D%5D%60%EF%BC%89%E3%81%8B%E3%82%89">https://github.com/%5B%E6%8E%88%E6%A5%ADOrganization%E5%90%8D%5D%60%EF%BC%89%E3%81%8B%E3%82%89</a> `lesson01-template` を開く。</li>
+<li><b><b>Privateリポジトリの生成</b></b>: `Use this template` ➔ `Create a new repository` を選択し、リポジトリ名 `lesson01-学籍番号`（Private設定）で作成する。</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org07df586" class="outline-3">
+<h3 id="org07df586"><span class="section-number-3">3.2.</span> GitHub codespaceを立ち上げる</h3>
+<div class="outline-text-3" id="text-3-2">
+<ol class="org-ol">
+<li><b><b>Codespacesの生成</b></b>: 作成した自分用リポジトリ画面で `&lt;&gt; Code` ➔ `Codespaces` タブ ➔ `Create codespace on main` をクリックする [59]。</li>
+<li><b><b>画面レイアウトの整理</b></b>: 不要なエディタータブを閉じ（`Ctrl+W`）、`Ctrl+B` で左サイドバーを折りたたんで作業領域をすっきり確保する。</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgbe70ac2" class="outline-3">
+<h3 id="orgbe70ac2"><span class="section-number-3">3.3.</span> バイブコーディングを試す</h3>
+<div class="outline-text-3" id="text-3-3">
+<ol class="org-ol">
+<li><b><b>Copilot Chatの起動</b></b>: 左アクティビティバーの吹き出しアイコン（GitHub Copilot Chat）を開く [15, 21]。</li>
+<li><b><b>プロンプト送信とコード反映</b></b>: 目的・構造・制約（HTMLのみ、CSSクラス追加等）を指定した指示を送信し、提案コードを `Apply in Editor` でファイルへ反映・動作確認する [21, 60]。</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org9188346" class="outline-3">
+<h3 id="org9188346"><span class="section-number-3">3.4.</span> 作業内容をコミット・プッシュ</h3>
+<div class="outline-text-3" id="text-3-4">
+<ol class="org-ol">
+<li><b><b>変更の確認とコミット</b></b>: VS Codeの「ソース管理」パネル（またはターミナル）から、意味のある単位でメッセージを入力してコミットを行う。</li>
+<li><b><b>GitHubへのプッシュ</b></b>: リポジトリの `main` ブランチへ変更をプッシュし、GitHub上のWeb画面で最新コードが反映されていることを確認する。</li>
+</ol>
+</div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="date">Date: 2026-09-19</p>
 <p class="author">Author: 中鉢 欣秀（デジタルイノベーション学科）</p>
-<p class="date">Created: 2026-09-19 Sat 19:40</p>
+<p class="date">Created: 2026-09-19 Sat 22:25</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
