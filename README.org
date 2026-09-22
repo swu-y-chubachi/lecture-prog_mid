@@ -53,3 +53,6 @@ emacs --batch -l build.el
 
 * 3. デプロイ (GitHub Pages)
 本プロジェクトを GitHub リポジトリの ~main~ ブランチへプッシュすると、GitHub Actions ワークフロー等を通じて ~./public/~ ディレクトリの内容が自動的に GitHub Pages へ公開されます。
+* 補足
+
+👉 **[[file:../teacher/teacher-guidance.org][教員向け授業運営補足説明ペーパー]]**
