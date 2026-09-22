@@ -16,8 +16,8 @@
   - 到達目標 3 :: JavaScriptを理解し、動的なユーザーインタフェースを実現できる [70]。
 
 * スライド3: 学ぶ技術とシラバス全体像（全15回）
-  - GitHub環境構築（第1回） :: アカウント作成・Education学割申請・Org参加・Codespaces＆Copilot動作確認。
-  - HTML（第2〜3回） :: Webページの骨格（タグ構造・フォーム・テーブル）の構築 [71]。
+  - GitHub環境構築（第1〜2回） :: アカウント作成・Education学割申請・Org参加（第1回）、リポジトリ作成・Codespaces＆Copilot動作確認（第2回）。
+  - HTML（第3回） :: Webページの骨格（タグ構造・フォーム・テーブル）の構築 [71]。
   - CSS（第4〜6回） :: デザイン・レイアウト（Flexbox・レスポンシブ・Bootstrap）の制御 [71]。
   - JavaScript（第7〜15回） :: 動的処理、制御構文、DOM操作、API連携・非同期処理（async/await） [71]。
 
@@ -59,5 +59,4 @@
     1. GitHubアカウント作成＆大学メール（.ac.jp）登録。
     2. GitHub Education（学割）への申請。
     3. 授業用Organization参加とプロフィールURLの提出。
-    4. GitHub Codespaces起動と GitHub Copilot Chat での初期質問体験。
-  - 次回（第2回） :: AIと対話してつくるWebページの骨格（HTML入門演習）。
+  - 次回（第2回） :: リポジトリ作成・GitHub Codespaces起動と GitHub Copilot Chat での初期質問体験。

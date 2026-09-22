@@ -1,31 +1,27 @@
 #+TITLE: 第2回 GitHub Copilot 用プロンプト集
-#+SUBTITLE: プログラミング中級（DI1A） 第2回 演習用プロンプト（3パターン）
+#+SUBTITLE: プログラミング中級（DI1A） 第2回 演習用プロンプト（2パターン）
 #+AUTHOR: 中鉢 欣秀
 #+DATE: 2026-09-19
 #+OPTIONS: toc:t num:nil ^:nil
 
-* 第2回：HTML の基本を理解してコーディングする
+* リポジトリ作成・Codespaces起動確認
 ** ねらい
-HTMLの基本タグ（h1〜h6, p, ul, li, a等）と、ページのセマンティック構造（header, main, footer）を理解する。
+授業に必要なクラウド開発環境（GitHub Codespacesの起動、GitHub Copilot Chatの動作確認）を完了させる。
 
 ** プロンプト例
-*** 例1（教員実演：自己紹介ページの骨格）
+*** 例1（教員実演：Copilotへの環境・開発ツール確認プロンプト）
 #+BEGIN_EXAMPLE
-初心者向けの自己紹介ページのHTML構造を作成してください。header, main, footer タグを使い、h1に見出し『山田太郎のポートフォリオ』、pに挨拶文、ulに趣味を3つ配置してください。CSSやJavaScriptは含めず、純粋なHTMLだけにしてください。
+GitHub Codespaces と GitHub Copilot Chat が正常に動作しているか確認したいです。プログラミング初心者向けに、GitHubの基本用語（リポジトリ、コミット、プッシュ、ブランチ）の意味を簡潔に解説してください。
 #+END_EXAMPLE
 
-*** 例2（学生演習：イベント告知ページ）
+*** 例2（学生演習：GitコマンドとVS Code操作の確認）
 #+BEGIN_EXAMPLE
-大学の大学祭イベント告知ページのHTMLを作成してください。h1にイベント名、pに日時と場所、ol要素を使ってタイムスケジュールを3つ、ul要素で注意事項を2つ記述してください。スタイリングは不要です。
-#+END_EXAMPLE
-
-*** 例3（発展：カード型コンテンツの骨格）
-#+BEGIN_EXAMPLE
-Webサイトに掲載する『おすすめ本紹介カード』のHTMLを作成してください。h2に書籍タイトル、pに著者名と短いあらすじ、ulに特徴タグ（3つ）、a要素で購入リンクのダミーを配置してください。
+VS Code の統合ターミナルでよく使う基本操作（pwd, ls, cd, git status, git add, git commit）のコマンド一覧と、それぞれの役割を分かりやすく表で作成してください。
 #+END_EXAMPLE
 
 ** 指導解説ポイント
-- CSSを含めない純粋なHTMLタグの役割とDOMツリーの親子関係をF12ツールで確認させます。
+- 履修生全員がリポジトリ作成からCodespaces起動、Copilot Chatでの質問入力まで到達できているかを確認します。
+- エラーが出た場合はCopilot Chatに「このエラーメッセージの原因と解決策を教えて」と質問する体験をさせます。
 
 ---
 

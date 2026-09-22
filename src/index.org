@@ -32,8 +32,8 @@ AUTHOR: 中鉢 欣秀（デジタルイノベーション学科）
 
 * 全15回授業資料
 - 第1回：[[file:lesson01/index.org][GitHub開発環境の構築と準備]]
-- 第2回：[[file:lesson02/index.org][HTML の基本を理解してコーディングする]]
-- 第3回：[[file:lesson03/index.org][HTML の基本を理解してコーディングする。その2]]
+- 第2回：[[file:lesson02/index.org][リポジトリ作成とCodespaces]]
+- 第3回：[[file:lesson03/index.org][HTML の基本を理解してコーディングする]]
 - 第4回：[[file:lesson04/index.org][CSS の基本を理解する]]
 - 第5回：[[file:lesson05/index.org][CSS の基本を理解する。その2]]
 - 第6回：[[file:lesson06/index.org][CSS の応用 (CMS、Bootstrap など)]]

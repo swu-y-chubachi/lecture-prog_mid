@@ -32,9 +32,9 @@
 * 授業計画（全15回）
   各回ともに、準備・事後学習として「教科書の対象部分の事前学習と事後学習(課題含む)」が240分想定されています。
 
-  1. GitHub開発環境の構築と準備（アカウント作成・Education登録・Organization参加・Codespaces確認・Copilot体験）
-  2. HTML の基本を理解してコーディングする。
-  3. HTML の基本を理解してコーディングする。その2。
+  1. GitHub開発環境の構築と準備（アカウント作成・Education登録・Organization参加）
+  2. リポジトリ作成とCodespaces（テンプレートからのリポジトリ作成・Codespaces確認・Copilot体験）。
+  3. HTML の基本を理解してコーディングする。
   4. CSS の基本を理解する。
   5. CSS の基本を理解する。その2。
   6. CSS の応用(CMS、Bootstrap など)
