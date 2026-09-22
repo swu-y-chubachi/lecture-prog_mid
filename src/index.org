@@ -31,7 +31,7 @@
 👉 **[[file:guidance.org][学習目標・授業方針・ガイダンス詳細]]**
 👉 **[[file:syllabus.org][全15回詳細シラバス]]**
 
-** 全15回授業計画
+* 全15回授業資料
 - 第1回：[[file:lesson01/index.org][GitHub開発環境の構築と準備]]
 - 第2回：[[file:lesson02/index.org][HTML の基本を理解してコーディングする]]
 - 第3回：[[file:lesson03/index.org][HTML の基本を理解してコーディングする。その2]]
@@ -48,6 +48,6 @@
 - 第14回：[[file:lesson14/index.org][DOM (Document Object Model)]]
 - 第15回：[[file:lesson15/index.org][高度なクライアントサイド開発]]
 
-各回のねらい・演習プロンプト・関連ガイドは、上記リンク先の回ごとのページにまとめています。
+各回のねらい・演習プロンプト・関連ガイドは、上記リンク先の回ごとのページにまとめています。授業の計画は全体の進捗に応じて修正する可能性があります。
 
-👉 **[[file:teacher/teacher-guidance.org][教員向け授業運営補足説明ペーパー]]**
+👉 **[[file:../teacher/teacher-guidance.org][教員向け授業運営補足説明ペーパー]]**
