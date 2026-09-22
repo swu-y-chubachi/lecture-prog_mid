@@ -34,49 +34,49 @@
 ** 全15回授業計画
 - **第1回：GitHub開発環境の構築と準備**
   - アカウント作成、学割申請、授業Organization参加、Codespaces/Copilot起動・レイアウト整理
-  - 関連資料: [[file:github-account-and-org.org][GitHubアカウント作成・学割申請・Organization参加手順書]] | [[file:repository-and-codespaces.org][リポジトリ作成・Codespaces起動・バイブコーディング演習手順書]] | [[file:prompts/lesson01-prompts.org][第1回 GitHub Copilot演習用プロンプト集]] | [[file:guides/troubleshooting.org][トラブルシューティングガイド]] | [[file:teacher/orientation-slides.org][初回オリエンテーションスライド構成案（教員用）]]
+  - 関連資料: [[file:lesson01/github-account-and-org.org][GitHubアカウント作成・学割申請・Organization参加手順書]] | [[file:lesson01/repository-and-codespaces.org][リポジトリ作成・Codespaces起動・バイブコーディング演習手順書]] | [[file:lesson01/prompts.org][第1回 GitHub Copilot演習用プロンプト集]] | [[file:lesson01/troubleshooting.org][トラブルシューティングガイド]] | [[file:lesson01/orientation-slides.org][初回オリエンテーションスライド構成案（教員用）]]
 - **第2回：HTML の基本を理解してコーディングする**
   - タグ構造（h1, p, ul）とセマンティックタグ（header, main, footer）の骨格作成
-  - 関連資料: [[file:prompts/lesson02-prompts.org][第2回 GitHub Copilot演習用プロンプト集（自己紹介・イベント告知）]]
+  - 関連資料: [[file:lesson02/prompts.org][第2回 GitHub Copilot演習用プロンプト集（自己紹介・イベント告知）]]
 - **第3回：HTML の基本を理解してコーディングする。その2**
   - フォーム要素（form）やテーブル（table）構造の追加と拡張
-  - 関連資料: [[file:prompts/lesson03-prompts.org][第3回 GitHub Copilot演習用プロンプト集（フォーム・テーブル構造）]]
+  - 関連資料: [[file:lesson03/prompts.org][第3回 GitHub Copilot演習用プロンプト集（フォーム・テーブル構造）]]
 - **第4回：CSS の基本を理解する**
   - 色、余白、配置の基礎と「Vibe（雰囲気）」を指定したスタイリング
-  - 関連資料: [[file:prompts/lesson04-prompts.org][第4回 GitHub Copilot演習用プロンプト集（和風モダン・ポップスタイル）]]
+  - 関連資料: [[file:lesson04/prompts.org][第4回 GitHub Copilot演習用プロンプト集（和風モダン・ポップスタイル）]]
 - **第5回：CSS の基本を理解する。その2**
   - Flexboxレイアウトおよびメディアクエリ（@media）によるレスポンシブ対応
-  - 関連資料: [[file:prompts/lesson05-prompts.org][第5回 GitHub Copilot演習用プロンプト集（Flexbox・レスポンシブ）]]
+  - 関連資料: [[file:lesson05/prompts.org][第5回 GitHub Copilot演習用プロンプト集（Flexbox・レスポンシブ）]]
 - **第6回：CSS の応用 (CMS、Bootstrap など)**
   - Bootstrap 5 等の外部UIライブラリを活用したデザイン刷新
-  - 関連資料: [[file:prompts/lesson06-prompts.org][第6回 GitHub Copilot演習用プロンプト集（Bootstrap 5 活用）]]
+  - 関連資料: [[file:lesson06/prompts.org][第6回 GitHub Copilot演習用プロンプト集（Bootstrap 5 活用）]]
 - **第7回：JavaScript イントロダクション**
   - スクリプトの読み込みとコンソール（console.log）出力の理解
-  - 関連資料: [[file:prompts/lesson07-prompts.org][第7回 GitHub Copilot演習用プロンプト集（JSコンソール・イベント）]]
+  - 関連資料: [[file:lesson07/prompts.org][第7回 GitHub Copilot演習用プロンプト集（JSコンソール・イベント）]]
 - **第8回：基本的な書き方を身に着ける**
   - 変数宣言（let / const）とデータ型の扱い
-  - 関連資料: [[file:prompts/lesson08-prompts.org][第8回 GitHub Copilot演習用プロンプト集（変数・データ型）]]
+  - 関連資料: [[file:lesson08/prompts.org][第8回 GitHub Copilot演習用プロンプト集（変数・データ型）]]
 - **第9回：演算子を理解し、使用する**
   - 算術・比較・論理演算子の活用と判定処理
-  - 関連資料: [[file:prompts/lesson09-prompts.org][第9回 GitHub Copilot演習用プロンプト集（演算子・割引計算）]]
+  - 関連資料: [[file:lesson09/prompts.org][第9回 GitHub Copilot演習用プロンプト集（演算子・割引計算）]]
 - **第10回：制御構文を理解し、使用する**
   - 条件分岐（if）および繰り返し処理（for / while）
-  - 関連資料: [[file:prompts/lesson10-prompts.org][第10回 GitHub Copilot演習用プロンプト集（条件分岐・繰り返し処理）]]
+  - 関連資料: [[file:lesson10/prompts.org][第10回 GitHub Copilot演習用プロンプト集（条件分岐・繰り返し処理）]]
 - **第11回：組み込みオブジェクトを理解し、使用する**
   - Date や Math.random など組み込みオブジェクトの操作
-  - 関連資料: [[file:prompts/lesson11-prompts.org][第11回 GitHub Copilot演習用プロンプト集（Date・Math・配列操作）]]
+  - 関連資料: [[file:lesson11/prompts.org][第11回 GitHub Copilot演習用プロンプト集（Date・Math・配列操作）]]
 - **第12回：関数を理解し利用する**
   - 関数の定義、引数・戻り値、アロー関数の理解
-  - 関連資料: [[file:prompts/lesson12-prompts.org][第12回 GitHub Copilot演習用プロンプト集（アロー関数・コールバック）]]
+  - 関連資料: [[file:lesson12/prompts.org][第12回 GitHub Copilot演習用プロンプト集（アロー関数・コールバック）]]
 - **第13回：オブジェクト指向構文**
   - クラス（class）、プロパティ、メソッドの定義と利用
-  - 関連資料: [[file:prompts/lesson13-prompts.org][第13回 GitHub Copilot演習用プロンプト集（クラス・継承）]]
+  - 関連資料: [[file:lesson13/prompts.org][第13回 GitHub Copilot演習用プロンプト集（クラス・継承）]]
 - **第14回：DOM (Document Object Model)**
   - DOM操作とイベントハンドリング（classList.toggle 等による動的切替）
-  - 関連資料: [[file:prompts/lesson14-prompts.org][第14回 GitHub Copilot演習用プロンプト集（DOM操作・ToDoリスト）]] | [[file:guides/f12-debugging.org][F12デベロッパーツール＆Copilot Chat対話型デバッグガイド]]
+  - 関連資料: [[file:lesson14/prompts.org][第14回 GitHub Copilot演習用プロンプト集（DOM操作・ToDoリスト）]] | [[file:lesson14/f12-debugging.org][F12デベロッパーツール＆Copilot Chat対話型デバッグガイド]]
 - **第15回：高度なクライアントサイド開発**
   - API連携（fetch / async/await）、非同期処理、try-catchデバッグ
-  - 関連資料: [[file:prompts/lesson15-prompts.org][第15回 GitHub Copilot演習用プロンプト集（天気API・非同期処理）]] | [[file:guides/f12-debugging.org][F12デベロッパーツール＆Copilot Chat対話型デバッグガイド]] | [[file:evaluation/self-checklist.org][課題提出時セルフチェックシート]] | [[file:evaluation/rubric.org][成績評価用ルーブリック表]]
+  - 関連資料: [[file:lesson15/prompts.org][第15回 GitHub Copilot演習用プロンプト集（天気API・非同期処理）]] | [[file:lesson14/f12-debugging.org][F12デベロッパーツール＆Copilot Chat対話型デバッグガイド]] | [[file:lesson15/self-checklist.org][課題提出時セルフチェックシート]] | [[file:lesson15/rubric.org][成績評価用ルーブリック表]]
 
 * 3. GitHubアカウント作成とOrganization参加
 1. **GitHubアカウントの登録**: 大学発行のメールアドレス（）を使用してアカウントを作成または追加認証する。
@@ -84,7 +84,7 @@
 3. **アカウント、GitHub URLの提出**: プロフィール名（英字本名）を設定の上、URLを提出する。
 4. **Organizationへの参加**: 招待メールまたはリンクを開き、授業チームへ参加する。
 
-👉 **[[file:github-account-and-org.org][GitHubアカウント作成とOrganization参加ガイドを開く]]**
+👉 **[[file:lesson01/github-account-and-org.org][GitHubアカウント作成とOrganization参加ガイドを開く]]**
 
 * 4. リポジトリ作成とCodespaces
 1. **テンプレートリポジトリの選択**: 授業Organizationページから  を選択する。
@@ -93,7 +93,7 @@
 4. **バイブコーディングの実行**: Copilot Chatでプロンプトを送信し、提案コードをエディタに反映する。
 5. **コミット・プッシュ**: 変更をコミットし、 ブランチへプッシュする。
 
-👉 **[[file:repository-and-codespaces.org][リポジトリ作成・Codespaces演習ガイドを開く]]**
+👉 **[[file:lesson01/repository-and-codespaces.org][リポジトリ作成・Codespaces演習ガイドを開く]]**
 
 * 5. 資料編（全回共通資料・各種ガイド）
 受講生の皆さんは、学習の進行に合わせて以下の各種ガイドや資料を参照してください。
@@ -103,23 +103,22 @@
 - [[file:syllabus.org][全15回詳細シラバス]]
 
 ** 初回準備・受講環境構築ガイド
-- [[file:github-account-and-org.org][GitHubアカウント作成・学割申請・Organization参加手順書]]
-- [[file:repository-and-codespaces.org][リポジトリ作成・Codespaces起動・バイブコーディング演習手順書]]
+- [[file:lesson01/github-account-and-org.org][GitHubアカウント作成・学割申請・Organization参加手順書]]
+- [[file:lesson01/repository-and-codespaces.org][リポジトリ作成・Codespaces起動・バイブコーディング演習手順書]]
 
-** 演習プロンプト集
-- [[file:prompts/copilot-prompts.org][全15回 GitHub Copilot 用プロンプト集（全45例まとめ統合版）]]
-- [[file:prompts/lesson01-prompts.org][第1回演習用プロンプト]] | [[file:prompts/lesson02-prompts.org][第2回演習用プロンプト]] | [[file:prompts/lesson03-prompts.org][第3回演習用プロンプト]] | [[file:prompts/lesson04-prompts.org][第4回演習用プロンプト]] | [[file:prompts/lesson05-prompts.org][第5回演習用プロンプト]]
-- [[file:prompts/lesson06-prompts.org][第6回演習用プロンプト]] | [[file:prompts/lesson07-prompts.org][第7回演習用プロンプト]] | [[file:prompts/lesson08-prompts.org][第8回演習用プロンプト]] | [[file:prompts/lesson09-prompts.org][第9回演習用プロンプト]] | [[file:prompts/lesson10-prompts.org][第10回演習用プロンプト]]
-- [[file:prompts/lesson11-prompts.org][第11回演習用プロンプト]] | [[file:prompts/lesson12-prompts.org][第12回演習用プロンプト]] | [[file:prompts/lesson13-prompts.org][第13回演習用プロンプト]] | [[file:prompts/lesson14-prompts.org][第14回演習用プロンプト]] | [[file:prompts/lesson15-prompts.org][第15回演習用プロンプト]]
+** 演習プロンプト集（各回フォルダに格納）
+- [[file:lesson01/prompts.org][第1回演習用プロンプト]] | [[file:lesson02/prompts.org][第2回演習用プロンプト]] | [[file:lesson03/prompts.org][第3回演習用プロンプト]] | [[file:lesson04/prompts.org][第4回演習用プロンプト]] | [[file:lesson05/prompts.org][第5回演習用プロンプト]]
+- [[file:lesson06/prompts.org][第6回演習用プロンプト]] | [[file:lesson07/prompts.org][第7回演習用プロンプト]] | [[file:lesson08/prompts.org][第8回演習用プロンプト]] | [[file:lesson09/prompts.org][第9回演習用プロンプト]] | [[file:lesson10/prompts.org][第10回演習用プロンプト]]
+- [[file:lesson11/prompts.org][第11回演習用プロンプト]] | [[file:lesson12/prompts.org][第12回演習用プロンプト]] | [[file:lesson13/prompts.org][第13回演習用プロンプト]] | [[file:lesson14/prompts.org][第14回演習用プロンプト]] | [[file:lesson15/prompts.org][第15回演習用プロンプト]]
 
 ** トラブルシューティング・デバッグガイド
-- [[file:guides/troubleshooting.org][トラブルシューティングガイド（環境構築・画面整理・デバッグ）]]
-- [[file:guides/f12-debugging.org][F12デベロッパーツール＆Copilot Chat対話型デバッグガイド]]
+- [[file:lesson01/troubleshooting.org][トラブルシューティングガイド（環境構築・画面整理・デバッグ）]]
+- [[file:lesson14/f12-debugging.org][F12デベロッパーツール＆Copilot Chat対話型デバッグガイド]]
 
 ** 課題提出・評価資料
-- [[file:evaluation/self-checklist.org][課題提出時セルフチェックシート]]
-- [[file:evaluation/rubric.org][成績評価用ルーブリック表]]
+- [[file:lesson15/self-checklist.org][課題提出時セルフチェックシート]]
+- [[file:lesson15/rubric.org][成績評価用ルーブリック表]]
 
 ** 教員・TA向け運営資料
-- [[file:teacher/orientation-slides.org][初回オリエンテーションスライド構成案]]
+- [[file:lesson01/orientation-slides.org][初回オリエンテーションスライド構成案]]
 - [[file:teacher/teacher-guidance.org][教員向け授業運営補足説明ペーパー]]
