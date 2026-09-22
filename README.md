@@ -17,9 +17,8 @@
     ├── syllabus.org               # 全15回改訂版シラバス
     │
     ├── lesson01/                  # 第1回：GitHub開発環境の構築と準備
-    │   ├── index.org                        # 第1回の内容・関連資料まとめページ
-    │   ├── github-account-and-org.org      # アカウント作成・学割申請・Organization参加ガイド
-    │   ├── repository-and-codespaces.org   # リポジトリ作成・Codespaces起動・バイブコーディング演習
+    │   ├── index.org                        # 第1回まとめページ（アカウント作成〜Codespaces起動の全手順を集約）
+    │   ├── vibe-coding-overview.org         # バイブコーディング（Vibe Coding）概要ガイド
     │   ├── troubleshooting.org             # トラブルシューティングガイド（環境構築・エラー対処）
     │   ├── orientation-slides.org          # 初回オリエンテーションスライド構成案（教員用）
     │   └── prompts.org                     # 第1回 Copilot Chat 用プロンプト集

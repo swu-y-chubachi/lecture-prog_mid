@@ -8,26 +8,154 @@
 アカウント作成、学割申請、授業Organization参加、Codespaces/Copilot起動・レイアウト整理
 
 ** 関連資料
-- [[file:github-account-and-org.org][GitHubアカウント作成・学割申請・Organization参加手順書]]
-- [[file:repository-and-codespaces.org][リポジトリ作成・Codespaces起動・バイブコーディング演習手順書]]
 - [[file:vibe-coding-overview.org][バイブコーディング（Vibe Coding）概要ガイド]]
 - [[file:prompts.org][第1回 GitHub Copilot演習用プロンプト集]]
 - [[file:troubleshooting.org][トラブルシューティングガイド]]
 - [[file:orientation-slides.org][初回オリエンテーションスライド構成案（教員用）]]
 
 * GitHubアカウント作成とOrganization参加
-1. **GitHubアカウントの登録**: 大学発行のメールアドレス（）を使用してアカウントを作成または追加認証する。
-2. **GitHub Education（学割）申請**: 学生証画像を準備し、GitHub Student Developer Pack へ申請を行う（GitHub Copilot と Codespaces 月180時間が無料化）。
-3. **アカウント、GitHub URLの提出**: プロフィール名（英字本名）を設定の上、URLを提出する。
-4. **Organizationへの参加**: 招待メールまたはリンクを開き、授業チームへ参加する。
+本授業（プログラミング中級）を受講するために必要なクラウド基盤である **GitHub アカウントの作成**、**GitHub Education（学割）への申請**、**プロフィールURLの提出**、および**授業用 Organization への参加手順**を解説します。
 
-👉 **[[file:github-account-and-org.org][GitHubアカウント作成とOrganization参加ガイドを開く]]**
+---
+
+** 1. GitHub Education のアカウントを作成する
+本授業では GitHub Copilot や GitHub Codespaces などの最新AI開発ツールを全額無料で利用するため、GitHub Education（Student Developer Pack）の学割申請を行います。
+
+*** 1.1 GitHub アカウントの作成と大学メールの追加
+1. ブラウザで [[https://github.com/][GitHub 公式サイト]] にアクセスし、アカウント（未作成の場合）を作成します。
+2. 右上のアイコンから ~Settings~ > ~Emails~ を開きます。
+3. 大学から付与されたメールアドレス（ ~@...ac.jp~ ）を入力して ~Add~ をクリックします。
+4. 大学メールの受信箱に届く認証メール（Verification email）内のリンクをクリックし、アドレスの所有確認（Verified）を完了させます。
+5. ~Settings~ > ~Account~ を開き、**ユーザー名（Username）を ~swu-学籍番号~**（例: ~swu-s1234567~）に設定します。既存アカウントを流用していてユーザー名の変更が難しい場合は、担当教員に相談してください。
+
+*** 1.2 プロフィール氏名（ローマ字本名）の設定
+学割審査時の本人確認エラーを防ぐため、プロフィール表示名を英語表記の本名に設定します。
+1. ~Settings~ > ~Public profile~ を開きます。
+2. ~Name~ 欄に**英語表記の本名（例: Taro Yamada）**を入力して ~Update profile~ をクリックします。
+
+*** 1.3 GitHub Education（学割）の申請手順
+1. [[https://education.github.com/discount_requests/student_application][GitHub Education 申請ページ]] にアクセスします。
+2. 学割対象として登録した大学メールアドレス（ ~@...ac.jp~ ）を選択します。
+3. 学校名（大学名）を入力・選択します。
+4. **位置情報（GPS）の許可**: ブラウザやスマホの位置情報アクセス権限を「許可」にします（学内または自宅からの申請位置が確認されます）。
+5. **学生証の撮影・提出**: 明るい場所で学生証（または在学証明書）の表・裏をカメラで撮影し、画像をアップロードします。
+6. 申請理由（「授業で GitHub Copilot および Codespaces を利用するため」等）を簡潔に入力し、提出（Submit）します。
+
+※ 申請の承認には数分〜数日かかる場合があります。初回授業に間に合わない場合でも、無料の GitHub アカウントで Codespaces の基本機能は利用できるため、まずはアカウント作成と Codespaces の起動を進め、Copilot 連携は承認完了後（次回授業まで）に確認してください。
+
+---
+
+** 2. アカウント情報・GitHub URLの提出
+教員およびTAが課題提出の確認や権限付与を行えるよう、自分の GitHub プロフィール URL を提出します。
+
+*** 2.1 自分のプロフィール URL の確認
+1. GitHub にログインした状態で、右上のアイコンをクリックし ~Your profile~ を選択します。
+2. ブラウザのアドレスバーに表示されている URL（例: ~https://github.com/ユーザー名~ ）をコピーします。
+
+※ 提出するのは **ユーザー名（半角英数字のID、例: ~swu-s1234567~）** です。プロフィールに設定した日本語の表示名（Display Name）やメールアドレスと混同しないよう注意してください。
+
+*** 2.2 シークレットブラウザによる動作確認
+1. ブラウザのシークレットウィンドウ（プライベートモード）を新しく開きます。
+2. コピーしたプロフィール URL を貼り付けてアクセスします。
+3. **ログインしていない状態**で自身のプロフィールページが表示されるか確認します（設定画面の URL やダッシュボードの URL を誤ってコピーしていないか確認するため）。
+
+*** 2.3 大学 LMS フォームへの提出
+1. 学内 LMS（Moodle や UNIPA 等）に用意された「GitHub アカウント情報提出フォーム」を開きます。
+2. 学籍番号、氏名、GitHub ユーザー名、および確認したプロフィール URL（ ~https://github.com/ユーザー名~ ）を入力して提出します。
+
+---
+
+** 3. GitHub Organization に登録する
+授業専用のリポジトリ配布・課題管理を行う「授業 Organization」に参加します。
+
+*** 3.1 招待の受諾
+1. 大学メール宛に届いている GitHub からの招待メール（件名: ~You've been invited to join...~）を確認します。
+2. メール内の ~Join @[授業Organization名]~ ボタンをクリックします。
+3. メールが見つからない場合は、直接ブラウザで以下の招待URLにアクセスします：
+   - ~https://github.com/orgs/[授業Organization名]/invitation~
+4. 画面上の ~Join [授業Organization名]~ をクリックして参加を完了させます。
+
+*** 3.2 参加状態の確認
+1. ~https://github.com/[授業Organization名]~ にアクセスします。
+2. 授業 Organization のトップページが表示され、メンバーとして登録されていることを確認します。
 
 * リポジトリ作成とCodespaces
-1. **テンプレートリポジトリの選択**: 授業Organizationページから  を選択する。
-2. **Privateリポジトリの生成**: リポジトリ名 （Private設定）で作成する。
-3. **GitHub Codespacesの起動**:  ➔  ➔  をクリックする。
-4. **バイブコーディングの実行**: Copilot Chatでプロンプトを送信し、提案コードをエディタに反映する。
-5. **コミット・プッシュ**: 変更をコミットし、 ブランチへプッシュする。
+授業用 Organization に用意されたテンプレートリポジトリから自分専用の個人作業用リポジトリを作成し、クラウド開発環境 **GitHub Codespaces** を立ち上げて **GitHub Copilot** によるバイブコーディングを実践・保存（コミット＆プッシュ）する一連の手順を解説します。
 
-👉 **[[file:repository-and-codespaces.org][リポジトリ作成・Codespaces演習ガイドを開く]]**
+---
+
+** 1. テンプレートからの個人リポジトリ作成
+教員が授業 Organization 上に用意した演習用テンプレートリポジトリから、自分専用の非公開（Private）リポジトリを作成します。
+
+*** 1.1 テンプレートリポジトリの選択
+1. ブラウザで授業 Organization ページ（ ~https://github.com/[授業Organization名]~ ）を開きます。
+2. 対象となる授業用テンプレートリポジトリ（例: ~lesson01-template~ ）をクリックして開きます。
+
+*** 1.2 リポジトリ生成手順
+1. ページ右上にある緑色の ~Use this template~ ボタンをクリックし、 ~Create a new repository~ を選択します。
+2. 設定項目を以下のように指定します：
+   | 設定項目 | 入力値・指定内容 |
+   |----------+------------------|
+   | **Owner** | ~[授業Organization名]~ を選択 |
+   | **Repository name** | ~lesson01-学籍番号~ （例: ~lesson01-s1234567~ ） |
+   | **Access level** | **Private** （他の学生に見られないよう非公開に設定） |
+3. ~Create repository~ ボタンをクリックし、自分専用のリポジトリが作成されるのを確認します。
+
+---
+
+** 2. GitHub Codespaces の立ち上げと画面整理
+ローカル PC への環境構築を行わず、ブラウザ上の VS Code（GitHub Codespaces）を起動して画面を作業しやすいレイアウトに整えます。
+
+*** 2.1 Codespaces の起動
+1. 作成した自分用のリポジトリページ（ ~https://github.com/[授業Organization名]/lesson01-学籍番号~ ）を開きます。
+2. 緑色の ~<> Code~ ボタンをクリックします。
+3. ~Codespaces~ タブを選択します。
+4. ~Create codespace on main~ ボタンをクリックします。
+5. ブラウザ上で VS Code が立ち上がるまで 1 分ほど待ちます。
+
+*** 2.2 画面レイアウトの整理（すっきり集中モード）
+Codespaces 起動直後は多くのパネルが表示されて画面が狭くなるため、以下の操作で整理します：
+1. **不要なエディタタブを閉じる**: 作業に関係のないタブは「×」ボタン（または ~Ctrl+W~ / ~Cmd+W~）で閉じます。開いているタブが多いと Copilot の読み込み精度にも影響するため、作業中の 1 ファイル（ ~index.html~ 等）のみ開く状態に保ちます。
+2. **左サイドバーの折りたたみ**: ~Ctrl + B~ （Mac は ~Cmd + B~）でファイルツリー領域を折りたたみます。
+3. **下部ターミナルの非表示**: ~Ctrl + @~ でターミナル領域を隠します。
+4. **Zen Mode（全画面集中モード）**: ~Ctrl + K~ ➔ ~Z~（Mac は ~Cmd + K~ ➔ ~Z~）を押すと、エディタとチャット画面だけの全画面表示に切り替わります（ ~Esc~ キー2回で元に戻ります）。
+
+---
+
+** 3. バイブコーディングを試す（GitHub Copilot 活用演習）
+AI（GitHub Copilot Chat）と対話しながら、コードの生成・反映・動作検証を行います。
+
+*** 3.1 Copilot Chat の起動
+1. 左アクティビティバーにある吹き出しマーク（ ~GitHub Copilot Chat~ ）をクリックしてチャットパネルを開きます。
+
+*** 3.2 プロンプトの入力とコードの自動生成
+1. チャット欄に、作成したい機能の目的・構造・制約条件を明記したプロンプトを入力して送信します：
+   #+BEGIN_EXAMPLE
+   初心者向けの自己紹介ページのHTML構造を作成してください。
+   header, main, footer タグを使い、h1に見出し『山田太郎のポートフォリオ』、
+   pに短い挨拶文、ulに趣味を3つ配置してください。
+   CSSやJavaScriptは含めず、純粋なHTMLだけにしてください。
+   #+END_EXAMPLE
+2. Copilot から提案されたコードを確認・解読（Read & Verify）します。
+
+*** 3.3 エディタへのコード反映と Web プレビュー確認
+1. 提案コードブロックの右上にある ~Apply in Editor~ （または ~Insert at Cursor~）をクリックして、エディタ画面（ ~index.html~ ）に反映させます。
+2. ファイルを保存（ ~Ctrl+S~ / ~Cmd+S~ ）します。
+3. エディタ右上のプレビューアイコン（または F12 デベロッパーツール）で表示を確認します。
+
+---
+
+** 4. 作業内容のコミットとプッシュ
+作成した成果物や変更履歴を Git に保存し、GitHub のリモートリポジトリへ送信（提出）します。
+
+*** 4.1 変更状態の確認
+1. 左側の ~ソース管理~ （Git）アイコンをクリックします。
+2. 変更されたファイル（ ~index.html~ 等）が一覧表示されていることを確認します。
+
+*** 4.2 コミットメッセージの入力とコミット
+1. メッセージ入力欄に作業内容を表す分かりやすいコメントを入力します（例: ~feat: 自己紹介ページのHTML骨格を追加~ ）。
+2. ~コミット~ （または ~Commit~）ボタンをクリックします。
+
+*** 4.3 リモートリポジトリへのプッシュ（同期）
+1. ~変更の同期~ （~Sync Changes~）または ~Push~ ボタンをクリックします。
+2. ブラウザで自身の GitHub リポジトリページ（ ~https://github.com/[授業Organization名]/lesson01-学籍番号~ ）を開き、更新したファイルとコミットメッセージが反映されていることを確認します。
