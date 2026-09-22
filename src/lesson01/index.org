@@ -1,0 +1,32 @@
+#+TITLE: 第1回：GitHub開発環境の構築と準備
+#+AUTHOR: 中鉢 欣秀
+#+DATE: 2026-09-19
+#+OPTIONS: toc:t num:t ^:nil
+
+* 第1回：GitHub開発環境の構築と準備
+** 内容
+アカウント作成、学割申請、授業Organization参加、Codespaces/Copilot起動・レイアウト整理
+
+** 関連資料
+- [[file:github-account-and-org.org][GitHubアカウント作成・学割申請・Organization参加手順書]]
+- [[file:repository-and-codespaces.org][リポジトリ作成・Codespaces起動・バイブコーディング演習手順書]]
+- [[file:prompts.org][第1回 GitHub Copilot演習用プロンプト集]]
+- [[file:troubleshooting.org][トラブルシューティングガイド]]
+- [[file:orientation-slides.org][初回オリエンテーションスライド構成案（教員用）]]
+
+* GitHubアカウント作成とOrganization参加
+1. **GitHubアカウントの登録**: 大学発行のメールアドレス（）を使用してアカウントを作成または追加認証する。
+2. **GitHub Education（学割）申請**: 学生証画像を準備し、GitHub Student Developer Pack へ申請を行う（GitHub Copilot と Codespaces 月180時間が無料化）。
+3. **アカウント、GitHub URLの提出**: プロフィール名（英字本名）を設定の上、URLを提出する。
+4. **Organizationへの参加**: 招待メールまたはリンクを開き、授業チームへ参加する。
+
+👉 **[[file:github-account-and-org.org][GitHubアカウント作成とOrganization参加ガイドを開く]]**
+
+* リポジトリ作成とCodespaces
+1. **テンプレートリポジトリの選択**: 授業Organizationページから  を選択する。
+2. **Privateリポジトリの生成**: リポジトリ名 （Private設定）で作成する。
+3. **GitHub Codespacesの起動**:  ➔  ➔  をクリックする。
+4. **バイブコーディングの実行**: Copilot Chatでプロンプトを送信し、提案コードをエディタに反映する。
+5. **コミット・プッシュ**: 変更をコミットし、 ブランチへプッシュする。
+
+👉 **[[file:repository-and-codespaces.org][リポジトリ作成・Codespaces演習ガイドを開く]]**

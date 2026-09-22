@@ -1,0 +1,11 @@
+#+TITLE: 第10回：制御構文を理解し、使用する
+#+AUTHOR: 中鉢 欣秀
+#+DATE: 2026-09-19
+#+OPTIONS: toc:t num:t ^:nil
+
+* 第10回：制御構文を理解し、使用する
+** 内容
+条件分岐（if）および繰り返し処理（for / while）
+
+** 関連資料
+- [[file:prompts.org][第10回 GitHub Copilot演習用プロンプト集（条件分岐・繰り返し処理）]]

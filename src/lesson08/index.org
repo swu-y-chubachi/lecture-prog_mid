@@ -1,0 +1,11 @@
+#+TITLE: 第8回：基本的な書き方を身に着ける
+#+AUTHOR: 中鉢 欣秀
+#+DATE: 2026-09-19
+#+OPTIONS: toc:t num:t ^:nil
+
+* 第8回：基本的な書き方を身に着ける
+** 内容
+変数宣言（let / const）とデータ型の扱い
+
+** 関連資料
+- [[file:prompts.org][第8回 GitHub Copilot演習用プロンプト集（変数・データ型）]]

@@ -1,0 +1,11 @@
+#+TITLE: 第13回：オブジェクト指向構文
+#+AUTHOR: 中鉢 欣秀
+#+DATE: 2026-09-19
+#+OPTIONS: toc:t num:t ^:nil
+
+* 第13回：オブジェクト指向構文
+** 内容
+クラス（class）、プロパティ、メソッドの定義と利用
+
+** 関連資料
+- [[file:prompts.org][第13回 GitHub Copilot演習用プロンプト集（クラス・継承）]]

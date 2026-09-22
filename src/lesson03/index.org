@@ -1,0 +1,11 @@
+#+TITLE: 第3回：HTML の基本を理解してコーディングする。その2
+#+AUTHOR: 中鉢 欣秀
+#+DATE: 2026-09-19
+#+OPTIONS: toc:t num:t ^:nil
+
+* 第3回：HTML の基本を理解してコーディングする。その2
+** 内容
+フォーム要素（form）やテーブル（table）構造の追加と拡張
+
+** 関連資料
+- [[file:prompts.org][第3回 GitHub Copilot演習用プロンプト集（フォーム・テーブル構造）]]

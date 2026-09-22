@@ -1,0 +1,11 @@
+#+TITLE: 第2回：HTML の基本を理解してコーディングする
+#+AUTHOR: 中鉢 欣秀
+#+DATE: 2026-09-19
+#+OPTIONS: toc:t num:t ^:nil
+
+* 第2回：HTML の基本を理解してコーディングする
+** 内容
+タグ構造（h1, p, ul）とセマンティックタグ（header, main, footer）の骨格作成
+
+** 関連資料
+- [[file:prompts.org][第2回 GitHub Copilot演習用プロンプト集（自己紹介・イベント告知）]]

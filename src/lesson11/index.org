@@ -1,0 +1,11 @@
+#+TITLE: 第11回：組み込みオブジェクトを理解し、使用する
+#+AUTHOR: 中鉢 欣秀
+#+DATE: 2026-09-19
+#+OPTIONS: toc:t num:t ^:nil
+
+* 第11回：組み込みオブジェクトを理解し、使用する
+** 内容
+Date や Math.random など組み込みオブジェクトの操作
+
+** 関連資料
+- [[file:prompts.org][第11回 GitHub Copilot演習用プロンプト集（Date・Math・配列操作）]]
