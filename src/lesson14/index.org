@@ -1,7 +1,7 @@
 #+TITLE: 第14回：DOM (Document Object Model)
 #+AUTHOR: 中鉢 欣秀
 #+DATE: 2026-09-19
-#+OPTIONS: toc:t num:t ^:nil
+#+OPTIONS: toc:t num:nil ^:nil
 
 * 第14回：DOM (Document Object Model)
 ** 内容

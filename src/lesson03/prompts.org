@@ -2,7 +2,7 @@
 #+SUBTITLE: プログラミング中級（DI1A） 第3回 演習用プロンプト（3パターン）
 #+AUTHOR: 中鉢 欣秀
 #+DATE: 2026-09-19
-#+OPTIONS: toc:t num:t ^:nil
+#+OPTIONS: toc:t num:nil ^:nil
 
 * 第3回：HTML の基本を理解してコーディングする。その2
 ** ねらい

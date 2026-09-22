@@ -1,7 +1,7 @@
 #+TITLE: 第15回：高度なクライアントサイド開発
 #+AUTHOR: 中鉢 欣秀
 #+DATE: 2026-09-19
-#+OPTIONS: toc:t num:t ^:nil
+#+OPTIONS: toc:t num:nil ^:nil
 
 * 第15回：高度なクライアントサイド開発
 ** 内容

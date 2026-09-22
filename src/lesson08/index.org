@@ -1,7 +1,7 @@
 #+TITLE: 第8回：基本的な書き方を身に着ける
 #+AUTHOR: 中鉢 欣秀
 #+DATE: 2026-09-19
-#+OPTIONS: toc:t num:t ^:nil
+#+OPTIONS: toc:t num:nil ^:nil
 
 * 第8回：基本的な書き方を身に着ける
 ** 内容

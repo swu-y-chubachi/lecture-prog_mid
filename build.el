@@ -63,7 +63,7 @@
          :html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"https://gongzhitaao.org/orgcss/org.css\" /><style>body, h1, h2, h3, h4, h5, h6, p, table, ul, ol { font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Meiryo\", sans-serif !important; }</style>"
          :html-head-include-default-style nil
          :with-toc t
-         :section-numbers t)
+         :section-numbers nil)
         ("website-static"
          :base-directory "./src/"
          :publishing-directory "./public/"

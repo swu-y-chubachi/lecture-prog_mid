@@ -1,7 +1,7 @@
 #+TITLE: 第13回：オブジェクト指向構文
 #+AUTHOR: 中鉢 欣秀
 #+DATE: 2026-09-19
-#+OPTIONS: toc:t num:t ^:nil
+#+OPTIONS: toc:t num:nil ^:nil
 
 * 第13回：オブジェクト指向構文
 ** 内容
