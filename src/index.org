@@ -1,6 +1,5 @@
 #+TITLE: 2026年度後期「プログラミング中級（DI1A）」受講生用ポータル・学習ガイド
-#+SUBTITLE: AI（GitHub Copilot）と対話し、Webアプリケーション開発をマスターする
-#+AUTHOR: 中鉢 欣秀（デジタルイノベーション学科）
+AUTHOR: 中鉢 欣秀（デジタルイノベーション学科）
 #+DATE: 2026-09-19
 #+OPTIONS: toc:t num:nil ^:nil
 
