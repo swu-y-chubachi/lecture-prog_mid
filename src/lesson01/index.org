@@ -10,6 +10,7 @@
 ** 関連資料
 - [[file:github-account-and-org.org][GitHubアカウント作成・学割申請・Organization参加手順書]]
 - [[file:repository-and-codespaces.org][リポジトリ作成・Codespaces起動・バイブコーディング演習手順書]]
+- [[file:vibe-coding-overview.org][バイブコーディング（Vibe Coding）概要ガイド]]
 - [[file:prompts.org][第1回 GitHub Copilot演習用プロンプト集]]
 - [[file:troubleshooting.org][トラブルシューティングガイド]]
 - [[file:orientation-slides.org][初回オリエンテーションスライド構成案（教員用）]]
