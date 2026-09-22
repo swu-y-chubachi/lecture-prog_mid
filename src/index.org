@@ -50,7 +50,4 @@
 
 各回のねらい・演習プロンプト・関連ガイドは、上記リンク先の回ごとのページにまとめています。
 
-* 資料編（全体共通資料）
-- [[file:guidance.org][学習目標・授業方針・ガイダンス詳細]]
-- [[file:syllabus.org][全15回詳細シラバス]]
-- [[file:teacher/teacher-guidance.org][教員向け授業運営補足説明ペーパー]]
+👉 **[[file:teacher/teacher-guidance.org][教員向け授業運営補足説明ペーパー]]**
