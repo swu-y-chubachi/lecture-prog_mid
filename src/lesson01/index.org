@@ -7,11 +7,6 @@
 ** 内容
 アカウント作成、学割申請、授業Organization参加
 
-** 関連資料
-- [[file:vibe-coding-overview.org][バイブコーディング（Vibe Coding）概要ガイド]]
-- [[file:troubleshooting.org][トラブルシューティングガイド]]
-- [[file:orientation-slides.org][初回オリエンテーションスライド構成案（教員用）]]
-
 * GitHubアカウント作成とOrganization参加
 本授業（プログラミング中級）を受講するために必要なクラウド基盤である *GitHub アカウントの作成* 、 *GitHub Education（学割）への申請* 、 *プロフィールURLの提出* 、および *授業用 Organization への参加手順* を解説します。
 

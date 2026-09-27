@@ -1,3 +1,6 @@
+:PROPERTIES:
+:ID:       8bf947a1-a0ec-4b3d-aae2-b46cb2cf37b7
+:END:
 #+TITLE: バイブコーディング（Vibe Coding）概要ガイド
 #+AUTHOR: 中鉢 欣秀
 #+DATE: 2026-09-19
