@@ -69,22 +69,21 @@
 3. *ログインしていない状態* で自身のプロフィールページが表示されるか確認します（設定画面の URL やダッシュボードの URL を誤ってコピーしていないか確認するため）。
 
 ** 大学 LMS フォームへの提出
-1. 学内 LMS（Moodle や UNIPA 等）に用意された「GitHub アカウント情報提出フォーム」を開きます。
+1. Google Classroom に用意された「GitHub アカウント情報提出フォーム」を開きます。
 2. 学籍番号、氏名、GitHub ユーザー名、および確認したプロフィール URL（ ~https://github.com/ユーザー名~ ）を入力して提出します。
 
 
 * GitHub Organization に登録する
 授業専用のリポジトリ配布・課題管理を行う「授業 Organization」に参加します。
+- https://github.com/orgs/swu-prog-mid-chubachi-2026/
 
 ** 招待の受諾
 1. 大学メール宛に届いている GitHub からの招待メール（件名: ~You've been invited to join...~）を確認します。
-2. メール内の ~Join @[授業Organization名]~ ボタンをクリックします。
-3. メールが見つからない場合は、直接ブラウザで以下の招待URLにアクセスします：
-   - ~https://github.com/orgs/[授業Organization名]/invitation~
-4. 画面上の ~Join [授業Organization名]~ をクリックして参加を完了させます。
+2. メール内の ~Join @swu-prog-mid-chubachi-2026~ ボタンをクリックします。
+3. 画面上の ~Join swu-prog-mid-chubachi-2026~ をクリックして参加を完了させます。
 
 ** 参加状態の確認
-1. ~https://github.com/[授業Organization名]~ にアクセスします。
+1. https://github.com/orgs/swu-prog-mid-chubachi-2026/ にアクセスします。
 2. 授業 Organization のトップページが表示され、メンバーとして登録されていることを確認します。
 
 * 次回予告
