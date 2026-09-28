@@ -70,7 +70,7 @@
 - 第12回：[[file:lesson12/index.org][関数を理解し利用する]]
 - 第13回：[[file:lesson13/index.org][オブジェクト指向構文]]
 - 第14回：[[file:lesson14/index.org][DOM (Document Object Model)]]
-- 第15回：まとめ
+- 第15回：[[file:lesson15/index.org][まとめ]]
 
 * 教科書・参考書・授業資料
 ** 教科書
