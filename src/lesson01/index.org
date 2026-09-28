@@ -69,8 +69,8 @@
 3. *ログインしていない状態* で自身のプロフィールページが表示されるか確認します（設定画面の URL やダッシュボードの URL を誤ってコピーしていないか確認するため）。
 
 ** 大学 LMS フォームへの提出
-1. Google Classroom に用意された「GitHub アカウント情報提出フォーム」を開きます。
-2. 学籍番号、氏名、GitHub ユーザー名、および確認したプロフィール URL（ ~https://github.com/ユーザー名~ ）を入力して提出します。
+1. Google Classroom の「[[https://docs.google.com/forms/d/e/1FAIpQLSdNpIakCwSznIn_-kE6pk7zqV80IJNIjpyUAeYWFERDVm9Efg/viewform?usp=publish-editor][GitHub アカウント情報提出フォーム]]」を開きます。
+2. 学籍番号、氏名、メールアドレス、および確認したプロフィール URL（ ~https://github.com/ユーザー名~ ）を入力して提出します。
 
 
 * GitHub Organization に登録する
