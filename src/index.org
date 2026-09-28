@@ -55,7 +55,7 @@
 
 * 【第1～2回】 GitHubとCodespace環境の構築
   1. GitHub アカウント作成と Organization への登録。
-  2. GitHub Codespace の操作と Copilot (AI) の利用法。
+  2. GitHub Codespace と Copilot (AI) の利用法。
 
 * 【第3回以降】 授業モデルフロー（90分）
   1. *環境準備（15分）* :: テンプレートからのリポジトリ生成＆Codespaces起動。
