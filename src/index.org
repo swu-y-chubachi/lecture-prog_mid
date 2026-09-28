@@ -54,8 +54,8 @@
 各回のねらい・演習プロンプト・関連ガイドは、上記リンク先の回ごとのページにまとめています。シラバスに記載のある第1～2回授業の内容は他の回で取り扱います。授業の計画は全体の進捗に応じて修正する可能性があります。
 
 * 【第1～2回】 GitHubとCodespace環境の構築
-  1.GitHub アカウント作成と Organization への登録。
-  2.GitHub Codecodespace の操作と Copilot (AI) の利用法。
+  1. GitHub アカウント作成と Organization への登録。
+  2. GitHub Codecodespace の操作と Copilot (AI) の利用法。
 
 * 【第3回以降】 授業モデルフロー（90分）
   1. *環境準備（15分）* :: テンプレートからのリポジトリ生成＆Codespaces起動。
