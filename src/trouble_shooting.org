@@ -28,8 +28,8 @@
 ** Organization の招待通知が届かない
 - 原因 :: 登録メールアドレスの通知見落とし、または通知設定の遅延。
 - 対処法 ::
-  1. 招待メールを探す代わりに、ブラウザで直接 ~https://github.com/orgs/[授業Organization名]/invitation~ にアクセスする。
-  2. 画面上に表示される ~Join [授業Organization名]~ ボタンをクリックして承認する。
+  1. 招待メールを探す代わりに、ブラウザで直接 ~https://github.com/orgs/swu-prog-mid-chubachi-2026/invitation~ にアクセスする。
+  2. 画面上に表示される ~Join swu-prog-mid-chubachi-2026~ ボタンをクリックして承認する。
 
 ** 誤った提出URL（ダッシュボードや設定画面等）を送信してしまう
 - 原因 :: ログイン状態の画面URLをそのままコピーしてしまう。

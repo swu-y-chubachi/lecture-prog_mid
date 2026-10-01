@@ -7,30 +7,28 @@
 ** 内容
 テンプレートからの個人リポジトリ作成、GitHub Codespacesの起動と画面整理、GitHub Copilotを使ったバイブコーディングの実践とコミット・プッシュ
 
-** 関連資料
-- [[file:prompts.org][第2回 GitHub Copilot演習用プロンプト集（Codespaces起動確認）]]
-- [[file:../lesson01/troubleshooting.org][トラブルシューティングガイド]]
-
-授業用 Organization に用意されたテンプレートリポジトリから自分専用の個人作業用リポジトリを作成し、クラウド開発環境 **GitHub Codespaces** を立ち上げて **GitHub Copilot** によるバイブコーディングを実践・保存（コミット＆プッシュ）する一連の手順を解説します。
-
----
-
 ** テンプレートからの個人リポジトリ作成
 教員が授業 Organization 上に用意した演習用テンプレートリポジトリから、自分専用の非公開（Private）リポジトリを作成します。
 
 *** テンプレートリポジトリの選択
-1. ブラウザで授業 Organization ページ（ ~https://github.com/[授業Organization名]~ ）を開きます。
-2. 対象となる授業用テンプレートリポジトリ（例: ~lesson02-template~ ）をクリックして開きます。
+テンプレートリポジトリは全回共通で、次のものを使います。
+- 授業 Organization :: https://github.com/swu-prog-mid-chubachi-2026
+- テンプレートリポジトリ :: https://github.com/swu-prog-mid-chubachi-2026/template
+
+1. ブラウザで授業 Organization ページ（ https://github.com/swu-prog-mid-chubachi-2026 ）を開きます。
+2. テンプレートリポジトリ ~template~ （ https://github.com/swu-prog-mid-chubachi-2026/template ）をクリックして開きます。
 
 *** リポジトリ生成手順
 1. ページ右上にある緑色の ~Use this template~ ボタンをクリックし、 ~Create a new repository~ を選択します。
 2. 設定項目を以下のように指定します：
    | 設定項目 | 入力値・指定内容 |
    |----------+------------------|
-   | **Owner** | ~[授業Organization名]~ を選択 |
-   | **Repository name** | ~lesson02-学籍番号~ （例: ~lesson02-s1234567~ ） |
+   | **Owner** | ~swu-prog-mid-chubachi-2026~ を選択 |
+   | **Repository name** | ~lesson02-学籍番号~ （例: ~lesson02-12345678~ ） |
    | **Access level** | **Private** （他の学生に見られないよう非公開に設定） |
 3. ~Create repository~ ボタンをクリックし、自分専用のリポジトリが作成されるのを確認します。
+
+※ リポジトリ名は毎回 ~lessonXX-学籍番号~ （ ~XX~ は授業回の2桁の番号）とします。第3回以降も同じテンプレートから、その回の番号でリポジトリを作成してください（例: 第3回は ~lesson03-12345678~ ）。
 
 ---
 
@@ -38,7 +36,7 @@
 ローカル PC への環境構築を行わず、ブラウザ上の VS Code（GitHub Codespaces）を起動して画面を作業しやすいレイアウトに整えます。
 
 *** Codespaces の起動
-1. 作成した自分用のリポジトリページ（ ~https://github.com/[授業Organization名]/lesson02-学籍番号~ ）を開きます。
+1. 作成した自分用のリポジトリページ（ ~https://github.com/swu-prog-mid-chubachi-2026/lesson02-学籍番号~ ）を開きます。
 2. 緑色の ~<> Code~ ボタンをクリックします。
 3. ~Codespaces~ タブを選択します。
 4. ~Create codespace on main~ ボタンをクリックします。
@@ -89,4 +87,11 @@ AI（GitHub Copilot Chat）と対話しながら、コードの生成・反映�
 
 *** リモートリポジトリへのプッシュ（同期）
 1. ~変更の同期~ （~Sync Changes~）または ~Push~ ボタンをクリックします。
-2. ブラウザで自身の GitHub リポジトリページ（ ~https://github.com/[授業Organization名]/lesson02-学籍番号~ ）を開き、更新したファイルとコミットメッセージが反映されていることを確認します。
+2. ブラウザで自身の GitHub リポジトリページ（ ~https://github.com/swu-prog-mid-chubachi-2026/lesson02-学籍番号~ ）を開き、更新したファイルとコミットメッセージが反映されていることを確認します。
+** 関連資料
+- [[file:prompts.org][第2回 GitHub Copilot演習用プロンプト集（Codespaces起動確認）]]
+- [[file:../lesson01/troubleshooting.org][トラブルシューティングガイド]]
+
+授業用 Organization に用意されたテンプレートリポジトリから自分専用の個人作業用リポジトリを作成し、クラウド開発環境 **GitHub Codespaces** を立ち上げて **GitHub Copilot** によるバイブコーディングを実践・保存（コミット＆プッシュ）する一連の手順を解説します。
+
+---
