@@ -43,7 +43,7 @@
                          (org-with-wide-buffer
                           (goto-char (point-min))
                           (when (re-search-forward (format ":\\(?:ID\\|CUSTOM_ID\\):[ \t]+%s" (regexp-quote id)) nil t)
-                            (org-entry-get nil "CUSTOM_ID")))))))
+                            (org-entry-get nil "CUSTOM_ID"))))))
           (anchor (or custom-id id))
           (target-html (if file
                            (concat (file-name-base file) ".html")
@@ -51,7 +51,7 @@
      (cond
       ((eq format 'html)
        (format "<a href=\"%s#%s\">%s</a>" target-html anchor (or description path)))
-      (t (or description path)))))
+      (t (or description path))))))
 
 ;; 5. ox-publish のプロジェクト設定
 (setq org-publish-project-alist
