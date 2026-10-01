@@ -4,10 +4,12 @@
 #+OPTIONS: toc:t num:nil ^:nil
 
 * 内容
-- 概要 :: Date や Math.random など組み込みオブジェクトの操作
-- ねらい :: JavaScript標準の標準オブジェクト（Date, Math, Array高階関数）の活用方法を理解する。
+Date や Math.random など組み込みオブジェクトの操作
 
 * 演習用プロンプト
+** ねらい
+JavaScript標準の標準オブジェクト（Date, Math, Array高階関数）の活用方法を理解する。
+
 ** プロンプト例
 *** 例1（教員実演：Dateオブジェクトによる日時フォーマット）
 #+BEGIN_EXAMPLE

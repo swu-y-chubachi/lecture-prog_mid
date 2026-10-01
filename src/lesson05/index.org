@@ -4,10 +4,12 @@
 #+OPTIONS: toc:t num:nil ^:nil
 
 * 内容
-- 概要 :: Flexboxレイアウトおよびメディアクエリ（@media）によるレスポンシブ対応
-- ねらい :: FlexboxやCSS Gridを用いたレイアウト構築と、メディアクエリ（@media）によるレスポンシブデザインを理解する。
+Flexboxレイアウトおよびメディアクエリ（@media）によるレスポンシブ対応
 
 * 演習用プロンプト
+** ねらい
+FlexboxやCSS Gridを用いたレイアウト構築と、メディアクエリ（@media）によるレスポンシブデザインを理解する。
+
 ** プロンプト例
 *** 例1（教員実演：Flexbox 3列カードとレスポンシブ）
 #+BEGIN_EXAMPLE

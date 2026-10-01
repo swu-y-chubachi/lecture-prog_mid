@@ -4,10 +4,12 @@
 #+OPTIONS: toc:t num:nil ^:nil
 
 * 内容
-- 概要 :: DOM操作とイベントハンドリング（classList.toggle 等による動的切替）
-- ねらい :: DOM要素の取得（querySelector）、イベントハンドラ（addEventListener）、クラス・スタイルの動的変更を理解する。
+DOM操作とイベントハンドリング（classList.toggle 等による動的切替）
 
 * 演習用プロンプト
+** ねらい
+DOM要素の取得（querySelector）、イベントハンドラ（addEventListener）、クラス・スタイルの動的変更を理解する。
+
 ** プロンプト例
 *** 例1（教員実演：classList.toggle によるダークモード切替）
 #+BEGIN_EXAMPLE

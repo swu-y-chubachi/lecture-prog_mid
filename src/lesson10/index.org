@@ -4,10 +4,12 @@
 #+OPTIONS: toc:t num:nil ^:nil
 
 * 内容
-- 概要 :: 条件分岐（if）および繰り返し処理（for / while）
-- ねらい :: 条件分岐（if-else, switch）と繰り返し処理（for, while）によるロジックの構築を理解する。
+条件分岐（if）および繰り返し処理（for / while）
 
 * 演習用プロンプト
+** ねらい
+条件分岐（if-else, switch）と繰り返し処理（for, while）によるロジックの構築を理解する。
+
 ** プロンプト例
 *** 例1（教員実演：配列ループとifによる成績判定）
 #+BEGIN_EXAMPLE
