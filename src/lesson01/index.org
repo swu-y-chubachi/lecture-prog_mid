@@ -44,7 +44,10 @@
 2. ~Name~ 欄に *英語表記の本名（例: Hanako SHOWA）* を入力して ~Update profile~ をクリックします。
 
 ** GitHub Education（学割）の申請手順
-1. [[https://education.github.com/discount_requests/student_application][GitHub Education 申請ページ]] にアクセスします。
+:PROPERTIES:
+:ID:       4006a2bd-7af9-40f5-a75d-c210906d1591
+:END:
+1. [[https://github.com/settings/education/benefits][GitHub Education 申請ページ]] にアクセスします。
 2. 学割対象として登録した大学メールアドレス（ ~27xxxxxx@st.swu.ac.jp~ ）を選択します。
 3. 学校名（大学名）を入力・選択します。
 4. *位置情報（GPS）の許可*: ブラウザやスマホの位置情報アクセス権限を「許可」にします（学内または自宅からの申請位置が確認されます）。
