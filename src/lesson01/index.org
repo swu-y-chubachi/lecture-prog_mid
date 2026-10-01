@@ -72,7 +72,7 @@
 
 * GitHub Organization に登録する
 授業専用のリポジトリ配布・課題管理を行う「授業 Organization」に参加します。
-- https://github.com/orgs/swu-prog-mid-chubachi-2026/
+- https://github.com/swu-prog-mid-chubachi-2026/
 
 ** 招待の受諾
 1. 大学メール宛に届いている GitHub からの招待メール（件名: ~You've been invited to join...~ ）を確認します。
@@ -80,7 +80,7 @@
 3. 画面上の ~Join swu-prog-mid-chubachi-2026~ をクリックして参加を完了させます。
 
 ** 参加状態の確認
-1. https://github.com/orgs/swu-prog-mid-chubachi-2026/ にアクセスします。
+1. https://github.com/swu-prog-mid-chubachi-2026/ にアクセスします。
 2. 授業 Organization のトップページが表示され、メンバーとして登録されていることを確認します。
 
 * 次回予告
