@@ -90,7 +90,7 @@ AI（GitHub Copilot Chat）と対話しながら、コードの生成・反映�
 2. ブラウザで自身の GitHub リポジトリページ（ ~https://github.com/swu-prog-mid-chubachi-2026/lesson02-学籍番号~ ）を開き、更新したファイルとコミットメッセージが反映されていることを確認します。
 ** 関連資料
 - [[file:prompts.org][第2回 GitHub Copilot演習用プロンプト集（Codespaces起動確認）]]
-- [[file:../lesson01/troubleshooting.org][トラブルシューティングガイド]]
+- [[../trouble_shooting.org][トラブルシューティングガイド]]
 
 授業用 Organization に用意されたテンプレートリポジトリから自分専用の個人作業用リポジトリを作成し、クラウド開発環境 **GitHub Codespaces** を立ち上げて **GitHub Copilot** によるバイブコーディングを実践・保存（コミット＆プッシュ）する一連の手順を解説します。
 
