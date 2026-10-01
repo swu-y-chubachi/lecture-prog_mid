@@ -23,10 +23,10 @@
     │   ├── troubleshooting.org             # トラブルシューティングガイド（環境構築・エラー対処）
     │   ├── orientation-slides.org          # 初回オリエンテーションスライド構成案（教員用）
     │   └── prompts.org                     # 第1回 Copilot Chat 用プロンプト集
-    ├── lesson02/ 〜 lesson13/      # 第2〜13回：各回 index.org（まとめページ）＋ prompts.org（プロンプト集）
+    ├── lesson02/                  # 第2回：index.org（まとめページ）＋ prompts.org（プロンプト集）
+    ├── lesson03/ 〜 lesson13/      # 第3〜13回：各回 index.org（内容・演習用プロンプトを含むまとめページ）
     ├── lesson14/                  # 第14回：DOM (Document Object Model)
-    │   ├── index.org                        # 第14回の内容・関連資料まとめページ
-    │   ├── prompts.org                     # 第14回 Copilot Chat 用プロンプト集
+    │   ├── index.org                        # 第14回の内容・演習用プロンプト・関連資料まとめページ
     │   └── f12-debugging.org               # F12デベロッパーツール＆Copilot Chat対話型デバッグ実演ガイド（第14・15回共通）
     ├── lesson15/                  # 第15回：高度なクライアントサイド開発
     │   ├── index.org                        # 第15回の内容・関連資料まとめページ
