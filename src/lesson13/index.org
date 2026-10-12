@@ -3,6 +3,18 @@
 #+DATE: 2026-09-19
 #+OPTIONS: toc:t num:nil ^:nil
 
+* 準備
+1. テンプレートリポジトリ ~template~ （ https://github.com/swu-prog-mid-chubachi-2026/template ）をクリックして開きます。
+2. ページ右上にある緑色の ~Use this template~ ボタンをクリックし、 ~Create a new repository~ を選択します。
+3. 設定項目を以下のように指定します：
+   | 設定項目          | 入力値・指定内容                                   |
+   |-------------------+----------------------------------------------------|
+   | **Owner**           | ~swu-prog-mid-chubachi-2026~ を選択                  |
+   | **Repository name** | ~lesson13-学籍番号~ （例: ~lesson13-12345678~ ）       |
+   | **Access level**    | **Private** （他の学生に見られないよう非公開に設定） |
+4. ~Create repository~ ボタンをクリックし、自分専用のリポジトリが作成されるのを確認します。
+5. 作成したリポジトリのページで GitHub Codespaces を起動します（起動手順は[[file:../lesson02/index.org][第2回]]を参照してください）。
+
 * 内容
 クラス（class）、プロパティ、メソッドの定義と利用
 
