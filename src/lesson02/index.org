@@ -12,8 +12,11 @@
 
 *** テンプレートリポジトリの選択
 テンプレートリポジトリは全回共通で、次のものを使います。
+
 - 授業 Organization :: https://github.com/swu-prog-mid-chubachi-2026
 - テンプレートリポジトリ :: https://github.com/swu-prog-mid-chubachi-2026/template
+
+テンプレートの開き方は次の通り。
 
 1. ブラウザで授業 Organization ページ（ https://github.com/swu-prog-mid-chubachi-2026 ）を開きます。
 2. テンプレートリポジトリ ~template~ （ https://github.com/swu-prog-mid-chubachi-2026/template ）をクリックして開きます。
