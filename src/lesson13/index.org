@@ -1,7 +1,7 @@
 #+TITLE: 第13回：オブジェクト指向構文
 #+AUTHOR: 中鉢 欣秀
 #+DATE: 2026-09-19
-#+OPTIONS: toc:t num:nil ^:nil
+#+OPTIONS: toc:t ^:nil
 
 * 準備
 1. テンプレートリポジトリ ~template~ （ https://github.com/swu-prog-mid-chubachi-2026/template ）をクリックして開きます。

@@ -1,7 +1,7 @@
 #+TITLE: 第15回：まとめ
 #+AUTHOR: 中鉢 欣秀
 #+DATE: 2026-09-19
-#+OPTIONS: toc:t num:nil ^:nil
+#+OPTIONS: toc:t ^:nil
 
 * 内容
 - 未定

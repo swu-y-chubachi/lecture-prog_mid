@@ -2,7 +2,7 @@
 #+SUBTITLE: プログラミング中級（デジタルイノベーション学科）
 #+AUTHOR: 中鉢 欣秀
 #+DATE: 2026-09-17
-#+OPTIONS: toc:t num:nil ^:nil
+#+OPTIONS: toc:t ^:nil
 
 * 評価方針と配点割合
 シラバスの評価基準（5段階評価：S / A / B / C / D）に基づき、以下の割合で総合評価を行います。
