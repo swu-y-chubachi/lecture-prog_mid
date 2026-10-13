@@ -53,6 +53,16 @@
        (format "<a href=\"%s#%s\">%s</a>" target-html anchor (or description path)))
       (t (or description path))))))
 
+;; favicon: src/favicon.svg を data URI として各ページの head に埋め込む
+;; （ページごとに階層が異なるため、相対パス参照ではなくインライン化する）
+(defun my/favicon-link ()
+  (format "<link rel=\"icon\" type=\"image/svg+xml\" href=\"data:image/svg+xml;base64,%s\"/>"
+          (base64-encode-string
+           (with-temp-buffer
+             (insert-file-contents-literally "./src/favicon.svg")
+             (buffer-string))
+           t)))
+
 ;; 5. ox-publish のプロジェクト設定
 (setq org-publish-project-alist
       `(("website-org"
@@ -62,6 +72,7 @@
          :recursive t
          ;; テーマ: ReadTheOrg (https://github.com/fniessen/org-html-themes)
          :html-head ,(concat
+                     (my/favicon-link)
                      ;; 日本語フォント: Zen Kaku Gothic New (Google Fonts)
                      "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"/>"
                      "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin/>"
