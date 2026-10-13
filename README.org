@@ -26,16 +26,16 @@
     ├── lesson02/                  # 第2回：index.org（まとめページ）＋ prompts.org（プロンプト集）
     ├── lesson03/ 〜 lesson13/      # 第3〜13回：各回 index.org（内容・演習用プロンプトを含むまとめページ）
     ├── lesson14/                  # 第14回：DOM (Document Object Model)
-    │   ├── index.org                        # 第14回の内容・演習用プロンプト・関連資料まとめページ
-    │   └── f12-debugging.org               # F12デベロッパーツール＆Copilot Chat対話型デバッグ実演ガイド（第14・15回共通）
-    ├── lesson15/                  # 第15回：高度なクライアントサイド開発
-    │   ├── index.org                        # 第15回の内容・関連資料まとめページ
+    │   └── index.org                        # 第14回の内容・演習用プロンプトまとめページ
+    ├── lesson15/                  # 第15回：まとめ
+    │   └── index.org                        # 第15回の内容まとめページ
+    ├── resources/                 # 回をまたいで使う参考資料（トップページの「参考資料」からリンク）
+    │   ├── trouble_shooting.org            # トラブルシューティングガイド
+    │   ├── f12-debugging.org               # F12デベロッパーツール＆Copilot Chat対話型デバッグ実演ガイド
     │   ├── prompts.org                     # 第15回 Copilot Chat 用プロンプト集
     │   ├── self-checklist.org              # 課題提出時セルフチェックシート
-    │   └── rubric.org                      # 成績評価用ルーブリック表（プロンプト思考・コード解読・デバッグ評価）
-    │
-    └── teacher/                   # 教員・TA向け運営資料（回に紐づかない全体資料）
-        └── teacher-guidance.org   # 教員向け 授業運営補足説明ペーパー
+    │   ├── rubric.org                      # 成績評価用ルーブリック表（プロンプト思考・コード解読・デバッグ評価）
+    │   └── teacher-guidance.org            # 教員向け 授業運営補足説明ペーパー
 #+END_EXAMPLE
 
 * 2. ローカルビルド手順

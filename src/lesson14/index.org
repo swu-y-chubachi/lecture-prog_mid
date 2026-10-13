@@ -40,6 +40,3 @@ textarea要素の入力イベント（input）を監視し、リアルタイム�
 
 ** 指導解説ポイント
 - イベントが発生したときにJavaScriptがHTML構造（DOMツリー）をどう変化させているかをデベロッパーツール（F12）のElementsタブで視覚的に観察させます。
-
-* 関連資料
-- [[file:f12-debugging.org][F12デベロッパーツール＆Copilot Chat対話型デバッグガイド]]
