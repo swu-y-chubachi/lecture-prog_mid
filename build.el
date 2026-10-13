@@ -60,7 +60,19 @@
          :publishing-directory "./public/"
          :publishing-function org-html-publish-to-html
          :recursive t
-         :html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"https://gongzhitaao.org/orgcss/org.css\" /><style>body, h1, h2, h3, h4, h5, h6, p, table, ul, ol { font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Meiryo\", sans-serif !important; }</style>"
+         ;; テーマ: ReadTheOrg (https://github.com/fniessen/org-html-themes)
+         :html-head ,(concat
+                     "<link rel=\"stylesheet\" type=\"text/css\" href=\"https://fniessen.github.io/org-html-themes/src/readtheorg/css/htmlize.css\"/>"
+                     "<link rel=\"stylesheet\" type=\"text/css\" href=\"https://fniessen.github.io/org-html-themes/src/readtheorg/css/readtheorg.css\"/>"
+                     "<link rel=\"stylesheet\" type=\"text/css\" href=\"https://fniessen.github.io/org-html-themes/src/readtheorg/css/code-copy.css\"/>"
+                     "<link rel=\"stylesheet\" type=\"text/css\" href=\"https://fniessen.github.io/org-html-themes/src/readtheorg/css/search.css\"/>"
+                     "<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js\"></script>"
+                     "<script type=\"text/javascript\" src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js\"></script>"
+                     "<script type=\"text/javascript\" src=\"https://fniessen.github.io/org-html-themes/src/vendor/stickytableheaders/jquery.stickytableheaders.min.js\"></script>"
+                     "<script type=\"text/javascript\" src=\"https://fniessen.github.io/org-html-themes/src/readtheorg/js/search.js\"></script>"
+                     "<script type=\"text/javascript\" src=\"https://fniessen.github.io/org-html-themes/src/readtheorg/js/readtheorg.js\"></script>"
+                     "<script type=\"text/javascript\" src=\"https://fniessen.github.io/org-html-themes/src/readtheorg/js/code-copy.js\"></script>"
+                     "<style>body, h1, h2, h3, h4, h5, h6, p, table, ul, ol, li, #table-of-contents { font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Meiryo\", sans-serif !important; }</style>")
          :html-head-include-default-style nil
          :with-toc t
          :section-numbers t)
