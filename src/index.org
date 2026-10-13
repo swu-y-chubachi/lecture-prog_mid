@@ -92,8 +92,9 @@
 
 ** 参考資料
 - [[file:resources/trouble_shooting.org][トラブルシューティングガイド]]
-- [[file:resources/f12-debugging.org][F12デベロッパーツール＆Copilot Chat対話型デバッグガイド]]
-- [[file:resources/prompts.org][第15回 GitHub Copilot演習用プロンプト集（天気API・非同期処理）]]
+* COMMENT 未使用
 - [[file:resources/self-checklist.org][課題提出時セルフチェックシート]]
 - [[file:resources/rubric.org][成績評価用ルーブリック表]]
 - [[file:resources/teacher-guidance.org][教員向け補足説明ペーパー]]
+- [[file:resources/f12-debugging.org][F12デベロッパーツール＆Copilot Chat対話型デバッグガイド]]
+- [[file:resources/prompts.org][GitHub Copilot演習用プロンプト集（天気API・非同期処理）]]
