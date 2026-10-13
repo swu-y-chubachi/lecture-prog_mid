@@ -62,6 +62,10 @@
          :recursive t
          ;; テーマ: ReadTheOrg (https://github.com/fniessen/org-html-themes)
          :html-head ,(concat
+                     ;; 日本語フォント: Zen Kaku Gothic New (Google Fonts)
+                     "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"/>"
+                     "<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin/>"
+                     "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&display=swap\"/>"
                      "<link rel=\"stylesheet\" type=\"text/css\" href=\"https://fniessen.github.io/org-html-themes/src/readtheorg/css/htmlize.css\"/>"
                      "<link rel=\"stylesheet\" type=\"text/css\" href=\"https://fniessen.github.io/org-html-themes/src/readtheorg/css/readtheorg.css\"/>"
                      "<link rel=\"stylesheet\" type=\"text/css\" href=\"https://fniessen.github.io/org-html-themes/src/readtheorg/css/code-copy.css\"/>"
@@ -72,7 +76,7 @@
                      "<script type=\"text/javascript\" src=\"https://fniessen.github.io/org-html-themes/src/readtheorg/js/search.js\"></script>"
                      "<script type=\"text/javascript\" src=\"https://fniessen.github.io/org-html-themes/src/readtheorg/js/readtheorg.js\"></script>"
                      "<script type=\"text/javascript\" src=\"https://fniessen.github.io/org-html-themes/src/readtheorg/js/code-copy.js\"></script>"
-                     "<style>body, h1, h2, h3, h4, h5, h6, p, table, ul, ol, li, #table-of-contents { font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Meiryo\", sans-serif !important; }</style>")
+                     "<style>body, h1, h2, h3, h4, h5, h6, p, table, ul, ol, li, #table-of-contents { font-family: \"Zen Kaku Gothic New\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Hiragino Sans\", \"Hiragino Kaku Gothic ProN\", \"Meiryo\", sans-serif !important; }</style>")
          :html-head-include-default-style nil
          :with-toc t
          :section-numbers t)
