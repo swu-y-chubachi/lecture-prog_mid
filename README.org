@@ -17,18 +17,11 @@
     ├── guidance.org               # 学習目標・目的・計画（ガイダンス詳細）
     ├── syllabus.org               # 全15回改訂版シラバス
     │
-    ├── lesson01/                  # 第1回：GitHub開発環境の構築と準備
-    │   ├── index.org                        # 第1回まとめページ（アカウント作成〜Codespaces起動の全手順を集約）
-    │   ├── vibe-coding-overview.org         # バイブコーディング（Vibe Coding）概要ガイド
-    │   ├── troubleshooting.org             # トラブルシューティングガイド（環境構築・エラー対処）
-    │   ├── orientation-slides.org          # 初回オリエンテーションスライド構成案（教員用）
-    │   └── prompts.org                     # 第1回 Copilot Chat 用プロンプト集
-    ├── lesson02/                  # 第2回：index.org（まとめページ）＋ prompts.org（プロンプト集）
-    ├── lesson03/ 〜 lesson13/      # 第3〜13回：各回 index.org（内容・演習用プロンプトを含むまとめページ）
-    ├── lesson14/                  # 第14回：DOM (Document Object Model)
-    │   └── index.org                        # 第14回の内容・演習用プロンプトまとめページ
-    ├── lesson15/                  # 第15回：まとめ
-    │   └── index.org                        # 第15回の内容まとめページ
+    ├── lesson01.org               # 第1回：GitHub開発環境の構築と準備（アカウント作成〜Codespaces起動の全手順を集約）
+    ├── lesson02.org               # 第2回：リポジトリ作成とCodespaces
+    ├── lesson03.org 〜 lesson13.org # 第3〜13回：各回の内容・演習用プロンプトを含むまとめページ
+    ├── lesson14.org               # 第14回：DOM (Document Object Model)
+    ├── lesson15.org               # 第15回：まとめ
     ├── resources/                 # 回をまたいで使う参考資料（トップページの「参考資料」からリンク）
     │   ├── trouble_shooting.org            # トラブルシューティングガイド
     │   ├── f12-debugging.org               # F12デベロッパーツール＆Copilot Chat対話型デバッグ実演ガイド

@@ -13,7 +13,7 @@
    | **Repository name** | ~lesson13-学籍番号~ （例: ~lesson13-12345678~ ）       |
    | **Access level**    | **Private** （他の学生に見られないよう非公開に設定） |
 4. ~Create repository~ ボタンをクリックし、自分専用のリポジトリが作成されるのを確認します。
-5. 作成したリポジトリのページで GitHub Codespaces を起動します（起動手順は[[file:../lesson02/index.org][第2回]]を参照してください）。
+5. 作成したリポジトリのページで GitHub Codespaces を起動します（起動手順は[[file:lesson02.org][第2回]]を参照してください）。
 
 * 内容
 クラス（class）、プロパティ、メソッドの定義と利用

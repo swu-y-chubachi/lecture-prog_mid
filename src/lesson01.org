@@ -87,4 +87,4 @@
 2. 授業 Organization のトップページが表示され、メンバーとして登録されていることを確認します。
 
 * 次回予告
-リポジトリ作成、GitHub Codespaces の起動、GitHub Copilot を使ったバイブコーディングの実践は [[file:../lesson02/index.org][第2回]] で行います。
+リポジトリ作成、GitHub Codespaces の起動、GitHub Copilot を使ったバイブコーディングの実践は [[file:lesson02.org][第2回]] で行います。

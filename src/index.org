@@ -69,21 +69,21 @@
 * 授業資料
 各回のねらい・演習プロンプト・関連ガイドは、下記リンク先の回ごとのページにまとめています。シラバスに記載のある第1～2回授業の内容は他の回で取り扱います。授業の計画は全体の進捗に応じて修正する可能性があります。
 
-- 第1回：[[file:lesson01/index.org][GitHub開発環境の構築と準備]]
-- 第2回：[[file:lesson02/index.org][リポジトリ作成とCodespaces]]
-- 第3回：[[file:lesson03/index.org][HTML の基本を理解してコーディングする]]
-- 第4回：[[file:lesson04/index.org][CSS の基本を理解する]]
-- 第5回：[[file:lesson05/index.org][CSS の基本を理解する。その2]]
-- 第6回：[[file:lesson06/index.org][CSS の応用 (CMS、Bootstrap など)]]
-- 第7回：[[file:lesson07/index.org][JavaScript イントロダクション]]
-- 第8回：[[file:lesson08/index.org][基本的な書き方を身に着ける]]
-- 第9回：[[file:lesson09/index.org][演算子を理解し、使用する]]
-- 第10回：[[file:lesson10/index.org][制御構文を理解し、使用する]]
-- 第11回：[[file:lesson11/index.org][組み込みオブジェクトを理解し、使用する]]
-- 第12回：[[file:lesson12/index.org][関数を理解し利用する]]
-- 第13回：[[file:lesson13/index.org][オブジェクト指向構文]]
-- 第14回：[[file:lesson14/index.org][DOM (Document Object Model)]]
-- 第15回：[[file:lesson15/index.org][まとめ]]
+- 第1回：[[file:lesson01.org][GitHub開発環境の構築と準備]]
+- 第2回：[[file:lesson02.org][リポジトリ作成とCodespaces]]
+- 第3回：[[file:lesson03.org][HTML の基本を理解してコーディングする]]
+- 第4回：[[file:lesson04.org][CSS の基本を理解する]]
+- 第5回：[[file:lesson05.org][CSS の基本を理解する。その2]]
+- 第6回：[[file:lesson06.org][CSS の応用 (CMS、Bootstrap など)]]
+- 第7回：[[file:lesson07.org][JavaScript イントロダクション]]
+- 第8回：[[file:lesson08.org][基本的な書き方を身に着ける]]
+- 第9回：[[file:lesson09.org][演算子を理解し、使用する]]
+- 第10回：[[file:lesson10.org][制御構文を理解し、使用する]]
+- 第11回：[[file:lesson11.org][組み込みオブジェクトを理解し、使用する]]
+- 第12回：[[file:lesson12.org][関数を理解し利用する]]
+- 第13回：[[file:lesson13.org][オブジェクト指向構文]]
+- 第14回：[[file:lesson14.org][DOM (Document Object Model)]]
+- 第15回：[[file:lesson15.org][まとめ]]
 
 * 教科書・参考書・授業資料
 ** 教科書
