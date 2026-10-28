@@ -30,9 +30,9 @@ event.htmlというファイルを作り、
 大学の大学祭イベント告知ページのHTMLを作成してください。h1にイベント名、pに日時と場所、ol要素を使ってタイムスケジュールを3つ、ul要素で注意事項を2つ記述してください。スタイリングは不要です。
 #+END_EXAMPLE
 
-#+BEGIN_NOTE
+#+BEGIN_INFO
 ここでコミットしよう！
-#+END_NOTE
+#+END_INFO
 
 *** 例1（和風モダンデザイン）
 #+BEGIN_EXAMPLE
