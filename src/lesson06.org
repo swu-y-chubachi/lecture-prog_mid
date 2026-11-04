@@ -27,17 +27,20 @@ Bootstrap 5 等の外部UIライブラリを活用したデザイン刷新
 ** プロンプト例
 *** 例1（Bootstrap 5 の導入と全体装飾）
 #+BEGIN_EXAMPLE
-Bootstrap 5 をCDN経由で読み込み、全体のデザインをBootstrapのコンポーネント（Navbar, Heroセクション, Card, Primary Button）を使ったスタイリッシュなビジネス風Webサイトに作り直してください。
+bootstrap.htmlを作り、
+Bootstrap 5 をCDN経由で読み込み、Bootstrapのコンポーネント（Navbar, Heroセクション, Card, Primary Button）を使ったスタイリッシュなビジネス風Webサイトを作成してください。
 #+END_EXAMPLE
 
 *** 例2（Bootstrap Grid システムの活用）
 #+BEGIN_EXAMPLE
+grid.htmlを作り、
 Bootstrap 5 のグリッドシステム（container, row, col-md-4）を使って、商品カードをPCでは3列、タブレットでは2列、スマホでは1列に自動配置するHTML構造とクラスを作成してください。
 #+END_EXAMPLE
 
 *** 例3（モーダルダイアログとバッジ機能の追加）
 #+BEGIN_EXAMPLE
-Bootstrap 5 のコンポーネントを使い、ボタンを押すと出現する『利用規約表示用モーダル（Modal）』と、カード右上に付く『NEW』バッジ（Badge）を追加してください。
+modal.htmlを作り、
+Bootstrap 5 のコンポーネントを使い、ボタンを押すと出現する『利用規約表示用モーダル（Modal）』と、カード右上に付く『NEW』バッジ（Badge）を作成してください。
 #+END_EXAMPLE
 
 ** 指導解説ポイント
