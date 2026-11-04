@@ -89,12 +89,12 @@ AI（GitHub Copilot Chat）と対話しながら、コードの生成・反映�
 2. ブラウザで自身の GitHub リポジトリページ（ ~https://github.com/swu-prog-mid-chubachi-2026/lesson02-学籍番号~ ）を開き、更新したファイルとコミットメッセージが反映されていることを確認します。
 * コパイロットに開発ツールの使い方を聞く
 ** プロンプト例
-*** 例1（教員実演：Copilotへの環境・開発ツール確認プロンプト）
+*** 例1（Copilotへの環境・開発ツール確認プロンプト）
 #+BEGIN_EXAMPLE
 GitHub Codespaces と GitHub Copilot Chat が正常に動作しているか確認したいです。プログラミング初心者向けに、GitHubの基本用語（リポジトリ、コミット、プッシュ、ブランチ）の意味を簡潔に解説してください。
 #+END_EXAMPLE
 
-*** 例2（学生演習：GitコマンドとVS Code操作の確認）
+*** 例2（GitコマンドとVS Code操作の確認）
 #+BEGIN_EXAMPLE
 VS Code の統合ターミナルでよく使う基本操作（pwd, ls, cd, git status, git add, git commit）のコマンド一覧と、それぞれの役割を分かりやすく表で作成してください。
 #+END_EXAMPLE
