@@ -3,6 +3,8 @@
 #+DATE: 2026-09-19
 #+OPTIONS: toc:t ^:nil
 
+[[file:index.org][ホーム]] > {{{title}}}
+
 * テンプレートからリポジトリを作成
 ** 内容
 テンプレートからの個人リポジトリ作成、GitHub Codespacesの起動と画面整理、GitHub Copilotを使ったバイブコーディングの実践とコミット・プッシュ
