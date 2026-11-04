@@ -27,16 +27,19 @@
 ** プロンプト例
 *** 例1（教員実演：アロー関数と戻り値）
 #+BEGIN_EXAMPLE
+arrow.htmlを作り、
 商品の『税抜き価格』と『税率』を引数として受け取り、税込み金額を計算して返す関数 `calculateTax` をアロー関数（const calculateTax = (price, taxRate) => ...）で定義してください。複数の数値で実行した結果を表示してください。
 #+END_EXAMPLE
 
 *** 例2（学生演習：デフォルト引数とバリデーション）
 #+BEGIN_EXAMPLE
+default.htmlを作り、
 ユーザー名と挨拶文を引数に取る関数 `greetUser(name = "ゲスト", message = "こんにちは")` を作成してください。引数が渡されなかった場合でもデフォルト値で安全に動作することを確認してください。
 #+END_EXAMPLE
 
 *** 例3（発展：コールバック関数とsetTimeout）
 #+BEGIN_EXAMPLE
+timer.htmlを作り、
 ボタンを押してから3秒後に『タイマーが完了しました！』と表示する非同期処理を、setTimeout とアロー関数（コールバック関数）を使って実装してください。
 #+END_EXAMPLE
 
